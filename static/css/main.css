@@ -5235,6 +5235,7 @@ and (max-width : 667px) {
 .draw-signature--canvas-frame-container {
     width: 100%;
     position: relative;
+    pointer-events: auto !important;
 }
 
 .draw-signature--canvas-reset-button-wrapper-flex {

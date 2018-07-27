@@ -46509,9 +46509,8 @@
 	        if (res === "down") {
 	            prevX = currX;
 	            prevY = currY;
-	            var touch = e.touches[0];
-	            currX = touch.clientX - rect.left;
-	            currY = touch.clientY - rect.top;
+	            currX = e.touches[0].clientX - rect.left;
+	            currY = e.touches[0].clientY - rect.top;
 	            flag = true;
 	            dot_flag = true;
 	
@@ -46532,9 +46531,8 @@
 	            if (flag) {
 	                prevX = currX;
 	                prevY = currY;
-	                var _touch = e.touches[0];
-	                currX = _touch.clientX - rect.left;
-	                currY = _touch.clientY - rect.top;
+	                currX = e.touches[0].clientX - rect.left;
+	                currY = e.touches[0].clientY - rect.top;
 	                draw();
 	            }
 	        }
@@ -46601,21 +46599,24 @@
 	                        width: canvasWidth,
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
+	                            e.stopPropagation();
 	                            findxy("down", e);
-	                            e.preventDefault();
 	                            return false;
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
-	                            findxy("move", e);
+	                            e.stopPropagation();
 	                            e.preventDefault();
+	                            findxy("move", e);
+	                            return false;
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
-	                            findxy("up", e);
 	                            e.preventDefault();
+	                            findxy("up", e);
+	                            return false;
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
-	                            findxy("out", e);
 	                            e.preventDefault();
+	                            findxy("out", e);
 	                        }
 	                    })
 	                ),

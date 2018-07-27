@@ -46605,10 +46605,12 @@
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
 	                            e.preventDefault();
+	                            document.documentElement.style.overflow = "hidden";
 	                            findxy("move", e);
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
 	                            e.preventDefault();
+	                            document.documentElement.style.overflow = "auto";
 	                            findxy("up", e);
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {

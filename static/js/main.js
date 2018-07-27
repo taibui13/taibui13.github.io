@@ -46604,9 +46604,11 @@
 	                            return false;
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
+	                            e.preventDefault();
 	                            findxy("move", e);
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
+	                            e.preventDefault();
 	                            findxy("up", e);
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {

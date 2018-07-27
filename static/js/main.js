@@ -46599,21 +46599,21 @@
 	                        width: canvasWidth,
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
-	                            e.preventDefault();
 	                            findxy("down", e);
+	                            e.preventDefault();
 	                            return false;
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
-	                            e.preventDefault();
 	                            findxy("move", e);
+	                            e.preventDefault();
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
-	                            e.preventDefault();
 	                            findxy("up", e);
+	                            e.preventDefault();
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
-	                            e.preventDefault();
 	                            findxy("out", e);
+	                            e.preventDefault();
 	                        }
 	                    })
 	                ),

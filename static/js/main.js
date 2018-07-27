@@ -46600,7 +46600,6 @@
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("down", e);
 	                            return false;
 	                        },
@@ -46610,12 +46609,10 @@
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("up", e);
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("out", e);
 	                        }
 	                    })

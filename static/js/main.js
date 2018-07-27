@@ -46600,21 +46600,24 @@
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
 	                            e.preventDefault();
+	                            document.documentElement.style.overflow = "hidden";
+	                            e.stopPropagation();
 	                            findxy("down", e);
 	                            return false;
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
 	                            e.preventDefault();
-	                            document.documentElement.style.overflow = "hidden";
 	                            findxy("move", e);
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
 	                            e.preventDefault();
+	                            e.stopPropagation();
 	                            document.documentElement.style.overflow = "auto";
 	                            findxy("up", e);
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
 	                            e.preventDefault();
+	                            e.stopPropagation();
 	                            findxy("out", e);
 	                        }
 	                    })

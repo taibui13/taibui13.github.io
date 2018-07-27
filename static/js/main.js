@@ -46600,7 +46600,6 @@
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
 	                            e.preventDefault();
-	                            document.documentElement.style.overflow = "hidden";
 	                            e.stopPropagation();
 	                            findxy("down", e);
 	                            return false;
@@ -46612,7 +46611,6 @@
 	                        onTouchEnd: function onTouchEnd(e) {
 	                            e.preventDefault();
 	                            e.stopPropagation();
-	                            document.documentElement.style.overflow = "auto";
 	                            findxy("up", e);
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {

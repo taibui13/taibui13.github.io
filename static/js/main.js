@@ -46612,6 +46612,7 @@
 	                            findxy("up", e);
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
+	                            e.preventDefault();
 	                            findxy("out", e);
 	                        }
 	                    })

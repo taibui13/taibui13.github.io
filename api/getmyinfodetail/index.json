@@ -1,0 +1,537 @@
+{
+    "status": "00000",
+    "errorDesc": null,
+    "data": {
+        "myInfo": {
+            "verifiedDateTime": {
+                "year": 2018,
+                "dayOfMonth": 16,
+                "dayOfWeek": 3,
+                "era": 1,
+                "dayOfYear": 136,
+                "chronology": {
+                    "zone": {
+                        "fixed": true,
+                        "id": "UTC"
+                    }
+                },
+                "centuryOfEra": 20,
+                "yearOfEra": 2018,
+                "yearOfCentury": 18,
+                "weekyear": 2018,
+                "monthOfYear": 5,
+                "weekOfWeekyear": 20,
+                "hourOfDay": 17,
+                "minuteOfHour": 29,
+                "secondOfMinute": 18,
+                "millisOfSecond": 573,
+                "millisOfDay": 62958573,
+                "fields": [
+                    {
+                        "lenient": false,
+                        "minimumValue": -292275054,
+                        "maximumValue": 292277023,
+                        "rangeDurationField": null,
+                        "leapDurationField": {
+                            "unitMillis": 86400000,
+                            "precise": true,
+                            "name": "days",
+                            "type": {
+                                "name": "days"
+                            },
+                            "supported": true
+                        },
+                        "durationField": {
+                            "unitMillis": 31556952000,
+                            "precise": false,
+                            "name": "years",
+                            "type": {
+                                "name": "years"
+                            },
+                            "supported": true
+                        },
+                        "name": "year",
+                        "type": {
+                            "durationType": {
+                                "name": "years"
+                            },
+                            "rangeDurationType": null,
+                            "name": "year"
+                        },
+                        "supported": true
+                    },
+                    {
+                        "lenient": false,
+                        "minimumValue": 1,
+                        "maximumValue": 12,
+                        "rangeDurationField": {
+                            "unitMillis": 31556952000,
+                            "precise": false,
+                            "name": "years",
+                            "type": {
+                                "name": "years"
+                            },
+                            "supported": true
+                        },
+                        "leapDurationField": {
+                            "unitMillis": 86400000,
+                            "precise": true,
+                            "name": "days",
+                            "type": {
+                                "name": "days"
+                            },
+                            "supported": true
+                        },
+                        "durationField": {
+                            "unitMillis": 2629746000,
+                            "precise": false,
+                            "name": "months",
+                            "type": {
+                                "name": "months"
+                            },
+                            "supported": true
+                        },
+                        "name": "monthOfYear",
+                        "type": {
+                            "durationType": {
+                                "name": "months"
+                            },
+                            "rangeDurationType": {
+                                "name": "years"
+                            },
+                            "name": "monthOfYear"
+                        },
+                        "supported": true
+                    },
+                    {
+                        "minimumValue": 1,
+                        "maximumValue": 31,
+                        "rangeDurationField": {
+                            "unitMillis": 2629746000,
+                            "precise": false,
+                            "name": "months",
+                            "type": {
+                                "name": "months"
+                            },
+                            "supported": true
+                        },
+                        "lenient": false,
+                        "unitMillis": 86400000,
+                        "durationField": {
+                            "unitMillis": 86400000,
+                            "precise": true,
+                            "name": "days",
+                            "type": {
+                                "name": "days"
+                            },
+                            "supported": true
+                        },
+                        "name": "dayOfMonth",
+                        "type": {
+                            "durationType": {
+                                "name": "days"
+                            },
+                            "rangeDurationType": {
+                                "name": "months"
+                            },
+                            "name": "dayOfMonth"
+                        },
+                        "supported": true,
+                        "leapDurationField": null
+                    },
+                    {
+                        "range": 86400000,
+                        "maximumValue": 86399999,
+                        "rangeDurationField": {
+                            "unitMillis": 86400000,
+                            "precise": true,
+                            "name": "days",
+                            "type": {
+                                "name": "days"
+                            },
+                            "supported": true
+                        },
+                        "lenient": false,
+                        "unitMillis": 1,
+                        "durationField": {
+                            "name": "millis",
+                            "type": {
+                                "name": "millis"
+                            },
+                            "supported": true,
+                            "unitMillis": 1,
+                            "precise": true
+                        },
+                        "minimumValue": 0,
+                        "name": "millisOfDay",
+                        "type": {
+                            "durationType": {
+                                "name": "millis"
+                            },
+                            "rangeDurationType": {
+                                "name": "days"
+                            },
+                            "name": "millisOfDay"
+                        },
+                        "supported": true,
+                        "leapDurationField": null
+                    }
+                ],
+                "values": [
+                    2018,
+                    5,
+                    16,
+                    62958573
+                ],
+                "fieldTypes": [
+                    {
+                        "durationType": {
+                            "name": "years"
+                        },
+                        "rangeDurationType": null,
+                        "name": "year"
+                    },
+                    {
+                        "durationType": {
+                            "name": "months"
+                        },
+                        "rangeDurationType": {
+                            "name": "years"
+                        },
+                        "name": "monthOfYear"
+                    },
+                    {
+                        "durationType": {
+                            "name": "days"
+                        },
+                        "rangeDurationType": {
+                            "name": "months"
+                        },
+                        "name": "dayOfMonth"
+                    },
+                    {
+                        "durationType": {
+                            "name": "millis"
+                        },
+                        "rangeDurationType": {
+                            "name": "days"
+                        },
+                        "name": "millisOfDay"
+                    }
+                ]
+            },
+            "myinfolegalIdentity": "S1027693D",
+            "edulevel": {
+                "lastupdated": "2018-01-01",
+                "source": "2",
+                "classification": "C",
+                "value": "1"
+            },
+            "regadd": {
+                "country": "SG",
+                "unit": "171",
+                "street": "Bedok Street 20",
+                "lastupdated": "2018-01-02",
+                "block": "321",
+                "postal": "119954",
+                "source": "3",
+                "floor": "16",
+                "classification": "C",
+                "building": "Building 954"
+            },
+            "mobileno": {
+                "code": "65",
+                "prefix": "+",
+                "lastupdated": "2018-01-03",
+                "source": "4",
+                "classification": "C",
+                "nbr": "98390056"
+            },
+            "assessableincome": {
+                "lastupdated": "2018-01-04",
+                "source": "1",
+                "classification": "C",
+                "value": "35000.00"
+            },
+            "email": {
+                "lastupdated": "2018-01-05",
+                "source": "4",
+                "classification": "C",
+                "value": "vencmk@sg.uob"
+            },
+            "birthcountry": {
+                "lastupdated": "2018-01-06",
+                "source": "1",
+                "classification": "C",
+                "value": "SG"
+            },
+            "housingtype": {
+                "lastupdated": "2018-01-07",
+                "source": "3",
+                "classification": "C",
+                "value": ""
+            },
+            "sex": {
+                "lastupdated": "2018-01-08",
+                "source": "1",
+                "classification": "C",
+                "value": "M"
+            },
+            "homeno": {
+                "code": "65",
+                "prefix": "+",
+                "lastupdated": "2018-01-09",
+                "source": "2",
+                "classification": "C",
+                "nbr": "94133589"
+            },
+            "employment": {
+                "lastupdated": "2018-01-10",
+                "source": "1",
+                "classification": "C",
+                "value": "Killer Market"
+            },
+            "marital": {
+                "lastupdated": "2018-01-11",
+                "source": "2",
+                "classification": "C",
+                "value": "2"
+            },
+            "nationality": {
+                "lastupdated": "2018-01-12",
+                "source": "1",
+                "classification": "C",
+                "value": "SG"
+            },
+            "dob": {
+                "lastupdated": "2018-01-13",
+                "source": "1",
+                "classification": "C",
+                "value": "1993-03-30"
+            },
+            "name": {
+                "lastupdated": "2018-01-14",
+                "source": "1",
+                "classification": "C",
+                "value": "BILIBALA HUALALABG"
+            },
+            "hdbtype": {
+                "lastupdated": "2018-01-15",
+                "source": "3",
+                "classification": "C",
+                "value": "111"
+            },
+            "hanyupinyinname": {
+                "lastupdated": "2018-01-16",
+                "source": "3",
+                "classification": "C",
+                "value": "HANYUPINYINAME HANYUPINYINAME AAAAA AAAAA"
+            },
+            "aliasname": {
+                "lastupdated": "2018-01-17",
+                "source": "3",
+                "classification": "C",
+                "value": "ALIASNAME ALIASNAME ALIASNAME BBBBB"
+            },
+            "hanyupinyinaliasname": {
+                "lastupdated": "2018-01-18",
+                "source": "3",
+                "classification": "C",
+                "value": "HANYUPINYINALIASNAME ALIASNAME CCCC CCCC"
+            },
+            "marriedname": {
+                "lastupdated": "2018-01-21",
+                "source": "3",
+                "classification": "C",
+                "value": "MARRIEDNAME MARRIEDNAME MARRIEDNAME"
+            },
+            "cpfcontributions": {
+                "source": "1",
+                "classification": "C",
+                "lastupdated": "2018-03-01",
+                "cpfcontribution": [
+                    {
+                        "date": "2018-04-01",
+                        "amount": "3700.00",
+                        "month": "2018-04",
+                        "employer": "ABC ICE HAHA"
+                    },
+                    {
+                        "date": "2018-03-01",
+                        "amount": "3700.00",
+                        "month": "2018-03",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2018-02-01",
+                        "amount": "3700.00",
+                        "month": "2018-02",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2018-01-01",
+                        "amount": "3700.00",
+                        "month": "2018-01",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-12-01",
+                        "amount": "3700.00",
+                        "month": "2017-12",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-11-01",
+                        "amount": "3700.00",
+                        "month": "2017-11",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-10-01",
+                        "amount": "3700.00",
+                        "month": "2017-10",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-09-01",
+                        "amount": "3700.00",
+                        "month": "2017-09",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-08-01",
+                        "amount": "3700.00",
+                        "month": "2017-08",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-07-01",
+                        "amount": "3500.00",
+                        "month": "2017-07",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-06-01",
+                        "amount": "3500.00",
+                        "month": "2017-06",
+                        "employer": "ABC ICE"
+                    },
+                    {
+                        "date": "2017-05-01",
+                        "amount": "3500.00",
+                        "month": "2017-05",
+                        "employer": "ABC ICE"
+                    }
+                ]
+            },
+            "assessyear": {
+                "lastupdated": "2018-01-19",
+                "source": "1",
+                "classification": "C",
+                "value": "2018"
+            },
+            "residentialstatus": {
+                "lastupdated": "2018-01-20",
+                "source": "1",
+                "classification": "C",
+                "value": "C"
+            }
+        },
+        "productId": [
+            "CURA1"
+        ],
+        "form": {
+            "mailingCountry": null,
+            "juniorSaverNameCountryOfBirth": null,
+            "uploadDocumentsNricBack": null,
+            "juniorSaverNameNationality": null,
+            "countryOfBirth": "SG",
+            "juniorSaverName": null,
+            "educationLevel": "P",
+            "juniorSaverDOB": null,
+            "gender": "M",
+            "industry": null,
+            "hanYuPinYinName": "HANYUPINYINAME HANYUPINYINAME AAAAA AAAAA",
+            "signature": null,
+            "homePostalCode": "119954",
+            "occupation": null,
+            "homeStreet": "Bedok Street 20",
+            "sameHomeMailingAddress": null,
+            "residentialStatus": "P",
+            "assessYear": "2018",
+            "krisflyerMembershipFName": null,
+            "activateAtms": null,
+            "uploadIncomeProof": null,
+            "aliasName": "ALIASNAME ALIASNAME ALIASNAME BBBBB",
+            "email": "vencmk@sg.uob",
+            "company": null,
+            "mailingAdd2": null,
+            "residentCardHolder": null,
+            "mailingAdd3": null,
+            "mailingAdd4": null,
+            "homeBlock": "321",
+            "nric": "S1027693D",
+            "uploadDocumentsNricFront": null,
+            "mailingUnitNumber": null,
+            "mailingAdd1": null,
+            "dateOfBirth": "30/03/1993",
+            "krisflyerMembershipNumber": null,
+            "lengthOfEmployment": null,
+            "cardLimit": null,
+            "krisflyerMembershipLName": null,
+            "maritalStatus": "M",
+            "juniorSaverGender": null,
+            "juniorSaverBirthCert": null,
+            "annualIncome": "35000",
+            "hanyuPinYinAliasName": "HANYUPINYINALIASNAME ALIASNAME CCCC CCCC",
+            "nameOntheCard": null,
+            "krisflyerMembershipStatus": null,
+            "mailingStreet": null,
+            "nameOfEmployer": "Killer Market",
+            "mailingBuilding": null,
+            "mailingBlock": null,
+            "usResident": null,
+            "usCitizen": null,
+            "natureOfEmployment": null,
+            "mailingLevel": null,
+            "homeLevel": "16",
+            "mailingPostalCode": null,
+            "homeUnitNumber": "171",
+            "nationality": "SG",
+            "homeBuilding": "Building 954",
+            "uploadDocumentsBillingProof": null,
+            "fullName": "BILIBALA HUALALABG",
+            "mobileNumber": "6598390056",
+            "marriedName": "MARRIEDNAME MARRIEDNAME MARRIEDNAME",
+            "homeAddressFormat": "H3"
+        },
+        "uobCustomerFlag": "N",
+        "existingToProductFlag": "N",
+        "readonly": {
+            "dateOfBirth": true,
+            "homePostalCode": true,
+            "homeStreet": true,
+            "maritalStatus": false,
+            "homeLevel": true,
+            "homeAddressFormat": true,
+            "aliasName": true,
+            "hanyuPinYinAliasName": true,
+            "annualIncome": true,
+            "countryOfBirth": true,
+            "homeUnitNumber": true,
+            "nationality": true,
+            "homeBuilding": true,
+            "email": false,
+            "educationLevel": false,
+            "gender": true,
+            "fullName": true,
+            "hanYuPinYinName": true,
+            "mobileNumber": true,
+            "homeBlock": true,
+            "nameOfEmployer": true,
+            "nric": true,
+            "marriedName": true
+        }
+    },
+    "jsessionid": null
+}

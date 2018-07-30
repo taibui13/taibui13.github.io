@@ -46599,12 +46599,11 @@
 	                        width: canvasWidth,
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
-	                            e.stopPropagation();
+	                            e.preventDefault();
 	                            findxy("down", e);
 	                            return false;
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
-	                            e.stopPropagation();
 	                            e.preventDefault();
 	                            findxy("move", e);
 	                            return false;

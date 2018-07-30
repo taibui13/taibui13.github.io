@@ -46515,6 +46515,7 @@
 	            currY = e.touches[0].clientY - rect.top;
 	            flag = true;
 	            dot_flag = true;
+	            document.getElementById("uob-left-panel").className += " draw-signature--fix-css-iphone-x";
 	
 	            if (dot_flag) {
 	                ctx.beginPath();
@@ -46526,6 +46527,7 @@
 	        }
 	
 	        if (res === "up" || res === "out") {
+	            document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
 	            flag = false;
 	        }
 	
@@ -46536,7 +46538,6 @@
 	                currX = e.touches[0].clientX - rect.left;
 	                currY = e.touches[0].clientY - rect.top;
 	                draw();
-	                e.preventDefault();
 	            }
 	        }
 	    };
@@ -46603,35 +46604,21 @@
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("down", e);
-	                            var mouseEvent = new MouseEvent("mousemove", {
-	                                clientX: e.touches[0].clientX,
-	                                clientY: e.touches[0].clientY
-	                            });
-	                            canvasRef.dispatchEvent(mouseEvent);
 	                            return false;
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("move", e);
-	                            var mouseEvent = new MouseEvent("mousemove", {
-	                                clientX: e.touches[0].clientX,
-	                                clientY: e.touches[0].clientY
-	                            });
-	                            canvasRef.dispatchEvent(mouseEvent);
 	                            return false;
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("up", e);
 	                            return false;
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
 	                            e.preventDefault();
-	                            e.stopPropagation();
 	                            findxy("out", e);
 	                            return false;
 	                        }
@@ -47743,7 +47730,7 @@
 	        { className: "uob-form-demo" },
 	        _react2.default.createElement(
 	            "div",
-	            { className: "left-panel" },
+	            { id: "uob-left-panel", className: "left-panel" },
 	            _react2.default.createElement("div", {
 	                className: "uob-form--form-cover" + rightPannelState,
 	                onClick: function onClick() {

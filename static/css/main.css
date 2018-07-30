@@ -5079,6 +5079,11 @@ and (max-width : 667px) {
             align-items: stretch;
 }
 
+.draw-signature--fix-css-iphone-x {
+    overflow-x: hidden !important;
+    height: 100%;
+}
+
 .draw-signature--main-container--error {
     background-color: rgb(255, 242, 242);
     border: 1px solid red;
@@ -5233,7 +5238,7 @@ and (max-width : 667px) {
 
 .draw-signature--canvas-frame-container {
     width: 100%;
-    position: absolute;
+    position: static;
     overflow: overlay;
     height: 202px;
 }

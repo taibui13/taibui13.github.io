@@ -5081,7 +5081,7 @@ and (max-width : 667px) {
 
 .draw-signature--fix-css-iphone-x {
     overflow-x: hidden !important;
-    height: 100%;
+    height: 100% !important;
 }
 
 .draw-signature--main-container--error {

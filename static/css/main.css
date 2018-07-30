@@ -5079,11 +5079,6 @@ and (max-width : 667px) {
             align-items: stretch;
 }
 
-#uob-left-panel .left-panel .draw-signature--fix-css-iphone-x {
-    overflow-x: hidden !important;
-    height: 100% !important;
-}
-
 .draw-signature--main-container--error {
     background-color: rgb(255, 242, 242);
     border: 1px solid red;
@@ -6178,6 +6173,10 @@ and (max-width : 667px) {
         z-index: 0;
         overflow-y: auto;
         overflow-x: hidden;
+    }
+    .uob-form-demo .draw-signature--fix-css-iphone-x {
+        overflow-x: hidden !important;
+        height: 100% !important;
     }
 
     .uob-form-demo .right-panel {

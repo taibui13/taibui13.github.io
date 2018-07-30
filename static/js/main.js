@@ -46530,7 +46530,7 @@
 	            flag = false;
 	        }
 	        if (res === "up") {
-	            document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
+	            //document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
 	        }
 	
 	        if (res === "move") {

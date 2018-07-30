@@ -46511,7 +46511,7 @@
 	        if (res === "down") {
 	            prevX = currX;
 	            prevY = currY;
-	            currX = e.w[0].clientX - rect.left;
+	            currX = e.touches[0].clientX - rect.left;
 	            currY = e.touches[0].clientY - rect.top;
 	            flag = true;
 	            dot_flag = true;

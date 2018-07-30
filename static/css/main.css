@@ -5176,7 +5176,8 @@ and (max-width : 667px) {
     cursor: crosshair;
     -ms-touch-action: none;
         touch-action: none;
-    overflow: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
     z-index: 1;
 }
 
@@ -5233,8 +5234,8 @@ and (max-width : 667px) {
 .draw-signature--canvas-frame-container {
     width: 100%;
     position: relative;
-    overflow: scroll;
-    height: 200px;
+    overflow: overlay;
+    height: 202px;
 }
 
 .draw-signature--canvas-reset-button-wrapper-flex {

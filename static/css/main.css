@@ -5079,7 +5079,7 @@ and (max-width : 667px) {
             align-items: stretch;
 }
 
-.draw-signature--fix-css-iphone-x {
+#uob-left-panel .left-panel .draw-signature--fix-css-iphone-x {
     overflow-x: hidden !important;
     height: 100% !important;
 }

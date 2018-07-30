@@ -6177,6 +6177,7 @@ and (max-width : 667px) {
     .uob-form-demo .draw-signature--fix-css-iphone-x {
         overflow-x: hidden !important;
         height: 100% !important;
+        background-color: red;
     }
 
     .uob-form-demo .right-panel {

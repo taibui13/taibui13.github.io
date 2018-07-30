@@ -5239,8 +5239,6 @@ and (max-width : 667px) {
 .draw-signature--canvas-frame-container {
     width: 100%;
     position: static;
-    overflow: overlay;
-    height: 202px;
 }
 
 .draw-signature--canvas-reset-button-wrapper-flex {

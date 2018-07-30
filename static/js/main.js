@@ -46527,8 +46527,10 @@
 	        }
 	
 	        if (res === "up" || res === "out") {
-	            document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
 	            flag = false;
+	        }
+	        if (res === "up") {
+	            document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
 	        }
 	
 	        if (res === "move") {

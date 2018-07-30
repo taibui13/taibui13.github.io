@@ -5233,7 +5233,7 @@ and (max-width : 667px) {
 
 .draw-signature--canvas-frame-container {
     width: 100%;
-    position: relative;
+    position: absolute;
     overflow: overlay;
     height: 202px;
 }

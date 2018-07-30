@@ -46603,6 +46603,7 @@
 	                        height: canvasHeight,
 	                        onTouchStart: function onTouchStart(e) {
 	                            e.preventDefault();
+	                            e.stopPropagation();
 	                            findxy("down", e);
 	                            var mouseEvent = new MouseEvent("mousemove", {
 	                                clientX: e.touches[0].clientX,
@@ -46613,6 +46614,7 @@
 	                        },
 	                        onTouchMove: function onTouchMove(e) {
 	                            e.preventDefault();
+	                            e.stopPropagation();
 	                            findxy("move", e);
 	                            var mouseEvent = new MouseEvent("mousemove", {
 	                                clientX: e.touches[0].clientX,
@@ -46623,11 +46625,13 @@
 	                        },
 	                        onTouchEnd: function onTouchEnd(e) {
 	                            e.preventDefault();
+	                            e.stopPropagation();
 	                            findxy("up", e);
 	                            return false;
 	                        },
 	                        onTouchCancel: function onTouchCancel(e) {
 	                            e.preventDefault();
+	                            e.stopPropagation();
 	                            findxy("out", e);
 	                            return false;
 	                        }

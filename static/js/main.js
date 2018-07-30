@@ -46511,7 +46511,7 @@
 	        if (res === "down") {
 	            prevX = currX;
 	            prevY = currY;
-	            currX = e.touches[0].clientX - rect.left;
+	            currX = e.w[0].clientX - rect.left;
 	            currY = e.touches[0].clientY - rect.top;
 	            flag = true;
 	            dot_flag = true;
@@ -46530,7 +46530,7 @@
 	            flag = false;
 	        }
 	        if (res === "up") {
-	            document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
+	            //document.getElementById("uob-left-panel").classList.remove("draw-signature--fix-css-iphone-x");
 	        }
 	
 	        if (res === "move") {

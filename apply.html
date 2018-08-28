@@ -24,14 +24,13 @@
         }
       };
       xobj.onerror = function () {
-        debugger;
-        window.location.href = "https://www.uob.com.sg";
+        window.location.href = "https://www.uob.com.sg"
       };
       xobj.send(data);
     }
 
     function renderData(cardInfo) {
-      var productId = new URL(window.location.href).searchParams.get("productId") || "";
+      var productId = new URLSearchParams(document.location.search.substring(1)).get("productId") || "";
           var type = (productConfig.products && productConfig.products[productId] && productConfig.products[productId].type) || "CASA";
           var group = cardInfo[type];
           var line1 = group.noneInfo.line1 || "";
@@ -67,7 +66,7 @@
             document.getElementById("cct-myInfo-mobile-content-right-icon").style.background = "url(" + group.myInfo.content.right.iconMinute + ") 50%/100% no-repeat";
 
           }
-          var pib = new URL(window.location.href).searchParams.get("pib") || "";
+          var pib =  new URLSearchParams(document.location.search.substring(1)).get("pib") || "";
           if(pib === "false") {
             document.getElementById("item-left").style.display = "none";
           } else {
@@ -119,7 +118,7 @@
     var cardInfo = {};
     var dataElement = dataElement || {};
     var googleID = "";
-    var productId = new URL(window.location.href).searchParams.get("productId") || "";
+    var productId = new URLSearchParams(document.location.search.substring(1)).get("productId") || "";
       callREST("static/productConfig.json", "GET", "", function (response) {
       productConfig = JSON.parse(response);
       callREST(productConfig.apply + productId, "GET", "", function (response) {});

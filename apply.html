@@ -13,6 +13,9 @@
   <title>Apply Online with UOB</title>
   <script>  var dataLayer = dataLayer || []; </script>
   <script>
+    function getURLParameter(name) {
+      return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+    }
     function callREST(url, method, data, callback) {
       var xobj = new XMLHttpRequest();
       xobj.overrideMimeType("application/json");
@@ -30,7 +33,7 @@
     }
 
     function renderData(cardInfo) {
-      var productId = new URLSearchParams(document.location.search.substring(1)).get("productId") || "";
+          var productId = getURLParameter("productId") || "";
           var type = (productConfig.products && productConfig.products[productId] && productConfig.products[productId].type) || "CASA";
           var group = cardInfo[type];
           var line1 = group.noneInfo.line1 || "";
@@ -66,7 +69,7 @@
             document.getElementById("cct-myInfo-mobile-content-right-icon").style.background = "url(" + group.myInfo.content.right.iconMinute + ") 50%/100% no-repeat";
 
           }
-          var pib =  new URLSearchParams(document.location.search.substring(1)).get("pib") || "";
+          var pib = getURLParameter("pib") || "";
           if(pib === "false") {
             document.getElementById("item-left").style.display = "none";
           } else {
@@ -118,7 +121,7 @@
     var cardInfo = {};
     var dataElement = dataElement || {};
     var googleID = "";
-    var productId = new URLSearchParams(document.location.search.substring(1)).get("productId") || "";
+    var productId = getURLParameter("productId") || "";
       callREST("static/productConfig.json", "GET", "", function (response) {
       productConfig = JSON.parse(response);
       callREST(productConfig.apply + productId, "GET", "", function (response) {});

@@ -1,0 +1,821 @@
+{
+  "formSteps":{
+    "basicInfo":{
+      "title":"Basic Details",
+      "subtitle":"Get started by filling up your contact information.",
+      "inputLabels":{
+        "fullName":"Full Name as per your NRIC/Passport",
+        "hanYuPinYinName":"Hanyu Pinyin Name",
+        "isSG":"I am a Singaporean or PR",
+        "aliasName":"Alias",
+        "hanyuPinYinAliasName":"Hanyu Pinyin Alias",
+        "marriedName":"Married Name",
+        "nric":"NRIC",
+        "email":"Email",
+        "mobileNumber":"Mobile Number",
+        "passport":"Passport Number",
+        "passportExpiry":"Passport Expiry (DD/MM/YYYY)",
+        "passportIdentityCountry":"Passport Issuing Country",
+        "residentialStatus":"Residential Status"
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"By proceeding, I agree that the Bank may use the contact information provided above to contact me regarding this application or to assist in completing this application if it is incomplete or not submitted.",
+          "content":""
+        },
+        "MobileNumberMessage":{
+          "default":{
+            "title":"You must provide us with a mobile number for the purpose of UOB Personal Internet Banking and UOB Mobile Services, and to receive SMS-OTPs, alerts and notifications. If you are an existing customer with us, we will use your mobile number and email in our records. Sign in to UOB Personal Internet Banking to update your mobile number and email.",
+            "content":""
+          }
+        }
+      },
+      "inputValues":{
+        "residentialStatus":{
+          "A":"Foreigner",
+          "C":"Singapore Citizen",
+          "P":"Permanent Resident",
+          "U":"Foreigner",
+          "N":"Foreigner"
+        }
+      }
+    },
+    "otp":{
+      "title":"Verify Mobile Number",
+      "subtitle":"A one-time password (OTP) has been sent to your phone. Enter the one-time password to proceed.",
+      "inputLabels":{
+        "otp":"Enter 6-digit OTP within 180 seconds"
+      },
+      "postInputsMessage":{
+        "error":"Did not receive? Resend OTP",
+        "default":{
+          "title":"",
+          "content":""
+        }
+      }
+    },
+    "pendingApplication":{
+      "title":"Pending Application(s)",
+      "subtitle":"We notice that there is an incomplete application that was previously started. You can retrieve the data filled up in the previous application.",
+      "inputLabels":{
+        "otp":"Enter 6-digit OTP within 180 seconds"
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"",
+          "content":""
+        }
+      }
+    },
+    "accountDetails":{
+      "title":"Account Details",
+      "subtitle":"Provide details for selected account.",
+      "crossSellSubtitle-Default":"You may also like this product(s)",
+      "crossSellSubtitle-1":"You may also like this product(s)",
+      "crossSellSubtitle-2":"You may also like this product(s)",
+      "inputLabels":{
+        "nameOntheCard":"Display Name on Card",
+        "cardLimit":"Daily Card Limit (SGD)",
+        "creditLimit":"Preferred Credit Limit (SGD)",
+        "creditSure":"I want to enrol for <a href='https://www.uob.com.sg/personal/insure/credit-protection/creditsure-plus.page' target='_blank'>CreditSure Plus</a>. You will need to pay only S$0.55 a month for every S$100 on your outstanding balance to be freed from worrying over your repayment should the unforeseen happen. Refer to <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/insure/credit-protection/creditsure-plus/csp-cl100006.pdf' target='_blank'>CreditSure Plus Policy No.: CL100006</a> for full details of terms, conditions and exclusions.",
+        "currencies":"Currency",
+        "purposeOfFunds":"Purpose of Account",
+        "sourceOfFunds":"Source of Funds",
+        "countryOfFunds":"Country of Funds",
+        "activateAtms":"Enable ATM access",
+        "cashPlusPlaceholder":"",
+        "krisflyerMembershipStatus":"I am a KrisFlyer member.",
+        "linkToAsiaMiles":"I am a Asia Miles member.",
+        "linkToFlyerMiles":"I am a KrisFlyer member.",
+        "krisflyerMembershipFName":"First Name with/ for KrisFlyer",
+        "krisflyerMembershipLName":"Last Name with/ for KrisFlyer",
+        "krisflyerMembershipNumber":"KrisFlyer Membership Number",
+        "asiaMilesMembershipNumber":"Asia Miles Membership Number",
+        "singtelMembershipNumber":"SingTel Account Number",
+        "genericAccountTitle":"Information required for ",
+        "additionalAccountTitle":"Additional information required for ",
+        "uLLoanAmount":"Preferred Loan Amount (SGD)",
+        "uLTenor":"Loan Tenor",
+        "uLBeneficiaryBank":"Transfer to Payee Bank",
+        "uLBeneficiaryAccount":"Transfer to Account Number",
+        "uLBeneficiaryName":"Full Name with Payee Bank",
+        "sameDayDelivery":"I want the physical card to be couriered between 7pm to 10pm today. Submission must be made before 1pm on a weekday (excluding Public Holiday). <a href='https://www.uob.com.sg/importantnote/same-day-delivery.html' target='_blank'>Find out more</a>"
+      },
+      "buttons":{
+        "mandatory":"SELECTED",
+        "add":"ADD",
+        "remove":"REMOVE"
+      },
+      "postInputsMessage":{
+        "CASA":{
+          "title":"Deposit Insurance Scheme: Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$50,000 in aggregate per depositor per Scheme member by law. Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement Sum Scheme are aggregated and separately insured up to S$50,000 for each depositor per Scheme member. Foreign currency deposits, dual currency investments, structured deposits and other investment products are not insured.",
+          "content":"Refer to <a href='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/common/depositins-register.pdf' target='_blank'>UOB Insured Deposit Register for a list of UOB accounts/ products that are covered under the Scheme.</a>"
+        },
+        "Card":{
+          "title":"Credit limit will be shared across all your Principal Card(s) with the Bank. I also understand that UOB has the right to grant me a credit limit that is lower than what I have indicated above.",
+          "content":"UOB will grant you a credit limit that is lower that what you have indicated because:<ul type='square'><li>your aggregate credit limit can only be up to 4x your monthly income or S$200,000, whichever is lower;</li><li>you have a UOB unsecured credit facility and/or your income documents reflect a lower earned income.</li></ul>Any credit limit increase will not be applicable to existing Supplementary Cardholder(s), if any, not stated in the application form."
+        }
+      },
+      "inputValues":{
+        "cardLimit":{
+          "2000":"2000",
+          "5000":"5000",
+          "10000":"10000",
+          "20000":"20000",
+          "50000":"50000"
+        },
+        "creditLimit":{
+          "0":"I am fine with any limit UOB grants",
+          "2000":"2000",
+          "2500":"2500",
+          "3000":"3000",
+          "3500":"3500",
+          "4000":"4000",
+          "4500":"4500",
+          "5000":"5000",
+          "5500":"5500",
+          "6000":"6000",
+          "6500":"6500",
+          "7000":"7000",
+          "7500":"7500",
+          "8000":"8000",
+          "8500":"8500",
+          "9000":"9000",
+          "9500":"9500",
+          "10000":"10000",
+          "10500":"10500",
+          "11000":"11000",
+          "11500":"11500",
+          "12000":"12000",
+          "12500":"12500",
+          "13000":"13000",
+          "13500":"13500",
+          "14000":"14000",
+          "14500":"14500",
+          "15000":"15000",
+          "15500":"15500",
+          "16000":"16000",
+          "16500":"16500",
+          "17000":"17000",
+          "17500":"17500",
+          "18000":"18000",
+          "18500":"18500",
+          "19000":"19000",
+          "19500":"19500",
+          "20000":"20000",
+          "20500":"20500",
+          "21000":"21000",
+          "21500":"21500",
+          "22000":"22000",
+          "22500":"22500",
+          "23000":"23000",
+          "23500":"23500",
+          "24000":"24000",
+          "24500":"24500",
+          "25000":"25000",
+          "25500":"25500",
+          "26000":"26000",
+          "26500":"26500",
+          "27000":"27000",
+          "27500":"27500",
+          "28000":"28000",
+          "28500":"28500",
+          "29000":"29000",
+          "29500":"29500",
+          "30000":"30000",
+          "30500":"30500",
+          "31000":"31000",
+          "31500":"31500",
+          "32000":"32000",
+          "32500":"32500",
+          "33000":"33000",
+          "33500":"33500",
+          "34000":"34000",
+          "34500":"34500",
+          "35000":"35000",
+          "35500":"35500",
+          "36000":"36000",
+          "36500":"36500",
+          "37000":"37000",
+          "37500":"37500",
+          "38000":"38000",
+          "38500":"38500",
+          "39000":"39000",
+          "39500":"39500",
+          "40000":"40000",
+          "40500":"40500",
+          "41000":"41000",
+          "41500":"41500",
+          "42000":"42000",
+          "42500":"42500",
+          "43000":"43000",
+          "43500":"43500",
+          "44000":"44000",
+          "44500":"44500",
+          "45000":"45000",
+          "45500":"45500",
+          "46000":"46000",
+          "46500":"46500",
+          "47000":"47000",
+          "47500":"47500",
+          "48000":"48000",
+          "48500":"48500",
+          "49000":"49000",
+          "49500":"49500",
+          "50000":"50000"
+        },
+        "purposeOfFunds":{
+          "savings":"Savings",
+          "transactional":"Transactional",
+          "investment":"Investment"
+        },
+        "sourceOfFunds":{
+          "PersonalSA":"Savings",
+          "Salary":"Salary",
+          "BusinessProceeds":"Sales of Assets",
+          "RentalReceipt":"Rent",
+          "ReturnOnInvestment":"Investment",
+          "InheritanceGift":"Gift or Inheritance",
+          "OwnBusiness":"Business"
+        }
+      },
+      "plTableRowTitles":[
+        "LOAN TENOR (MONTHS)",
+        "PROCESSING FEE (%)",
+        "PROCESSING FEE (S$)",
+        "INTEREST RATE (% P.A.)",
+        "EIR (% P.A.)",
+        "MONTHLY REPAYMENT (S$)",
+        "TOTAL INTEREST PAYABLE (S$)"
+      ],
+      "btTableRowTitles":[
+        "LOAN TENOR (MONTHS)",
+        "PROCESSING FEE (%)",
+        "PROCESSING FEE (S$)",
+        "INTEREST RATE (% P.A.)",
+        "EIR WITH UOB CREDIT CARD (% P.A.)",
+        "EIR WITH UOB CASHPLUS (% P.A.)"
+      ],
+      "inputDescription":{
+        "activateAtms":"Access to one of the largest ATM network in Singapore with more than 1,200 ATMs."
+      },
+      "termsAndConditions":{
+        "default":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/tnc-cts.pdf' target='_blank'>Terms and Conditions Governing Accounts and Services</a> and <a href='http://www.uob.com.sg/assets/pdfs/personal/cards/debit_cardmember_agreement_direct_plat.pdf' target='_blank'>UOB Debit Cardmember Agreement</a>.",
+        "CCPL":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/personal-loan/uob-credit-card-personal-loan-terms-ccpl-v15-27012018.pdf' target='_blank'>Terms and Conditions governing UOB Credit Card Personal Loan</a>.",
+        "CPPL":"I accept the <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/cashplus/overview/uob-cashplus-terms-and-conditions.pdf' target='_blank'>CashPlus Agreement</a> and <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/personal-loan/uob-cashplus-personal-loan-terms-v111-27012018.pdf' target='_blank'>Terms and Conditions governing UOB CashPlus Personal Loan</a>.",
+        "CCBT":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/fund-transfer/cc-funds-transfer-tncs.pdf' target='_blank'>Terms and Conditions governing UOB Credit Card Balance Transfer</a>.",
+        "CPBT":"I accept the <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/cashplus/overview/uob-cashplus-terms-and-conditions.pdf' target='_blank'>CashPlus Agreement</a> and <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/fund-transfer/cp-funds-transfer-tncs.pdf' target='_blank'>Terms and Conditions governing UOB CashPlus Balance Transfer</a>.",
+        "001843":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf' target='_blank'>Terms and Conditions Governing UOB One Card</a>.",
+        "001454":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/personal/cards/credit/yolo/uob-yolo-tnc.pdf' target='_blank'>Terms and Conditions Governing UOB YOLO Card</a>.",
+        "001801":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf' target='_blank'>Terms and Conditions Governing UOB Preferred Platinum Visa Card</a>.",
+        "001333":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf' target='_blank'>Terms and Conditions Governing UOB PRVI Miles American Express Card</a>.",
+        "001515":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf' target='_blank'>Terms and Conditions Governing UOB PRVI Miles World MasterCard</a>.",
+        "001853":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf' target='_blank'>Terms and Conditions Governing UOB PRVI Miles Visa Card</a>.",
+        "001812":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/personal/cards/credit/ladys/pdf/ladys-card-tc.pdf' target='_blank'>Terms and Conditions Governing UOB Lady's Card</a>.",
+        "001513":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/personal/cards/credit/ladys/pdf/ladys-solitaire-card-tc.pdf' target='_blank'>Terms and Conditions Governing UOB Lady's Solitaire Card</a>.",
+        "001451":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf' target='_blank'>Terms and Conditions Governing UOB Visa Signature Card</a>.",
+        "001862":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf' target='_blank'>Terms and Conditions Governing UOB UnionPay Platinum Card</a>.",
+        "001847":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/delight-card/delight-credit-tnc.pdf' target='_blank'>Terms and Conditions Governing UOB Delight Credit Card</a>.",
+        "103801":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/delight-card/delight-credit-tnc.pdf' target='_blank'>Terms and Conditions Governing UOB JCB Platinum Card</a>.",
+        "001803":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a>, <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-s290-tnc.pdf' target='_blank'>Terms and Conditions Governing SingTel-UOB Platinum Card</a> and this SingTel account to be automatically charged to this card on a recurring basis upon successful application.",
+        "001845":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-card-terms-and-conditions.pdf' target='_blank'>Cardmember Agreement</a> and <a href='http://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/terms-and-conditions/uob-online-application.pdf' target='_blank'>Terms and Conditions Governing Metro-UOB Platinum Card</a>.",
+        "CURRC":"I accept the <a href ='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/cashplus/overview/uob-cashplus-terms-and-conditions.pdf' target='_blank'>CashPlus Agreement</a> and <a href='https://www.uob.com.sg/web-resources/personal/pdf/personal/borrow/cashplus/overview/cashplus-tnc.pdf' target='_blank'>Terms and Conditions Governing UOB Cashplus</a>. I hereby declare and that that I am not a US resident, US citizen and does not hold a US permanent resident card. If you are, we are unable to open a UOB CashPlus for you.",
+        "CURA1":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/tnc-cts.pdf' target='_blank'>Terms and Conditions Governing Accounts and Services</a> and <a href='http://www.uob.com.sg/assets/pdfs/personal/cards/debit_cardmember_agreement_direct_plat.pdf' target='_blank'>UOB Debit Cardmember Agreement</a>.",
+        "SAVU5":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/tnc-cts.pdf' target='_blank'>Terms and Conditions Governing Accounts and Services</a> and <a href='http://www.uob.com.sg/assets/pdfs/personal/cards/debit_cardmember_agreement_direct_plat.pdf' target='_blank'>UOB Debit Cardmember Agreement</a>.",
+        "CURKF":"I accept the <a href ='http://www.uob.com.sg/assets/pdfs/personal/deposits/KrisFlyerUOB-tnc.pdf' target='_blank'>Terms and Conditions Governing KrisFlyer UOB Accounts and Services </a>, <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/tnc-cts.pdf' target='_blank'> Terms and Conditions Governing Accounts and Services</a> and <a href='http://www.uob.com.sg/assets/pdfs/personal/cards/debit_cardmember_agreement_direct_plat.pdf' target='_blank'>UOB Debit Cardmember Agreement</a>.",
+        "CURQF":"I accept the <a href ='https://pib.uob.com.sg/assets/images/mobile/mighty/FXD/MightyFx/MightyFXNotice.pdf' target='_blank'>Mighty FX Notice</a>. A SGD denominated KrisFlyer UOB Account is required for this application. Mighty FX will be linked to your existing singly-operated account. Otherwise, this application is for a new account linked with Mighty FX.",
+        "CURFX":"I accept the <a href ='https://pib.uob.com.sg/assets/images/mobile/mighty/FXD/MightyFx/MightyFXNotice.pdf' target='_blank'>Mighty FX Notice</a>. Mighty FX will be linked to your singly-operated One Account if you have one. Otherwise, this application is for a new SGD denominated One Account linked with Mighty FX.",
+        "SAVJS":"I accept the <a href ='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/tnc-cts.pdf' target='_blank'>Terms and Conditions governing Accounts and Services</a> and <a href='http://www.uob.com.sg/assets/pdfs/personal/cards/debit_cardmember_agreement_direct_plat.pdf' target='_blank'>UOB Debit Cardmember Agreement</a>."
+      }
+    },
+    "personalInfo":{
+      "title":"Personal Details",
+      "subtitle":"Tell us more about yourself.",
+      "inputLabels":{
+        "dateOfBirth":"Date of Birth (DD/MM/YYYY)",
+        "maritalStatus":"Marital Status",
+        "educationLevel":"Education Level",
+        "nationality":"Nationality",
+        "countryOfBirth":"Country of Birth",
+        "countryOfResidence":"Country of Residence",
+        "gender":"Gender",
+        "juniorSaverSubtitle":"Provide additional details of your Child.",
+        "juniorSaverName":"Full name as per Birth Certificate",
+        "juniorSaverGender":"Gender",
+        "juniorSaverDOB":"Date of Birth",
+        "juniorSaverBirthCert":"Birth Certificate Number",
+        "juniorSaverNationality":"Nationality",
+        "juniorSaverCountryOfBirth":"Country of Birth"
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"I authorise UOB to update my records accordingly with the relevant details as they appear on my NRIC or as provided by me in this application.",
+          "content":""
+        }
+      },
+      "inputValues":{
+        "gender":{
+          "M":"Male",
+          "F":"Female"
+        },
+        "maritalStatus":{
+          "S":"Single",
+          "M":"Married",
+          "D":"Divorced",
+          "W":"Widowed"
+        },
+        "educationLevel":{
+          "X":"No Formal Education",
+          "P":"Primary",
+          "N":"GCE N Level or Equivalent",
+          "O":"GCE O Level or Equivalent",
+          "A":"GCE A Level or Equivalent",
+          "D":"Diploma",
+          "F":"Professional Qualification",
+          "V":"Advanced Diploma",
+          "B":"Bachelor Degree",
+          "G":"Post Graduate Diploma",
+          "T":"Doctorate Degree",
+          "M":"Masters Degree",
+          "C":"Certificate (NTC/LCCI/Others)"
+        }
+      }
+    },
+    "homeMailingAddress":{
+      "title":"Residential Address",
+      "subtitle":"Provide a residential address for us to send important mail.",
+      "inputLabels":{
+        "homePostalCode":"Postal Code",
+        "homeBuilding":"Building/ Condo Name (Optional)",
+        "homeBlock":"Block",
+        "homeStreet":"Street",
+        "homeLevel":"Level",
+        "homeUnitNumber":"Unit Number",
+        "mailingCountry":"Country",
+        "mailingPostalCode":"Postal Code",
+        "mailingBuilding":"Building/ Condo Name (Optional)",
+        "mailingCity":"City",
+        "mailingBlock":"Block",
+        "mailingStreet":"Street",
+        "mailingLevel":"Level",
+        "mailingUnitNumber":"Unit Number",
+        "mailingAdd1":"Address Line 1",
+        "mailingAdd2":"Address Line 2",
+        "mailingAdd3":"Address Line 3",
+        "mailingAdd4":"Address Line 4",
+        "sameHomeMailingAddress":"I have a different mailing address.",
+        "propertyType":"Property Type",
+        "residenceStatus":"Home Ownership",
+        "subtitle2":"Provide a mailing address that is different from your residential address.",
+        "lengthOfResidencyMonths":"Length of Residency (in months)",
+        "lengthOfResidencyYears":"Length of Residency (in years)"
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"Residential address refers to the address listed on your NRIC for Singaporeans and Permanent Residents. Upload of latest utility bill (within the last 6 months) with full name and address is required for Foreigners. By proceeding, I confirm that my residential address shall be as stated above. if there is any change in my residential address, I undertake to inform the Bank immediately.",
+          "content":""
+        }
+      },
+      "termsAndConditions":{
+        "sameHomeMailingAddress":""
+      },
+      "inputValues":{
+        "residenceStatus":{
+          "OU":"Owned",
+          "PA":"Staying with Parent(s)/Relative(s)",
+          "RN":"Rented",
+          "XX":"Employer Provided"
+        },
+        "propertyType":{
+          "H3":"HDB - 3Rm/4Rm",
+          "H5":"HDB - 5Rm/Executive Apartment",
+          "EC":"Executive Condo/HUDC",
+          "PC":"Private Apartment/Condominium",
+          "BG":"Bungalow",
+          "SM":"Semi-Detached",
+          "TE":"Terrace"
+        }
+      }
+    },
+    "workInfo":{
+      "title":"Work Details",
+      "subtitle":"Tell us what you do for a living.",
+      "inputLabels":{
+        "natureOfEmployment":"Nature of Employment",
+        "nameOfEmployer":"Name of Company",
+        "company":"Name of Business",
+        "ePassExpiry":"Employment Pass Expiry (DD/MM/YYYY)",
+        "industry":"Industry",
+        "workPassType":"Type of Work Pass",
+        "annualIncome":"Yearly Assessment Income (SGD)",
+        "occupation":"Job Title",
+        "lengthOfEmploymentYears":"Length of Employment (in years)",
+        "lengthOfEmploymentMonths":"Length of Employment (in months)",
+        "notAvailable":"Not Available"
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"",
+          "content":""
+        }
+      },
+      "inputValues":{
+        "natureOfEmployment":{
+          "SALARIED":"Salaried",
+          "SELFE4":"Sole Proprietor/ Partner",
+          "SELFE1":"Self-Employed (with shareholding >= 25%)",
+          "SELFE2":"Self-Employed (with shareholding < 25%)",
+          "BUSSV":"Freelance",
+          "STUDT":"Student",
+          "HWIFE":"Housewife",
+          "RTIRE":"Retiree",
+          "NOINC":"Unemployed",
+          "SELFE3":"Landlord with Rental Income"
+        },
+        "occupation":{
+          "CW":"Academic - Childcare",
+          "LE":"Academic - Lecturer",
+          "HP":"Academic - Principal",
+          "PF":"Academic - Professor",
+          "EU":"Academic - Teacher",
+          "TT":"Academic - Tutor",
+          "AC":"Accountant/ Financial Controller",
+          "AE":"Accounts Executive",
+          "AD":"Administrative Executive/ Assistant",
+          "AT":"Architect",
+          "TV":"Artist/ Designer/ Producer",
+          "EA":"Artiste/ Entertainer/ Model",
+          "AU":"Auditor",
+          "BA":"Barber/ Hairstylist",
+          "BU":"Beautician",
+          "WR":"Blogger/ Writer/ Author",
+          "BC":"Bouncer",
+          "BK":"Broker/ Dealer",
+          "AN":"Business/ Technology Analyst",
+          "BR":"Butcher/ Fishmonger",
+          "SQ":"Cabin Crew",
+          "C1":"Chairman",
+          "CF":"Chef/ Caterer/ Bartender",
+          "CT":"Chemist",
+          "CL":"Cleaner",
+          "CJ":"Clinic/ Dental Assistant",
+          "CM":"Construction Specialist/ Assistant",
+          "EC":"Construction Worker",
+          "CN":"Consultant/ Planner",
+          "CC":"Contractor",
+          "CR":"Coordinator",
+          "CU":"Counsellor",
+          "HE":"Crane/ Heavy Equipment Operator",
+          "DG":"Designer",
+          "DV":"Driver - Personal Chauffeur",
+          "UD":"Driver - Private Hire (Grab)",
+          "TX":"Driver - Public Transport",
+          "ET":"Economist",
+          "ED":"Editor",
+          "ES":"Embassy Staff",
+          "SG":"Enforcement/ Security Officer",
+          "EN":"Engineer",
+          "EX":"Executive",
+          "IA":"Financial Advisor/ Insurance Agent",
+          "FM":"Foreman",
+          "GO":"Government Civil Service Officer/ Staff",
+          "MP":"Government Minister/ Member of Parliament",
+          "EL":"Handyman",
+          "HW":"Hawker/ Storeowner",
+          "TL":"Interpreter/ Translator",
+          "IS":"Inspector",
+          "IE":"IT Professional/ Software Engineer",
+          "JO":"Journalist/ Reporter/ Photographer",
+          "LA":"Legal Assistant/ Paralegal",
+          "LW":"Legal Practitioner",
+          "MG":"Manager",
+          "DR":"Managing Director",
+          "SS":"Maritime Executive/ Professional",
+          "MK":"Marketing Executive/ Assistant",
+          "MS":"Masseuse",
+          "MH":"Mechanic",
+          "DO":"Medical Practitioner",
+          "TM":"Medical Practitioner - Traditional Chinese Medicine",
+          "MR":"Merchandiser/ Purchaser",
+          "MC":"Money Changer",
+          "MY":"Money Lender",
+          "MU":"Musician",
+          "NS":"NS Mindef Full-time NSF",
+          "MF":"NS Mindef In-Service Personnel",
+          "FI":"NS SCDF In-Service Personnel",
+          "HT":"NS SPF Police/ Civilian Officers",
+          "SU":"NS SPF Superintendent",
+          "HC":"Nurse/ Caregiver",
+          "DN":"Nutritionist/ Dietitian",
+          "OA":"Operation Executive/ Assistant",
+          "ON":"Optician",
+          "PA":"Pharmacist",
+          "PT":"Pilot",
+          "PO":"Politician/ Diplomat",
+          "PD":"Private Investigator",
+          "DS":"Product Specialist",
+          "PC":"Project Manager",
+          "PP":"Property Agent",
+          "PR":"Public Relation Officer",
+          "RM":"Relationship Manager",
+          "RG":"Religious Servant",
+          "MO":"Religious Servant - Monk/ Nun/ Priest",
+          "RS":"Remiser",
+          "RA":"Research Executive",
+          "SR":"Sales Executive/ Assistant",
+          "SN":"Scientist",
+          "FX":"Senior Executive/ Management",
+          "SI":"Service Executive/ Assistant",
+          "SW":"Social Worker/ Volunteer",
+          "ST":"Specialist",
+          "AH":"Sportsperson",
+          "SY":"Surveyor",
+          "TA":"Tailor/ Seamstress/ Couturier",
+          "TP":"Therapist",
+          "TR":"Trainer/ Instructor - General",
+          "TI":"Trainer/ Instructor - Technology related",
+          "TG":"Tourist Guide/ Travel Advisor",
+          "VA":"Valuer/ Appraiser",
+          "VE":"Veterinarian"
+        },
+        "workPassType":{
+          "DP":"Dependent Pass",
+          "EP":"Employment Pass",
+          "ET":"EntrePass",
+          "LC":"Letter of Consent",
+          "LV":"Long Term Visit Pass",
+          "PE":"Personalized EP",
+          "SP":"S Pass",
+          "WK":"Work Permit"
+        },
+        "industry":{
+          "AGFFG":"Agriculture",
+          "ARTAN":"Antique and Arts Dealing",
+          "ENTRR":"Arts, Entertainment & Recreational",
+          "BUSSV":"Electronics",
+          "GAMBL":"Casino & Gambling",
+          "OCSPR":"Community & Social Services",
+          "CONST":"Construction",
+          "RTAIL":"Consumer & Wholesale Retail",
+          "EDUCA":"Education",
+          "EMHRC":"Embassy - Consulate & High Commission",
+          "EMBAS":"Embassy - Others",
+          "MFGRG":"Manufacturing",
+          "LOUNG":"Entertainment - Bars, KTV, Night Clubs",
+          "FINAN":"Financial Services - Banking",
+          "INSUR":"Financial Services - Insurance",
+          "MOCHG":"Financial Services - Money Changing/ Remittance",
+          "INVEB":"Financial Services - Securities & Investment",
+          "CATER":"Food & Beverages",
+          "PUBSV":"Government & Public Services",
+          "MEDIC":"Healthcare/ Pharmaceutical",
+          "HOTEL":"Hospitality",
+          "DOMES":"Household Services",
+          "COMPU":"Information & Technology",
+          "LAWLL":"Legal & Accounts",
+          "LFACU":"Legal & Accounts - Unregulated",
+          "MOLGA":"Lending Services - Gambling-related",
+          "MOLEN":"Lending Services - Money Lending",
+          "PAWNS":"Lending Services - Pawnshop",
+          "TRDIE":"Logistics and Supply Chain",
+          "MASSM":"Mass Media & Telecommunications",
+          "DEFEN":"Military Weapons & Arms",
+          "MNING":"Mining & Quarrying",
+          "CHARI":"Non-Profit",
+          "CHARC":"Non-Profit - Cross Border Donations",
+          "PRECI":"Precious Metals & Gems Dealing",
+          "PROSV":"Professional Services",
+          "TIMES":"Timeshare",
+          "TRSPT":"Transportation",
+          "TRAVL":"Travel & Tourism",
+          "UTILI":"Utilities"
+        }
+      }
+    },
+    "uploadDocuments":{
+      "title":"Upload Document",
+      "subtitle":"It is mandatory to submit these documents for us to process your application.",
+      "inputLabels":{
+        "uploadDocumentsBillingProof":"Proof of Residential or Mailing Address",
+        "uploadDocumentsNricFront":"NRIC (Front)",
+        "uploadDocumentsNricBack":"NRIC (Back)",
+        "uploadIncomeProof":"Income Document",
+        "uploadPassport":"Passport",
+        "uploadWorkPermitFront":"Employment Pass (Front)",
+        "uploadWorkPermitBack":"Employment Pass (Back)",
+        "uploadEmploymentProofFront":"Employment Pass (Front)",
+        "uploadEmploymentProofBack":"Employment Pass (Back)",
+        "submitCPFOnline":"I authorise CPF to release my statement to UOB.",
+        "nricIssueDate":"NRIC Date of Issue (DD/MM/YYYY)",
+        "submitPR1-2Year":"This is the 1st or 2nd year that I have obtained my Singapore Permanent Resident (SPR) status. A 1st or 2nd year SPR has a lower CPF contribution rate. It is important to select the right option for UOB to grant you a correct credit limit."
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"",
+          "content":""
+        }
+      },
+      "inputDescription":{
+        "uploadDocumentsBillingProof":"Upload latest utility bill (within the last 6 months) with your full name and address for UOB to verify your residential or mailing address (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadDocumentsNricFront":"Upload an image of the front of your NRIC for UOB to verify your personal information (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadDocumentsNricBack":"Upload an image of the back of your NRIC for UOB to verify your residential address/ date of issue (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadPassport":"Upload an image of your Passport for UOB to verify your personal information (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadWorkPermitFront":"Upload an image of Employment Pass Front for UOB to verify your work details (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadWorkPermitBack":"Upload an image of Employment Pass Back for UOB to verify your work details (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadIncomeProof":"Upload the latest 3 months computerised payslip, Notice of Tax Assessment or 12 months CPF Contribution History Statement for UOB to verify your income (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadIncomeProofForeigner":"Upload the latest 3 months computerised payslip or Notice of Tax Assessment for UOB to verify your income (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadEmploymentProofFront":"Upload an image of the front of your Employment Pass for UOB to verify your work details (Supports files: .jpg .png with a max filesize of 3MB).",
+        "uploadEmploymentProofBack":"Upload an image of the back of your Employment Pass for UOB to verify your work details (Supports files: .jpg .png with a max filesize of 3MB)."
+      }
+    },
+    "digitalServices":{
+      "title":"Digital Services",
+      "subtitle":"Sign up for your Personal Internet Banking username and password. You can view, transfer and pay via UOB Mighty or Internet Banking with these details once account has been opened.",
+      "inputLabels":{
+        "username":"Username",
+        "password":"Password",
+        "confirmPassword":"Confirm Password"
+      }
+    },
+    "declaration":{
+      "title":"Declaration",
+      "subtitle":"Indicate the Country/Countries and Taxpayer Identification number(s) (TIN) where you are a resident for tax purposes. Additionally, under the Foreign Account Tax Compliance Act (FATCA), US taxpayers who are US persons will need to declare their FATCA status to enable the Bank to comply with local laws. US person that has submitted application online is required to visit our UOB branch to open the account.",
+      "inputLabels":{
+        "usResident":"US resident?",
+        "usCitizen":"US citizen?",
+        "residentCardHolder":"Hold a US permanent resident card?",
+        "taxResidency":"Tax Residency",
+        "tinReasons":"Tax Declaration",
+        "taxIdentificationNumber":"NRIC or Tax Identification Number",
+        "signature":"Signature (Supports files: .jpg .png with a max filesize of 1MB).",
+        "drawSignature":"Signature (Draw on the screen)"
+      },
+      "inputValues":{
+        "tinReasons":{
+          "0":"I have a NRIC or a TIN",
+          "10":"My country does not issue TIN",
+          "22":"I am waiting for my TIN",
+          "23":"I am re-applying my TIN",
+          "26":"I am not tax liable and no TIN",
+          "30":"TIN is not required in my country"
+        }
+      },
+      "postInputsMessage":{
+        "default":{
+          "title":"US person that has submitted application online is required to visit our UOB branch to open the account.",
+          "content":"Fill up the <a href='http://www.uob.com.sg/web-resources/personal/pdf/personal/save/common/CRS-FATCA-Combined-Self-Declaration-Form-Individual.pdf' target='_blank'>FATCA self-certification form</a> and proceed to any of <a href='https://pib.uob.com.sg/uob-branches-and-atms/locator.html?mt=owned_form_steps&ms=owned_form_steps' target='_blank'>our branches</a> for follow-up."
+        }
+      },
+      "inputDescription":{
+        "signature":"Upload an image of your Signature and ensure it fits in the white space. You can use the tools to crop or rotate. Click on 'Save' when done.",
+        "drawSignatureTouch":"Touch to draw your Signature and tap on 'Save' when done.",
+        "drawSignatureClear":"Tap on 'Clear' button to re-draw your Signature.",
+        "usResident":"Any person who is physically present in the US for minimum number of days as set out in the Substantial Presence Test defined by US Inland Revenue Services.",
+        "usCitizen":"Any person who is granted citizenship status by the US Citizenship and Immigration Services.",
+        "residentCardHolder":"Any person who is granted authorisation to live and work in US on a permanent basis with a Green Card."
+      },
+      "termsAndConditions":{
+        "signature":"If you have an existing deposit account with UOB, the specimen signature of your latest existing deposit account opened with the Bank will be used as the specimen signature for this new account, notwithstanding that you have uploaded a specimen signature. If you do not have an existing deposit account, the specimen signature uploaded will be used as specimen signature for this new account. If this application is for Mighty FX only, the specimen signature of your earliest Account will be used as the specimen signature for Mighty FX."
+      }
+    },
+    "summary":{
+      "title":"Confirmation",
+      "subtitle":"Take a final look at the details that you have provided to confirm everything is accurate.",
+      "postInputsMessage":{
+        "default":{
+          "title":"",
+          "content":""
+        }
+      },
+      "termsAndConditions":{
+        "mainPoint":"I confirm that I have read, understood and agree to be bound by the terms and conditions stated below:",
+        "bulletedPoint":[
+          "I am requesting United Overseas Bank Limited (the 'Bank') to open the account(s) and/or provide the service(s) specified by me in this application;",
+          "The submission of this application and its receipt by the Bank does not mean that the Bank has approved the application, and the Bank reserves the right to reject any application at its absolute discretion without providing any reason;",
+          "All information submitted by me in connection with this application is true, accurate and complete in all respects and I will inform the Bank in writing of any amendments to the information;",
+          "Where applicable, the Bank's Terms and Conditions of UOB Personal Internet Banking and UOB Mobile Services shall apply to me;",
+          "Where this application is to link Mighty FX to an existing One Account or KrisFlyer UOB Account ('Account'), my mailing address and specimen signature for that Account will be used for Mighty FX, notwithstanding any mailing address and/or specimen signature provided in this application;",
+          "I confirm that I am the beneficial owner of the account;",
+          "The Bank is authorised to update its records with the details provided by me in this application;",
+          "I consent to the disclosure and transfer of any information provided in this application or in connection herewith, to and between any branch, agent or affiliate of the Bank and their respective officers, servants or agents, whether in Singapore or elsewhere, where the Bank considers it necessary to do so in order to provide the services applied for herein;",
+          "I have read and understood the Bank's Privacy Notice (Individual) which forms part of the terms and conditions governing my relationship with the Bank, and consent to the Bank collecting, using, disclosing my personal data for Basic Banking Purposes, Co-branding Purpose, Research Purpose and Marketing Purpose as described in the Bank's Privacy Notice (Individual). I note that (a) I may withdraw consent for any or all of the purposes at any time; (b) if I withdraw consent for Basic Banking Purposes and/or Co-branding Purpose, the Bank may not be able to continue to provide the products and services to me; (c) if I withdraw consent for Research Purpose or Marketing Purpose, my personal data will not be used for these purposes unless I expressly and separately consent to the same again; and",
+          "I irrevocably consent and authorize the Bank and its officers to conduct any credit check on me as the Bank may require from time to time and to obtain from, disclose to and/or verify with any party the Bank may consider appropriate including any of the Bank's related companies, advisors, credit bureaus, credit reference agents, insurance providers, governmental authorities or any other party set out in the Bank's Terms and Conditions Governing Accounts and Services, any information pertaining to me, this application, any of my accounts and/or facility with the Bank;",
+          "I agree that the Bank will not be liable to me for any actions the Bank considers appropriate in order to meet any obligation or requirement, either in Singapore or elsewhere, in connection with the prevention of any unlawful activity or the enforcement of any economic or trade sanction;",
+          "I will notify the Bank and provide the Bank with a suitably updated Self-Certification form within 30 days of any change in circumstances which affects the tax residency status declared in this application or causes the information contained herein to become incorrect;",
+          "I will provide the Bank with such documents as the Bank may require from time to time in its sole discretion for the purpose of UOB satisfying itself that the information herein is valid;",
+          "I will indemnify, keep indemnified and hold harmless UOB against any and all liabilities, actions, claims, losses, damages, costs and expenses (including but not limited to legal costs on a full indemnity basis) suffered or incurred by UOB as a result of or in connection with the information herein being inaccurate, outdated or untrue, without prejudice to any other rights or remedies UOB may otherwise have;",
+          "I have provided the Bank with all documentation or other information as may be required by the Bank for compliance with the FATCA;",
+          "Any failure on my part to provide accurate and timely information to the Bank pursuant to requirements and requests by the Bank may result in the Bank having to deem me recalcitrant and/or reportable and take all necessary action(s) against me in order for the Bank to be compliant with the FATCA requirements, local legislation in connection with the FATCA, and any other provision arising out of an agreement between governments pertaining to the FATCA."
+        ],
+        "PDPATitle":"I confirm that:",
+        "PDPAContent":[
+          "I would like to be kept informed of promotions, offers, products and/or services marketed by the Bank;",
+          "I hereby give my consent to UOB Group Member to contact me via all modes of communication (voice calls, SMS/MMS, fax) using my telephone numbers in your records;",
+          "I agree that any consent given is additional to any consent which I may have previously provided to UOB Group Members to inform me of marketing information; and does not supersede any rights which the UOB Group Members may have at law to collect, use and disclose my personal data."
+        ]
+      }
+    },
+    "congratulation":{
+      "leftPanel":{
+        "title":"Successfully Submitted",
+        "subtitle":"Thank you for your application. We are currently processing it.",
+        "submitCPFOnlineSub":"You are required to authorise CPF to release your statement online to UOB for this application to be processed. This will open the CPF service in a new browser tab and a valid SingPass is required to sign in. Submit your statement <a href='http://uobgroup.com/submitcpfstmt.html' target='_blank'>here.</a>"
+      },
+      "rightPanel":{
+        "title":"Bank digitally anytime, anywhere",
+        "body":[
+          {
+            "image":"",
+            "header":"Setup your Access Instantly",
+            "content":"Receive your confirmation of account opening letter through mail and use your card number to <a href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=registration?mt=banner&ms=owned_form_submission' target='_blank'>sign up</a> for a UOB Mighty or Internet Banking user name and password."
+          },
+          {
+            "image":"",
+            "header":"Kickstart your Account Anywhere",
+            "content":"Fund your account digitally using UOB Mighty, Internet Banking or deposit physically at the largest <a href='https://pib.uob.com.sg/uob-branches-and-atms/locator.html?mt=banner&ms=owned_form_submission' target='_blank'>Automated Teller Machines (ATMs) and Cash Deposit Machines (CDMs) network in Singapore</a> with more than 1,200 ATMs and CDMs."
+          },
+          {
+            "image":"",
+            "header":"Simple Banking Anytime",
+            "content":"Send money directly to a mobile number with your phone's keyboard with <a href='http://www.uob.com.sg/personal/ebanking/mykey.html?mt=banner&ms=owned_form_submission' target='_blank'>UOB MyKey</a> or Pay and Transfer money easily and securely with <a href='http://www.uob.com.sg/personal/eservices/mobile/overview.page?mt=banner&ms=owned_form_submission' target='_blank'>UOB Mighty</a>."
+          }
+        ]
+      }
+    },
+    "errorPage":{
+      "title":"Something went wrong!",
+      "body":"Don't worry - it can happen to the best of us, - and it just happened to you. These are some probable situation(s):<ol><li>The server encountered a temporary error and could not complete your request.</li><li>Your internet connection might be intermittent.</li><li>You weren't really clicking around any more so we have timed out the application for your protection.</li></ol>Check your Internet connection and try again later by restarting the application."
+    }
+  },
+  "formInputErrorMessages":{
+    "invalidNRIC":"is invalid.",
+    "invalidPhone":"is invalid.",
+    "invalidName":"is invalid.",
+    "invalidAddress":"is invalid.",
+    "invalidEmail":"is invalid.",
+    "invalidDate":"is invalid.",
+    "invalidOTP":"is invalid or have expired. Request for a new OTP.",
+    "invalidKrisFlyer":"is invalid.",
+    "invalidMaxSize":"must be less than {size} character(s).",
+    "invalidMinSize":"must be at least {size} character(s).",
+    "invalidSize":"must be more than {size} character(s).",
+    "exactSize":"must be {size} character(s).",
+    "invalidRange":"must be between {minSize} to {maxSize} characters.",
+    "numbersOnly":"must contains only numbers.",
+    "minAge":"is invalid. You must be minimally {minAge} years old.",
+    "maxAge":"is invalid. You must be below {maxAge} years old.",
+    "fieldEmpty":"is required.",
+    "invalidCharacters":"must contain only letters.",
+    "onlyAlphanumeric":"must contain letters and numbers.",
+    "noSpaceAllowed":"must not have blank space at the start/end.",
+    "plMinAmount":"should not be less than SGD{minAmt}.",
+    "plbtMaxAmount":"should not be more than SGD{maxAmt}.",
+    "btMinAmount":"should not be less than SGD{minAmt}.",
+    "t&c":"Terms and Conditions must be accepted to proceed.",
+    "taxResidencyError":"is required.",
+    "selectUsResidencyError":"A US resident, US citizen or any person holding a US permanent resident card must provide the Bank with his/her United States Tax Identification (TIN) for us to report directly to the IRS information about financial accounts held by U.S taxpayers. You must select United States for Tax Residency.",
+    "cashPlusUsResidencyError":"A US resident, US citizen or any person holding a US permanent resident card must provide the Bank with his/her United States Tax Identification (TIN) for us to report directly to the IRS information about financial accounts held by U.S taxpayers. You must select United States for Tax Residency.",
+    "yearExceeded":" is invalid. You must input a valid year.",
+    "signatureConfirmToUpload":"Click on 'Save' button after you have uploaded or have used the tools to crop or rotate your Signature.",
+    "myInfoDownAndNotRequired":"MyInfo is not available at the moment. You can continue to apply by filling up the form.",
+    "myInfoIncompleteAndNotRequired":"MyInfo is not available at the moment. You can continue to apply by filling up the form.",
+    "fileUploadError":"File upload unsuccessful. You can try again to upload.",
+    "invalidTIN":"is invalid.",
+    "alphanumeric":"must contain letters and numbers.",
+    "passwordMismatch":"must be the same.",
+    "passwordEqualsUsername":" and username cannot be the same.",
+    "checkUsername":" can contain only letters and numbers.",
+    "usernameIsNotAvailable":" is not available.",
+    "serviceNotAvailable":"We noticed that you have not been on the application and have timed it out for your protection. It may also be that your internet connection might be intermittent. Try again to continue or restart the application.",
+    "activeSession":"We noticed that you have an application in-progress. You can only start a new application once the previous application has been completed.",
+    "adressServiceNotAvailable":"Searching by Postal Code is currently not available. You can fill in your address manually.",
+    "expiredYear":"has expired.",
+    "maxMonth":"11 months",
+    "sameHomeMailingAddress":" and residential address cannot be the same.",
+    "submitPR1-2Year":"Upload an image of the back of your NRIC for UOB to verify the date of issue.",
+    "expiredMaxMonth":"should have at least {maxMonth} months of validity.",
+    "invalidZero":"must not be 0.",
+		"minInCome": "Yearly Assessment Income (SGD) is not less than {minIncome}",
+    "NRICDateThanDateofBirth": "should not be earlier than your Date of Birth"
+  },
+  "MCAModal":{
+    "content":"We noticed that you have an existing current or saving account with the bank. To pair this Multi-Currency Account with your existing deposit account, sign in to Internet Banking to continue the application. If you prefer to pair this Multi-Currency Account with a new SGD-denominated bank account, continue with this application.",
+    "primaryButton":{
+      "link":"https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=SCA&param1=CUR&param2=FX",
+      "text":"Apply via Internet Banking"
+    },
+    "secondaryButton":{
+      "text":"Continue Application"
+    }
+  },
+  "myInfoModal":{
+    "content":"You will need to register for a profile at MyInfo portal. It will take up to 1 working day for your profile to be created based on your personal information from the various participating public agencies such as Immigrations and Checkpoint Authority (ICA), Ministry of Manpower (MOM) and Inland Revenue Authority of Singapore (IRAS). If you have just signed up for MyInfo, you can continue to use MyInfo data to pre-fill the application form only when your profile is created. For any questions on MyInfo, contact support@myinfo.gov.sg or +65 6643 0567.",
+    "primaryButton":{
+      "link":"https://uniservices1.uobgroup.com/secure/forms/url_redirection.jsp?CC=SG&URL=https://goo.gl/wS6oL4",
+      "text":"Sign up for MyInfo"
+    }
+  },
+  "myInfoDownModal":{
+    "content":"MyInfo Service is not available at this moment. You can try again later. For any questions on MyInfo, contact support@myinfo.gov.sg or +65 6643 0567."
+  }
+}

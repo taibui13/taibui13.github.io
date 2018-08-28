@@ -1,0 +1,792 @@
+{
+  "crossSellReference": {
+    "CURA1": [
+      {
+        "mandatory": false,
+        "pid": "001843"
+      },
+      {
+        "mandatory": false,
+        "pid": "SAVU5"
+      },
+      {
+        "mandatory": false,
+        "pid": "001812"
+      }
+    ],
+    "SAVJS": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      }
+    ],
+    "SAVU5": [
+      {
+        "mandatory": false,
+        "pid": "CURKF"
+      },
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      }
+    ],
+    "CURKF": [
+      {
+        "mandatory": false,
+        "pid": "SAVU5"
+      }
+    ],
+    "CURIA": [
+
+    ],
+    "SAVU+": [
+
+    ],
+    "CURFX": [
+      {
+        "mandatory": true,
+        "pid": "CURA1"
+      }
+    ],
+    "CURQF": [
+      {
+        "mandatory": true,
+        "pid": "CURKF"
+      }
+    ],
+    "001843": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "001333"
+      },
+      {
+        "mandatory": false,
+        "pid": "001515"
+      },
+      {
+        "mandatory": false,
+        "pid": "001853"
+      }
+    ],
+    "001454": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "001843"
+      }
+    ],
+    "001801": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001333": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001515": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001853": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001812": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001513": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001451": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001862": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001847": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "103801": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001803": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "001845": [
+      {
+        "mandatory": false,
+        "pid": "CURA1"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCBT"
+      },
+      {
+        "mandatory": false,
+        "pid": "CCPL"
+      }
+    ],
+    "CURRC": [
+      {
+        "mandatory": false,
+        "pid": "CPPL"
+      }
+    ],
+    "CCPL": [
+      {
+        "mandatory": true,
+        "pid": "001843"
+      }
+    ],
+    "CPPL": [
+      {
+        "mandatory": true,
+        "pid": "CURRC"
+      }
+    ],
+    "CCBT": [
+      {
+        "mandatory": true,
+        "pid": "001843"
+      }
+    ],
+    "CPBT": [
+      {
+        "mandatory": true,
+        "pid": "CURRC"
+      }
+    ]
+  },
+  "sameDayDelivery": true,
+  "products": {
+    "SAVU5": {
+      "productName": "Stash Account",
+      "pid": "SAVU5",
+      "productCat": "deposits",
+      "family": "debt1",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 1,
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/savu5.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/savu5.png",
+      "productDesc": [
+        "Attractive <a target='_blank' href='http://www.uob.com.sg/online_rates/singapore_dollar_deposit_rates.html'>interest rates</a>",
+        "Complimentary UOB ATM Card with NETS & PLUS facilities",
+        "24/7 access to your Stash Account"
+      ],
+      "currencies": {
+        "displayed": false,
+        "values": [
+          "SGD"
+        ]
+      }
+    },
+    "CURA1": {
+      "productName": "One Account",
+      "pid": "CURA1",
+      "productCat": "deposits",
+      "family": "debt1",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 0,
+      "additionalMsg": "",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/cura1.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/cura1.png",
+      "secondaryImg": "https://u-forms.uob.com.sg/apply/static/images/oneaccount.png",
+      "productDesc": [
+        "Up to 3.33% p.a. interest rates",
+        "Up to S$1,416 total interest and cash rebates",
+        "Convenience of an eStatement only account"
+      ],
+      "currencies": {
+        "displayed": false,
+        "values": [
+          "SGD"
+        ]
+      }
+    },
+    "CURKF": {
+      "productName": "KrisFlyer UOB Account",
+      "pid": "CURKF",
+      "productCat": "deposits",
+      "family": "debt2",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 20,
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/curkf.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/curkf.png",
+      "additionalMsg": "",
+      "productDesc": [
+        "A new way to bank and fly.",
+        "Earn KrisFlyer miles when you spend and save",
+        "Redeem flights and seat upgrades on Singapore Airlines and SilkAir, vouchers from Scoot and Tigerair, and more"
+      ],
+      "currencies": {
+        "displayed": false,
+        "values": [
+          "SGD"
+        ]
+      }
+    },
+    "CURIA": {
+      "productName": "I-Account",
+      "pid": "CURIA",
+      "productCat": "deposits",
+      "family": "debt1",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 3,
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/curia.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/curia.png",
+      "productDesc": [
+        "Complimentary UOB ATM Card with NETS & PLUS facilities",
+        "Auto-mailing of new cheque books",
+        "24/7 access to your account through UOB Personal Internet Banking services"
+      ],
+      "currencies": {
+        "displayed": false,
+        "values": [
+          "SGD"
+        ]
+      }
+    },
+    "SAVU+": {
+      "productName": "UniPlus Account",
+      "pid": "SAVU+",
+      "productCat": "deposits",
+      "family": "debt1",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 4,
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/savu+.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/savu+.png",
+      "productDesc": [
+        "High daily interest rates with the convenience of monthly statements",
+        "Complimentary global ATM Card or enjoy a 3-year fee waiver on your UOB Debit Card",
+        "24/7 access to your account through UOB Personal Internet Banking services"
+      ],
+      "currencies": {
+        "displayed": false,
+        "values": [
+          "SGD"
+        ]
+      }
+    },
+    "CURFX": {
+      "productName": "Mighty FX",
+      "pid": "CURFX",
+      "productCat": "deposits",
+      "family": "debt3",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 10,
+      "crossSellSubtitleType": "crossSellSubtitle-1",
+      "imgPath": "https://u-forms.uob.com.sg/Resources/uob-forms/img/productimages/curfx.png",
+      "imgPathCrossell": "https://u-forms.uob.com.sg/Resources/uob-forms/img/productimages/curfx.png",
+      "productDesc": [
+        "Premium interest rates from the first dollar",
+        "10 major foreign currencies",
+        "Monthly statements to track your balances"
+      ],
+      "currencies": {
+        "displayed": true,
+        "clickable": false,
+        "values": [
+          "SGD",
+          "AUD",
+          "USD",
+          "EUR",
+          "GBP",
+          "HKD",
+          "JPY",
+          "CAD",
+          "NZD",
+          "CHF"
+        ]
+      }
+    },
+    "CURQF": {
+      "productName": "Mighty FX",
+      "pid": "CURQF",
+      "productCat": "deposits",
+      "family": "debt3",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 10,
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/curkf.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/curkf.png",
+      "productDesc": [
+        "Premium interest rates from the first dollar",
+        "10 major foreign currencies",
+        "Monthly statements to track your balances"
+      ],
+      "currencies": {
+        "displayed": true,
+        "clickable": false,
+        "values": [
+          "AUD",
+          "CAD",
+          "CHF",
+          "CNH",
+          "EUR",
+          "GBP",
+          "HKD",
+          "JPY",
+          "NZD",
+          "USD"
+        ]
+      }
+    },
+    "SAVJS": {
+      "productName": "Junior Savers Account",
+      "pid": "SAVJS",
+      "productCat": "deposits",
+      "family": "SAVJS",
+      "type": "CASA",
+      "atmActivited": true,
+      "rank": 0,
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/savu5.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/savu5.png",
+      "productDesc": [
+        "Attractive <a target='_blank' href='http://www.uob.com.sg/online_rates/singapore_dollar_deposit_rates.html'>interest rates</a>",
+        "Complimentary UOB ATM Card with NETS & PLUS facilities",
+        "24/7 access to your Junior Savers Accout through Personal Internet Banking"
+      ],
+      "currencies": {
+        "displayed": false,
+        "values": [
+          "SGD"
+        ]
+      }
+    },
+    "001843": {
+      "productName": "UOB One Card",
+      "pid": "001843",
+      "productCat": "unsecured_cards",
+      "family": "001843",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "productDesc": [
+        "Up to 5% cash rebate on all spend",
+        "Up to 3.33% cash rebate for spend below S$2,000",
+        "Best fuel savings at Shell and SPC"
+      ]
+    },
+    "001454": {
+      "productName": "UOB YOLO Card",
+      "pid": "001454",
+      "productCat": "unsecured_cards",
+      "family": "001454",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001454.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001454.png",
+      "productDesc": [
+        "Up to 8% rebate on Dining, Entertainment, Online Fashion and Travel",
+        "Free Grab rides every weekend",
+        "Up to 10% SMART$ rebate at over 400 participating merchants"
+      ]
+    },
+    "001801": {
+      "productName": "UOB Preferred Platinum Visa Card",
+      "pid": "001801",
+      "productCat": "unsecured_cards",
+      "family": "001801",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001801.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001801.png",
+      "productDesc": [
+        "10X UNI$ (or 4 Miles) on online shopping and entertainment",
+        "10X UNI$ (or 4 Miles) on Visa payWave"
+      ]
+    },
+    "001333": {
+      "productName": "UOB PRVI Miles American Express Card",
+      "pid": "001333",
+      "productCat": "unsecured_cards",
+      "family": "001333",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001333.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001333.png",
+      "productDesc": [
+        "6 miles for every S$1 spent on major airlines and hotels",
+        "2.4 miles for every S$1 spent overseas",
+        "1.4 miles for every S$1 spent locally",
+        "20,000 loyalty miles every year",
+        "Up to 8 complimentary airport transfers to Changi Airport in a year",
+        "Complimentary travel insurance"
+      ]
+    },
+    "001515": {
+      "productName": "UOB PRVI Miles World MasterCard",
+      "pid": "001515",
+      "productCat": "unsecured_cards",
+      "family": "001515",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001515.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001515.png",
+      "productDesc": [
+        "6 miles for every S$1 spent on major airlines and hotels",
+        "2.4 miles for every S$1 spent overseas",
+        "1.4 miles for every S$1 spent locally",
+        "Complimentary travel insurance"
+      ]
+    },
+    "001853": {
+      "productName": "UOB PRVI Miles Visa Card",
+      "pid": "001853",
+      "productCat": "unsecured_cards",
+      "family": "001853",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001853.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001853.png",
+      "productDesc": [
+        "6 miles for every S$1 spent on major airlines and hotels",
+        "2.4 miles for every S$1 spent overseas",
+        "1.4 miles for every S$1 spent locally",
+        "Complimentary travel insurance"
+      ]
+    },
+    "001812": {
+      "productName": "UOB Lady's Card",
+      "pid": "001812",
+      "productCat": "unsecured_cards",
+      "family": "001812",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001812.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001812.png",
+      "productDesc": [
+        "5X UNI$ at local departmental stores, overseas and online shops",
+        "5X UNI$ on taxi rides",
+        "UOB Lady's LuxePay Plan: 6 or 12 month installment plan with no interest or processing fees"
+      ]
+    },
+    "001513": {
+      "productName": "UOB Lady's Solitaire Card",
+      "pid": "001513",
+      "productCat": "unsecured_cards",
+      "family": "001513",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001513.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001513.png",
+      "productDesc": [
+        "5X UNI$ at local departmental stores, overseas and online shops",
+        "5X UNI$ on taxi rides",
+        "UOB Lady's LuxePay Plan: 6 or 12 month installment plan with no interest or processing fees"
+      ]
+    },
+    "001451": {
+      "productName": "UOB Visa Signature Card",
+      "pid": "001451",
+      "productCat": "unsecured_cards",
+      "family": "001451",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001451.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001451.png",
+      "productDesc": [
+        "10X UNI$ on overseas, online, petrol and Visa payWave transactions",
+        "1X UNI$ on all other spend, with no cap"
+      ]
+    },
+    "001862": {
+      "productName": "UOB UnionPay Platinum Card",
+      "pid": "001862",
+      "productCat": "unsecured_cards",
+      "family": "001862",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001862.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001862.png",
+      "productDesc": [
+        "2% cash rebate on all spend with no minimum spend",
+        "Acceptance worldwide at over 41 million merchants",
+        "Up to 10% off at over 100 International Airport Duty Free Shops",
+        "Up to 23.2% fuel savings at SPC"
+      ]
+    },
+    "001847": {
+      "productName": "UOB Delight Credit Card",
+      "pid": "001847",
+      "productCat": "unsecured_cards",
+      "family": "001847",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001847.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001847.png",
+      "productDesc": [
+        "Up to 8% rebate at Cold Storage, Market Place, Jasons, Giant and Guardian",
+        "10% off house brands at Cold Storage, Giant and Guardian",
+        "Up to 3% rebate on contactless transactions and recurring bills",
+        "0.3% rebate on all other spend"
+      ]
+    },
+    "103801": {
+      "productName": "UOB JCB Platinum Card",
+      "pid": "103801",
+      "productCat": "unsecured_cards",
+      "family": "103801",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/103801.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/103801.png",
+      "productDesc": [
+        "Up to 6% rebate at your favourite Japanese merchants: Isetan, Meidi-Ya, Tokyu Hands, UNIQLO, Ichiban Boshi, Ichiban Sushi, Kuriya Dining, Kuriya, Japanese Market and Sushi Tei.",
+        "10% off house brands at Cold Storage, Giant and Guardian",
+        "0.3% rebate for all other spend",
+        "2X SMART$ rebate"
+      ]
+    },
+    "001803": {
+      "productName": "SingTel-UOB Platinum Card",
+      "pid": "001803",
+      "productCat": "unsecured_cards",
+      "family": "001803",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001803.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001803.png",
+      "productDesc": [
+        "Up to S$360 cash rebate on Singtel bills every year",
+        "Singtel vouchers worth up to S$300 every year",
+        "Free DataRoam Passes",
+        "Free Card for Life"
+      ]
+    },
+    "001845": {
+      "productName": "Metro-UOB Platinum Card",
+      "pid": "001845",
+      "productCat": "unsecured_cards",
+      "family": "001845",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001845.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001845.png",
+      "productDesc": [
+        "10% off regular priced items at Metro",
+        "5% Metro$ Rebates on your purchases at Metro",
+        "20% off on your birthday month"
+      ]
+    },
+    "700778": {
+      "productName": "UOB CashPlus Visa Card",
+      "pid": "700778",
+      "productCat": "unsecured_cards",
+      "family": "700778",
+      "type": "Card",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/700778.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/700778.png",
+      "productDesc": [
+        "1.5% <a target='_blank' href='http://uob.com.sg/assets/pdfs/personal/cards/cashplus-cash-rebate.pdf'>cash rebate</a> on all online and retail purchases",
+        "Up to 10% SMART$ rebate at over 400 participating outlets islandwide",
+        "Withdraw cash via Visa ATMs worldwide"
+      ]
+    },
+    "CURRC": {
+      "productName": "UOB CashPlus",
+      "pid": "CURRC",
+      "productCat": "unsecured_loans",
+      "family": "CURRC",
+      "type": "CASH+",
+      "chequeBookRequired": "Yes",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/700778.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/700778.png",
+      "productDesc": [
+        "For Singporeans or PRs only",
+        "Get cash of up to 6x your month salary (subject to approval)",
+        "<a target='_blank' href='http://www.uob.com.sg/assets/pdfs/gen_info_cashplus.pdf'>Low interest rate of 1.65% per month</a>",
+        "Fixed repayment as low as 2.5% of the outstanding amount or S$30 per month, or Fixed repayment - A long term loan of up to 60 affordable monthly instalments"
+      ]
+    },
+    "CCPL": {
+      "productName": "Credit Card Personal Loan",
+      "pid": "CCPL",
+      "productCat": "unsecured_loans",
+      "family": "CCPL",
+      "type": "personalLoan",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "productDesc": [
+        "Affordable repayments as low as S$0.69 per day",
+        "Choice of loan tenors from 12 to 60 months",
+        "Greater control of finances with structured repayments"
+      ]
+    },
+    "CPPL": {
+      "productName": "CashPlus Personal Loan",
+      "pid": "CPPL",
+      "productCat": "unsecured_loans",
+      "family": "CPPL",
+      "type": "personalLoan",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "productDesc": [
+        "Affordable repayments as low as S$0.69 per day",
+        "Choice of loan tenors from 12 to 60 months",
+        "Greater control of finances with structured repayments"
+      ]
+    },
+    "CCBT": {
+      "productName": "Credit Card Balance Transfer",
+      "pid": "CCBT",
+      "productCat": "unsecured_loans",
+      "family": "CCBT",
+      "type": "balanceTransfer",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "productDesc": [
+        "Extra cash at 0%^ interest (^processing fees may apply)",
+        "Pay from as little as S$30 or 2.5% of the statement balance, whichever is higher",
+        "Consolidate other bank's outstanding balances with UOB Funds Transfer"
+      ]
+    },
+    "CPBT": {
+      "productName": "CashPlus Balance Transfer",
+      "pid": "CPBT",
+      "productCat": "unsecured_loans",
+      "family": "CPBT",
+      "type": "balanceTransfer",
+      "imgPath": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "imgPathCrossell": "https://forms.uob.com.sg/Resources/uob-forms/img/productimages/001843.png",
+      "productDesc": [
+        "Extra cash at 0%^ interest (^processing fees may apply)",
+        "Pay from as little as S$30 or 2.5% of the statement balance, whichever is higher",
+        "Consolidate other bank's outstanding balances with UOB Funds Transfer"
+      ]
+    }
+  },
+  "adobeLink": "//assets.adobedtm.com/4f0de1c2a678946ab5959eeb23f3c13fd6552995/satelliteLib-584985543080f70b51078cd33cdd0fd548906d90.js",
+  "googleManager": {
+    "url": "//www.googletagmanager.com/ns.html?id=",
+    "id": "GTM-PBG4DX"
+  },
+  "redirectToMyInfo": "/bundle/api/getmyinfourl",
+  "continueWithoutInfo": "/bundle/application.html",
+  "apply": "/bundle/api/apply?productId="
+}

@@ -1,21 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html-tiles">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="./manifest.json">
-    <link rel="shortcut icon" href="./favicon.ico">
-    <script src="./global.js"></script>
-    <title>UOBI Credit Card</title>
-    <link href="./static/css/main.css" rel="stylesheet">
+
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="static/myinfo/css/style.css">
+  <title>Apply Online with UOB</title>
+  <script>  var dataLayer = dataLayer || []; </script>
+  <script>
+    function callREST(url, method, data, callback) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open(method, url, true);
+      xobj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
+        }
+      };
+      xobj.onerror = function () {
+        //window.location.href = "https://www.uob.com.sg"
+      };
+      xobj.send(data);
+    }
+
+    function renderData(cardInfo) {
+      var productId = new URL(window.location.href).searchParams.get("productId") || "";
+          var type = (productConfig.products && productConfig.products[productId] && productConfig.products[productId].type) || "CASA";
+          var group = cardInfo[type];
+          var line1 = group.noneInfo.line1 || "";
+          var line2 = group.noneInfo.line2 || "";
+          var line3 = group.noneInfo.line3 || "";
+          var line4 = group.noneInfo.line4 || "";
+          if(group.isShowMyInfo) {
+            document.getElementById("other").style.display = "none";
+            document.getElementById("card").style.display = "block";
+            var sms = (productId && cardInfo.sms[productId.substring(2,6)]) || "";
+            line1 =  line1.replace("{1}", sms.toNumber);
+            line2 = sms.content || "";
+            line3 = sms.example || "";
+            document.getElementById("cct-myInfo-content-left-title").innerHTML = group.myInfo.content.left.title;
+            document.getElementById("cct-myInfo-content-right-title").innerHTML = group.myInfo.content.right.title;
+            document.getElementById("cct-myInfo-content-left-content").innerHTML = group.myInfo.content.left.content;
+            document.getElementById("cct-myInfo-content-right-content").innerHTML = group.myInfo.content.right.content;
+            document.getElementById("cct-myInfo-content-left-submit").innerHTML = group.myInfo.content.left.submit;
+            document.getElementById("cct-myInfo-content-right-submit").innerHTML = group.myInfo.content.right.submit;
+            document.getElementById("cct-myInfo-content-right-submit").href = productConfig.continueWithoutInfo;
+            document.getElementById("cct-myInfo-content-left-icon").style.background = "url(" + group.myInfo.content.left.iconMinute + ") 50%/100% no-repeat";
+            document.getElementById("cct-myInfo-content-right-icon").style.background = "url(" + group.myInfo.content.right.iconMinute + ") 50%/100% no-repeat";
+
+            /* Mobile--Content */
+            document.getElementById("cct-myInfo-mobile-content-left-title").innerHTML = group.myInfo.content.left.title;
+            document.getElementById("cct-myInfo-mobile-content-right-title").innerHTML = group.myInfo.content.right.title;
+            document.getElementById("cct-myInfo-mobile-content-left-content").innerHTML = group.myInfo.content.left.content;
+            document.getElementById("cct-myInfo-mobile-content-right-content").innerHTML = group.myInfo.content.right.content;
+            document.getElementById("cct-myInfo-mobile-content-left-submit").innerHTML = group.myInfo.content.left.submit;
+            document.getElementById("cct-myInfo-mobile-content-right-submit").innerHTML = group.myInfo.content.right.submit;
+            document.getElementById("cct-myInfo-mobile-content-right-submit").href = group.myInfo.content.right.submitLink;
+            document.getElementById("cct-myInfo-mobile-content-left-icon").style.background = "url(" + group.myInfo.content.left.iconMinute + ") 50%/100% no-repeat";
+            document.getElementById("cct-myInfo-mobile-content-right-icon").style.background = "url(" + group.myInfo.content.right.iconMinute + ") 50%/100% no-repeat";
+
+          }
+          var pib = new URL(window.location.href).searchParams.get("pib") || "";
+          if(pib === "false") {
+            document.getElementById("item-left").style.display = "none";
+          } else {
+            document.getElementById("cct-nonInfo-title").innerHTML = group.noneInfo.title;
+            document.getElementById("cct-nonInfo-content").innerHTML = group.noneInfo.content;
+            document.getElementById("cct-nonInfo-line1").innerHTML = line1;
+            document.getElementById("cct-nonInfo-line2").innerHTML = line2;
+            document.getElementById("cct-nonInfo-line3").innerHTML = line3;
+            document.getElementById("cct-nonInfo-line4").innerHTML = line4;
+            document.getElementById("cct-nonInfo-submit").innerHTML = group.noneInfo.submit;
+            document.getElementById("cct-nonInfo-submit").href = typeof group.noneInfo.submitLink === 'object' ?  group.noneInfo.submitLink[productId] : group.noneInfo.submitLink
+            document.getElementById("cct-nonInfo-logo").src = group.noneInfo.logo;
+            document.getElementById("cct-nonInfo-icon").style.background = "url(" + group.noneInfo.iconMinute + ") 50%/100% no-repeat";
+          }
+          document.getElementById("cct-myInfo-title").innerHTML = group.myInfo.title;
+          document.getElementById("my_info_footer").innerHTML = group.myInfo.footer;
+          document.getElementById("other_content").innerHTML = group.myInfo.content.left.content;
+          document.getElementById("other_title").innerHTML = group.myInfo.content.left.title;
+          document.getElementById("other_submit").innerHTML = group.myInfo.content.left.submit;
+          document.getElementById("other-icon").style["min-width"] = "3.75rem";
+          document.getElementById("other-icon").style.background = "url(" + group.myInfo.content.left.iconMinute + ") 50%/100% no-repeat";
+
+          if(window.innerWidth > 640){
+              document.getElementById('tiles__footer_right').style.height = document.getElementById('tiles__footer_left').clientHeight+'px';
+          } else{
+              document.getElementById('tiles__footer_right').style.height = "auto"
+          }
+    }
+
+    function loadScript(productConfig) {
+      var imported = document.createElement('script');
+      imported.src = productConfig.adobeLink;
+      document.head.appendChild(imported);
+      var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", productConfig.googleManager.url + productConfig.googleManager.id);
+        ifrm.style.width = "0";
+        ifrm.style.height = "0";
+        ifrm.style.style = "display:none;visibility:hidden";
+        document.body.appendChild(ifrm);
+      setTimeout(function() {
+        var script= document.createElement('script');
+        script.innerHTML = "_satellite && _satellite.pageBottom();";
+        document.body.appendChild(script);
+      }, 200);
+
+    }
+
+    var productConfig = {};
+    var cardInfo = {};
+    var dataElement = dataElement || {};
+    var googleID = "";
+    var productId = new URL(window.location.href).searchParams.get("productId") || "";
+      callREST("static/productConfig.json", "GET", "", function (response) {
+      productConfig = JSON.parse(response);
+      callREST(productConfig.apply + productId, "GET", "", function (response) {});
+      callREST("static/cardInfo.json", "GET", "", function (response) {
+          renderData(JSON.parse(response));
+          loadScript(productConfig);
+      });
+      dataElement.event_name = "myinfo_start";
+      dataElement.product_id = productId;
+      dataElement.product_name =  (productConfig.products[productId] && productConfig.products[productId].productName) || "";
+      dataElement.product_category = (productConfig.products[productId] && productConfig.products[productId].productCat) || "";
+      dataElement.user_type = 'UNK';
+    });
+
+  </script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PBG4DX');
+  </script>
 </head>
 
 <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script type="text/javascript" src="./static/js/main.js"></script>
+
+  <div class="tiles" id="creditCardTemplate">
+    <div id="item-left" class="tiles__item">
+      <div class="tiles__container">
+        <h2 id="cct-nonInfo-title" class="tiles__title"></h2>
+        <div class="tiles__content">
+          <div class="tiles__copy media media--centered media--unspaced">
+            <div id="cct-nonInfo-icon" class="media__img tiles__icon tiles__icon_existing_card"></div>
+            <p class="media__bd" id="cct-nonInfo-content"></p>
+          </div>
+          <div>
+              <a class="tiles__button transition-on-hover spaced" id="cct-nonInfo-submit"></a>
+          </div>
+        </div>
+      </div>
+      <div class="tiles__footer media media--centered media--unspaced" id="tiles__footer_left">
+        <p class="media__img">
+          <img id="cct-nonInfo-logo" class="myinfo-logo">
+        </p>
+        <div>
+          <p id="cct-nonInfo-line1"></p>
+          <p id="cct-nonInfo-line2"></p>
+          <p id="cct-nonInfo-line3"></p>
+          <p id="cct-nonInfo-line4"></p>
+        </div>
+      </div>
+
+    </div>
+    <div id="item-right" class="tiles__item">
+      <div class="tiles__container">
+        <h2 class="tiles__title" id="cct-myInfo-title"></h2>
+        <div id="other" class="tiles__content">
+            <div class="tiles__copy media media--centered media--unspaced">
+              <div id="other-icon" class="media__img tiles__icon tiles__icon tiles__icon_new_singaporeans1"></div>
+              <div style="width: 90%">
+                  <p id="other_title" class="tiles__font_14 yellow-title"></p>
+                  <p id="other_content" class="media__bd tiles__font_15"></p>
+              </div>
+            </div>
+            <div>
+                <p>
+                  <a id="other_submit" class="tiles__button tiles__button--spaced transition-on-hover spaced" onclick="redirectToMyInfo();"></a>
+                </p>
+            </div>
+        </div>
+        <div id="card" class="tiles__content" style="display: none;">
+          <table width="100%" style="padding: 0;margin: 0" class="desktop-view">
+            <tbody>
+              <tr>
+                <td style="width: 49.5%">
+                    <div class="media media--centered media--unspaced">
+                        <div id="cct-myInfo-content-left-icon" class="media__img tiles__icon tiles__icon_new_singaporeans"></div>
+                        <div class="media__bd tiles__font_14">
+                          <p>
+                            <h3 id="cct-myInfo-content-left-title" class="tiles__font_14 yellow-title"></h3>
+                          </p>
+                        </div>
+                    </div>
+                </td>
+                <td rowspan="2">
+                    <hr width="1" size="100%" style="border:none;border-left:1px solid #ffffff;height: 15vh;width: 1px; margin: 0 20px;">
+                </td>
+                <td style="width: 49.5%">
+                    <div class="media media--centered media--unspaced">
+                        <div id="cct-myInfo-content-right-icon" class="media__img tiles__icon tiles__icon_new_foreigners"></div>
+                        <div class="media__bd tiles__font_14">
+                          <p>
+                            <h3 id="cct-myInfo-content-right-title" class="tiles__font_14 yellow-title"></h3>
+                          </p>
+                        </div>
+                    </div>
+                </td>
+              </tr>
+              <tr style="color: #ffffff;">
+                <td class="vertical-align-top tiles__font_14" id="cct-myInfo-content-left-content" style="padding-bottom: 1rem;"></td>
+                <td class="vertical-align-top tiles__font_14" id="cct-myInfo-content-right-content"></td>
+              </tr>
+              <tr>
+                <td class="vertical-align-top">
+                  <a class="tiles__button tiles__button--spaced transition-on-hover spaced" id="cct-myInfo-content-left-submit" onclick="redirectToMyInfo();" style="width:100%;font-size: 13px;"></a>
+                </td>
+                <td></td>
+                <td class="vertical-align-top">
+                  <a class="tiles__button tiles__button--spaced transition-on-hover spaced button_bg_transparent" id="cct-myInfo-content-right-submit" style="width:100%;font-size: 13px;"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="mobile-view">
+              <div style="margin-bottom: 20px;">
+                  <div class="tiles__content">
+                    <div class="tiles__copy media media--centered media--unspaced">
+                      <div id="cct-myInfo-mobile-content-left-icon" class="media__img tiles__icon tiles__icon_new_singaporeans"></div>
+                      <div class="media__bd tiles__font_14">
+                        <p>
+                          <h3 id="cct-myInfo-mobile-content-left-title" class="tiles__font_14 yellow-title" style="margin-bottom: 8px;"></h3>
+                        </p>
+                        <p id="cct-myInfo-mobile-content-left-content"></p>
+                      </div>
+                    </div>
+                    <a class="tiles__button transition-on-hover" id="cct-myInfo-mobile-content-left-submit" onclick="redirectToMyInfo();"></a>
+                  </div>
+              </div>
+
+              <div>
+                  <div class="tiles__content">
+                    <div class="tiles__copy media media--centered media--unspaced">
+                      <div id="cct-myInfo-mobile-content-right-icon" class="media__img tiles__icon tiles__icon_new_foreigners"></div>
+                      <div class="media__bd tiles__font_14">
+                        <p>
+                            <h3 id="cct-myInfo-mobile-content-right-title" class="tiles__font_14 yellow-title" style="margin-bottom: 8px;"></h3>
+                        </p>
+                        <p id="cct-myInfo-mobile-content-right-content"></p>
+                      </div>
+                    </div>
+                    <a class="tiles__button transition-on-hover button_bg_transparent spaced" id="cct-myInfo-mobile-content-right-submit"></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="tiles__footer media media--centered media--unspaced" id="tiles__footer_right">
+        <p class="media__img">
+          <img class="myinfo-logo" src="static/myinfo/img/myinfo.png" />
+        </p>
+        <p id="my_info_footer">
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+ <script>
+  document.addEventListener("DOMContentLoaded", function(){
+      if(window.innerWidth > 640){
+          setTimeout(function(){
+              document.getElementById('tiles__footer_right').style.height = document.getElementById('tiles__footer_left').clientHeight+'px';
+          }, 300);
+      } else{
+          document.getElementById('tiles__footer_right').style.height = "auto"
+      }
+
+      window.addEventListener('resize', () => {
+          if(window.innerWidth > 640){
+              document.getElementById('tiles__footer_right').style.height = document.getElementById('tiles__footer_left').clientHeight+'px';
+          } else{
+             document.getElementById('tiles__footer_right').style.height = "auto"
+          }
+      });
+  });
+
+  function redirectToMyInfo() {
+      callREST(productConfig.redirectToMyInfo, "POST", "", function (response) {
+        var body = JSON.parse(response);
+        var redirectUrl = body.links[0].href;
+        window.location.href = redirectUrl;
+      });
+    };
+  </script>
 </body>
 
 </html>

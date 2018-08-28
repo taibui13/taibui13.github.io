@@ -1,0 +1,315 @@
+{
+  "sms": {
+    "1333": {
+      "name": "UOB PRVI Miles American Express Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;YesmilesA&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: YesmilesA 7890 S1234578H"
+    },
+    "1451": {
+      "name": "UOB Visa Signature Card",
+      "toNumber": "77862",
+      "content": "<Yessignature>space<Last 4 digits of existing UOB Card>space<NRIC#>",
+      "example": "Yessignature 7890 S1234578H"
+    },
+    "1454": {
+      "name": "UOB YOLO Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;YesYOLO&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: YesYOLO 7890 S1234578H"
+    },
+    "1513": {
+      "name": "UOB Lady's Solitaire Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;YesSolitaire&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: YesSolitaire 7890 S1234578H"
+    },
+    "1515": {
+      "name": "UOB PRVI Miles World MasterCard Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;YesmilesM&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: YesmilesM 7890 S1234578H"
+    },
+    "1801": {
+      "name": "UOB Preferred Platinum Visa Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yespv&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yespv 7890 S1234578H"
+    },
+    "1803": {
+      "name": "UOB Singtel Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yesst&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yesst 7890 S1234578H 77882457"
+    },
+    "1812": {
+      "name": "UOB Lady's Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yeslady&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yeslady 7890 S1234578H"
+    },
+    "1843": {
+      "name": "UOB One Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yesone&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yesone 7890 S1234578H"
+    },
+    "1845": {
+      "name": "UOB Metro Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yesme&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yesme 7890 S1234578H"
+    },
+    "1847": {
+      "name": "UOB Delight Credit Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yesde&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yesde 7890 S1234578H"
+    },
+    "1853": {
+      "name": "UOB Prvi Miles Visa Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;YesmilesV&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: YesmilesV 7890 S1234578H"
+    },
+    "1855": {
+      "name": "UOB Visa Infinite Metal Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;yesvcmiles&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: yesvcmiles 7890 S12345678H or yesvctumi 7890 S12345678H"
+    },
+    "1862": {
+      "name": "UOB UnionPay Platinum Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yesup&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yesup 7890 S1234578H"
+    },
+    "3801": {
+      "name": "UOB JCB Platinum Card",
+      "toNumber": "77862",
+      "content": "<code class='sms-pattern'>&lt;Yesjcb&gt;space&lt;Last 4 digits of existing UOB Card&gt;space&lt;NRIC#&gt;</code>",
+      "example": "For example: Yesjcb 7890 S1234578H"
+    }
+  },
+  "CASA": {
+    "ids": [
+      "SAVU5",
+      "CURA1",
+      "CURKF",
+      "CURIA",
+      "SAVU+",
+      "CURFX",
+      "CURQF",
+      "SAVJS"
+    ],
+    "isShowMyInfo": false,
+    "noneInfo": {
+      "title": "I have a UOB bank account.",
+      "content": "Sign in to Internet Banking to use your current information with UOB to open an account. Account will be opened within 2 working days.",
+      "submit": "Apply in Internet Banking",
+      "iconMinute":  "/cpf-investment/myInfo/img/2-3min.png",
+      "submitLink": {
+        "SAVU5": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=SCA&param1=CUR&param2=U5",
+        "CURA1": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=SCA&param1=CUR&param2=A1",
+        "CURKF": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=SCA&param1=CUR&param2=KF",
+        "CURIA": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+        "SAVU+": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+        "CURFX": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=SCA",
+        "CURQF": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+        "SAVJS": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?"
+      },
+      "logo": "static/myinfo/img/mighty.png",
+      "line1": "Do not have a Personal Internet Banking or UOB Mighty username and password? Want to be reminded of yours?<br> <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=registration'>Apply </a> or <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=reset-password'>reset for one instantly.</a>"
+    },
+    "myInfo": {
+      "title": "I do not have a UOB bank account.",
+      "content": {
+        "left": {
+          "title": "<b>For Singaporeans and PRs Only</b>",
+          "content": "Apply for a new UOB account 24/7 by retrieving your personal information with MyInfo. Applications submitted between 8.30am to 9pm (for new UOB customers) will be opened instantly. Applications received outside these times will be processed the next working day.",
+          "submit": "Retrieve with MyInfo",
+          "iconMinute": "/cpf-investment/myInfo/img/2-3min.png"
+        },
+        "right": {
+          "title": "<b>For Foreigners / New Graduates</b>",
+          "content": "Fill up the Online Form and upload the required documents.",
+          "submit": "Continue without MyInfo",
+          "submitLink": "/bundle/application.html",
+          "iconMinute": "2-3mins.png"
+        }
+      },
+      "footer": "SingPass holders can use MyInfo to retrieve personal information from participating Government agencies. MyInfo is temporarily unavailable from 2 am to 8.30 am every Wednesday and Sunday. <a href='https://uniservices1.uobgroup.com/secure/forms/url_redirection.jsp?CC=SG&URL=https://goo.gl/wS6oL4' class='tiles__link tiles__link--dark'>Sign up for MyInfo.</a>"
+    }
+  },
+  "personalLoan": {
+    "ids": [
+      "CCPL",
+      "CPPL"
+    ],
+    "isShowMyInfo": false,
+    "noneInfo": {
+      "title": "I have an existing UOB Credit Card or CashPlus.",
+      "content": "Sign in to Internet Banking to use your current information with UOB to apply.",
+      "submit": "Apply in Internet Banking",
+      "iconMinute":  "/apply/static/myinfo/img/1-2mins.png",
+      "submitLink": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+      "logo": "static/myinfo/img/mighty.png",
+      "line1": "If you do not have a Personal Internet Banking or UOB Mighty username and password or want to be reminded of yours , <br> <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=registration'>Apply </a> or <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=reset-password'>reset for one instantly.</a>"
+    },
+    "myInfo": {
+      "title": "I do not have a UOB Credit Card or CashPlus",
+      "content": {
+        "left": {
+          "title": "<b>For Singaporeans and PRs Only</b>",
+          "content": "Retrieve your personal information with MyInfo.",
+          "submit": "Retrieve with MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        },
+        "right": {
+          "title": "<b>For Foreigners / New Graduates</b>",
+          "content": "Fill up the Online Form and upload the required documents.",
+          "submit": "Continue without MyInfo",
+          "iconMinute": "3-5mins.png"
+        }
+      },
+      "footer": "SingPass holders can use MyInfo to retrieve personal information from participating Government agencies. MyInfo is temporarily unavailable from 2 am to 8.30 am every Wednesday and Sunday. <a href='https://uniservices1.uobgroup.com/secure/forms/url_redirection.jsp?CC=SG&URL=https://goo.gl/wS6oL4' class='tiles__link tiles__link--dark'>Find out more.</a>"
+    }
+  },
+  "balanceTransfer": {
+    "ids": [
+      "CCBT",
+      "CPBT"
+    ],
+    "isShowMyInfo": false,
+    "noneInfo": {
+      "title": "I have an existing UOB Credit Card or CashPlus.",
+      "content": "Sign in to Internet Banking to use your current information with UOB to apply.",
+      "submit": "Apply in Internet Banking",
+      "iconMinute":  "/apply/static/myinfo/img/1-2mins.png",
+      "submitLink": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+      "logo": "static/myinfo/img/mighty.png",
+      "line1": "If you do not have a Personal Internet Banking or UOB Mighty username and password or want to be reminded of yours , <br> <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=registration'>Apply </a> or <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=reset-password'>reset for one instantly.</a>"
+    },
+    "myInfo": {
+      "title": "I do not have a UOB Credit Card or CashPlus",
+      "content": {
+        "left": {
+          "title": "<b>For Singaporeans and PRs Only</b>",
+          "content": "Apply for a Credit Card 24/7 by retrieving your personal information with MyInfo.",
+          "submit": "Retrieve with MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        },
+        "right": {
+          "title": "<b>For Foreigners / New Graduates</b>",
+          "content": "Fill up the Online Form and upload the required documents.",
+          "submit": "Continue without MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        }
+      },
+      "footer": "SingPass holders can use MyInfo to retrieve personal information from participating Government agencies. MyInfo is temporarily unavailable from 2 am to 8.30 am every Wednesday and Sunday. <a href='https://uniservices1.uobgroup.com/secure/forms/url_redirection.jsp?CC=SG&URL=https://goo.gl/wS6oL4' class='tiles__link tiles__link--dark'>Find out more.</a>"
+    }
+  },
+  "CASH+": {
+    "ids": [
+      "CURRC"
+    ],
+    "noneInfo": {
+      "title": "I’m an existing UOB customer",
+      "content": "Sign in to Internet Banking to use your current information with UOB to apply.",
+      "submit": "Apply in Internet Banking",
+      "iconMinute":  "/apply/static/myinfo/img/1-2mins.png",
+      "submitLink": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+      "logo": "static/myinfo/img/mighty.png",
+      "line1": "If you do not have a Personal Internet Banking or UOB Mighty username and password or want to be reminded of yours , <br> <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=registration'>Apply </a> or <a class='tiles__link tiles__link--dark' href='https://uniservices1.uobgroup.com/uobforms/POR/index.page?type=reset-password'>reset for one instantly.</a>"
+    },
+    "isShowMyInfo": false,
+    "myInfo": {
+      "title": "I’m a new UOB customer",
+      "content": {
+        "left": {
+          "title": "<b>For Singaporeans and PRs Only</b>",
+          "content": "Apply for CashPlus 24/7 by retrieving your personal information with MyInfo. Applications submitted between 8.30am to 9pm will be opened instantly. Applications received outside these times will be processed the next working day.",
+          "submit": "Retrieve with MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        },
+        "right": {
+          "title": "<b>For Foreigners / New Graduates</b>",
+          "content": "Fill up the Online Form and upload the required documents.",
+          "submit": "Continue without MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        }
+      },
+      "submit": "Retrive with MyInfo",
+      "footer": "SingPass holders can use MyInfo to retrieve personal information from participating Government agencies. MyInfo is temporarily unavailable from 2 am to 8.30 am every Wednesday and Sunday. <a href='https://uniservices1.uobgroup.com/secure/forms/url_redirection.jsp?CC=SG&URL=https://goo.gl/wS6oL4' class='tiles__link tiles__link--dark'>Find out more.</a>"
+    }
+  },
+  "Card": {
+    "ids": [
+      "001843",
+      "001454",
+      "001801",
+      "001333",
+      "001515",
+      "001853",
+      "001812",
+      "001513",
+      "001451",
+      "001862",
+      "001847",
+      "103801",
+      "001803",
+      "001845",
+      "700778"
+    ],
+    "noneInfo": {
+      "title": "I’m an existing UOB customer",
+      "content": "Sign in to Internet Banking to use your current information with UOB to apply.",
+      "line1": "Existing UOB Card Customers can save time by sending us an SMS application to <b style=\"font-weight: bold;\">{1}:</b>",
+      "line2": "",
+      "line3": "For example: YesmilesA 7890 S1234578H",
+      "line4": "<a href='https://www.uob.com.sg/importantnote/index.html?ms=owned_pweb_SG&mt=link_information_form&lid=001515_evergreen&vid=none#sms' class='tiles__link tiles__link--dark'>Terms & conditions</a> apply.",
+      "submit": "Apply in Internet Banking",
+      "iconMinute":  "/apply/static/myinfo/img/1-2mins.png",
+      "submitLink1": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?",
+      "submitLink": {
+        "001843": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=843",
+        "001454": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=454",
+        "001801": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=801",
+        "001333": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=333",
+        "001515": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=515",
+        "001853": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=853",
+        "001812": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=812",
+        "001513": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=513",
+        "001451": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=451",
+        "001862": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=862",
+        "001847": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=847",
+        "103801": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=103&param2=801",
+        "001803": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=803",
+        "001845": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=001&param2=845",
+        "700778": "https://pib.uob.com.sg/PIBLogin/Public/processPreCapture.do?keyId=lpc&shortcutId=CRE&param1=700&param2=778"
+      },
+      "logo": "static/myinfo/img/send_sms.png"
+    },
+    "isShowMyInfo": true,
+    "myInfo": {
+      "title": "I’m a new UOB customer",
+      "content": {
+        "left": {
+          "title": "<b>For Singaporeans and PRs Only</b>",
+          "content": "Apply for a Credit Card 24/7 by retrieving your personal information with MyInfo. Applications submitted between 8.30am to 9pm will be opened instantly. Applications received outside these times will be processed the next working day.",
+          "submit": "Retrieve with MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        },
+        "right": {
+          "title": "<b>For Foreigners / New Graduates</b>",
+          "content": "Fill up the Online Form and upload the required documents.",
+          "submit": "Continue without MyInfo",
+          "iconMinute": "/apply/static/myinfo/img/3-5mins.png"
+        },
+        "bottomLinkText": "Continue to apply without Myinfo",
+        "bottomContent": "<p>Delivery will be between 7pm - 10pm next working day for submissions made after 1pm (Mon-Fri, excl. Public Holidays).</p><a href=\"#\" class=\"tiles__link\">Find out more.</a>"
+      },
+      "footer": "SingPass holders can use MyInfo to retrieve personal information from participating Government agencies. MyInfo is temporarily unavailable from 2 am to 8.30 am every Wednesday and Sunday. <a href='https://uniservices1.uobgroup.com/secure/forms/url_redirection.jsp?CC=SG&URL=https://goo.gl/wS6oL4' class='tiles__link tiles__link--dark'>Find out more.</a>"
+    }
+  }
+}

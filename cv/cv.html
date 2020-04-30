@@ -1,0 +1,1094 @@
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://d2sn08my3g92cp.cloudfront.net/ionicons.css">
+  <style type="text/css">
+    * {
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+   
+    html,
+    body {
+      min-height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+
+    body {
+      background-color: #e5eaee;
+    }
+
+    .customize-preview .page {
+      margin: 0 auto 40px;
+    }
+
+    .customize-preview:not(.web) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .template.europe .general-section .avatar {
+      display: inline-flex;
+      width: 200px;
+      padding: 0 0 0 40px;
+    }
+
+    .template.europe .general-section .avatar img {
+      -o-object-fit: cover;
+      object-fit: cover;
+      max-height: 200px;
+    }
+    .graph-item .circle-gray {
+      stroke-dasharray: 440;
+      stroke-dashoffset: 0;
+      stroke-width: 10px;
+      stroke: #dededede;
+      position: absolute;
+      z-index: 0;
+    }
+
+    .headline svg {
+      display: none;
+    }
+
+
+    
+
+    .template.europe.page-wrapper .outer-page.multi-page .page.first-page:after {
+      text-align: right;
+      padding-right: 40px;
+    }
+
+    .template.europe .page {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: #3F3A38;
+    }
+
+    .template.europe .general-section,
+    .template.europe .kickresume-section-wrapper {
+      width: 100%;
+    }
+
+    .template.europe .kickresume-section-wrapper {
+      padding-top: 10px;
+    }
+
+    .template.europe .experience-description ul,
+    .template.europe .rich-text-area ul,
+    .template.europe .experience-description ol,
+    .template.europe .rich-text-area ol {
+      padding-left: 20px;
+    }
+
+    .template.europe .headline {
+      position: relative;
+      width: 100%;
+      padding: 0 40px;
+    }
+
+    .template.europe .headline i {
+      display: none;
+    }
+
+    .template.europe .headline .text {
+      background: #fff;
+      position: relative;
+      z-index: 4;
+      color: #0B3D93;
+      width: 25%;
+      display: inline-flex;
+      justify-content: flex-end;
+      padding-right: 20px;
+      text-align: right;
+      font-size: 2.3rem;
+    }
+
+    .template.europe .headline:before {
+      content: '';
+      border-bottom: 2px solid #378BC9;
+      right: 40px;
+      bottom: 0;
+      position: absolute;
+      z-index: 0;
+      width: calc(75% - 60px);
+    }
+
+    .template.europe .headline:after {
+      width: 10px;
+      height: 10px;
+      content: '';
+      background: #378BC9;
+      position: absolute;
+      right: 40px;
+      bottom: 1px;
+    }
+
+    .template.europe .profile-text,
+    .template.europe .skill-tuple,
+    .template.europe .hobbies,
+    .template.europe .text-area,
+    .template.europe .keywords,
+    .template.europe .social-section-links,
+    .template.europe .graphs {
+      padding: 10px 40px 0 20px;
+      width: 75%;
+      margin-left: 25%;
+    }
+
+    .template.europe .experience-item {
+      padding: 10px 40px 0;
+    }
+
+    .template.europe .general-section {
+      padding-bottom: 10px;
+    }
+
+    .template.europe .general-section .general-headline-wrapper {
+      display: flex;
+      padding: 0 40px 20px;
+      align-items: baseline;
+    }
+
+    .template.europe .general-section .general-headline-wrapper .headline {
+      width: 25%;
+      padding: 0;
+    }
+
+    .template.europe .general-section .general-headline-wrapper .headline .text {
+      width: 100%;
+    }
+
+    .template.europe .general-section .general-headline-wrapper .headline:before,
+    .template.europe .general-section .general-headline-wrapper .headline:after {
+      content: none;
+    }
+
+    .template.europe .general-section .general-headline-wrapper .name {
+      width: 75%;
+      display: inline-flex;
+      font-size: 2.3rem;
+      color: #3F3A38;
+    }
+
+    .template.europe .general-section .general-info {
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    .template.europe .general-section .general-info>span {
+      display: flex;
+      margin-bottom: 2px;
+      align-items: center;
+    }
+
+    .template.europe .general-section .general-info>span .key {
+      display: inline-block;
+      width: 20px;
+      margin-right: 5px;
+      text-align: center;
+      color: #0C92CB;
+      font-size: 18px;
+    }
+
+    .template.europe .general-section .general-info-wrapper {
+      display: inline-flex;
+      width: 75%;
+      padding-left: 20px;
+      vertical-align: top;
+    }
+
+    
+
+    .template.europe .graphs .graph-item .svg-foreground .circle {
+      stroke: #0C92CB;
+    }
+
+    .template.europe .experience-item {
+      display: flex;
+    }
+
+    .template.europe .experience-item .left-column-render {
+      padding-right: 20px;
+      display: inline-block;
+      width: 25%;
+      vertical-align: top;
+      position: relative;
+      text-align: right;
+    }
+
+    .template.europe .experience-item .right-column-render {
+      display: inline-block;
+      width: 75%;
+      text-align: left;
+    }
+
+    .template.europe .experience-item .right-column-render .position {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .template.europe .experience-item .experience-info {
+      padding-bottom: 3px;
+    }
+
+    .template.europe .experience-item .publication-name {
+      font-weight: bold;
+      color: #0B3D93;
+    }
+
+    .template.europe .experience-item .date,
+    .template.europe .experience-item .position,
+    .template.europe .experience-item .company-name,
+    .template.europe .experience-item .publisher {
+      color: #0B3D93;
+    }
+
+    .template.europe .left-skill {
+      padding-right: 5px;
+    }
+
+    .template.europe .right-skill {
+      padding-left: 5px;
+    }
+
+    .template.europe .left-skill,
+    .template.europe .right-skill {
+      display: inline-block;
+      width: 46%;
+      vertical-align: top;
+    }
+
+    .template.europe .right-skill {
+      margin-left: 8%;
+    }
+
+    .template.europe .skill-category-name {
+      display: block;
+      vertical-align: top;
+      text-align: left;
+      font-weight: bold;
+      color: #0B3D93;
+      font-size: 16px;
+    }
+
+    .template.europe .skill-tuple {
+      vertical-align: top;
+    }
+
+    .template.europe .skills {
+      display: block;
+      padding-top: 10px;
+    }
+
+    .template.europe .skills .skill {
+      padding-bottom: 3px;
+    }
+
+    .template.europe .skills .skill-name {
+      display: inline-block;
+      width: 60%;
+    }
+
+    .template.europe .skills .skill-description {
+      display: inline-block;
+      padding: 1px 5px 1px 5px;
+      vertical-align: top;
+      text-align: left;
+      width: 40%;
+      position: relative;
+      top: -1px;
+    }
+
+    .template.europe .skills .skill-description i {
+      margin-right: 3px;
+      font-size: 12px;
+      color: #0C92CB;
+    }
+
+   
+    *,
+    :before,
+    :after {
+      box-sizing: border-box;
+      -webkit-font-feature-settings: "liga"0;
+      font-feature-settings: "liga"0;
+    }
+
+    html {
+      font-size: 10px;
+      margin: 0;
+    }
+
+    body {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 400;
+      color: #565656;
+    }
+
+    h1 {
+      font-size: 6.1rem;
+    }
+
+    h2 {
+      font-size: 5.3rem;
+    }
+
+    h3 {
+      font-size: 4rem;
+    }
+
+    h4 {
+      font-size: 2.9rem;
+    }
+
+    h5 {
+      font-size: 2.7rem;
+      font-weight: 600;
+    }
+
+    h6 {
+      font-size: 2.4rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    .page {
+      position: relative;
+    }
+
+    .page h1,
+    .page h2,
+    .page h3,
+    .page h4,
+    .page h5,
+    .page h6,
+    .page div,
+    .page span,
+    .page p,
+    .page ul,
+    .page ol,
+    .page li,
+    .page a {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .page>.column {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      padding-top: 30px;
+      padding-bottom: 15px;
+    }
+
+    .page.first-page>.column {
+      padding-top: 0;
+    }
+
+    .page a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .page a:hover {
+      text-decoration: underline;
+    }
+
+    .page table {
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+
+    .page td,
+    .page th {
+      padding: 0;
+    }
+
+    .customize-preview .page-wrapper .page {
+      margin-bottom: 40px;
+      box-shadow: 1px 1px 1px rgba(194, 194, 194, 0.5);
+    }
+
+    .page-wrapper.numbersShown .outer-page {
+      position: relative;
+    }
+
+    .page-wrapper.numbersShown .outer-page.multi-page .page:after {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      content: attr(data-part) "/"attr(data-count);
+      text-align: center;
+      display: block;
+    }
+
+    .page-wrapper.isProofreadingPanel .page {
+      position: relative;
+    }
+
+    .page-wrapper:not(.isProofreadingPanel) .page {
+      overflow: hidden;
+    }
+
+    .page-wrapper:not(.isProofreadingPanel) .page .note-detail-item {
+      display: none;
+    }
+
+    .page-wrapper.a4 .page {
+      height: 29.7cm;
+    }
+
+    .page-wrapper.a4.dotts .page {
+      height: 29.6cm;
+    }
+
+    .page-wrapper.letter .page {
+      height: 1056px;
+    }
+
+    .page-wrapper .linkified,
+    .page-wrapper .linkified:hover {
+      color: inherit;
+    }
+
+    .kickresume-section-wrapper,
+    .rich-text,
+    .rich-text-section,
+    .general-info-to,
+    .general-info-from,
+    .profile-text-wrapper {
+      position: relative;
+    }
+
+    .description {
+      white-space: pre-wrap;
+    }
+
+    .general-info .key,
+    .general-section .key,
+    .general-info .value,
+    .general-section .value,
+    .general-info span,
+    .general-section span {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+
+    .general-info a,
+    .general-section a {
+      color: inherit;
+    }
+
+    .inline-info {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .inline-info * {
+      display: inline-flex;
+    }
+
+    .experience-item {
+      position: relative;
+    }
+
+    .experience-item .role.no-date .company {
+      width: 100%;
+    }
+
+    .experience-item .role.no-date .date {
+      display: none;
+    }
+
+    .experience-description ul,
+    .rich-text-area ul,
+    .experience-description ol,
+    .rich-text-area ol {
+      padding-left: 25px;
+    }
+
+    .thumbnail {
+      padding: 4px;
+      background-color: #fff;
+      border: 1px solid #c2c2c2;
+      border-radius: 4px;
+    }
+
+    .thumbnail>img {
+      height: auto;
+      width: 100%;
+    }
+
+    .keywords {
+      line-height: 35px !important;
+    }
+
+    .keyword {
+      display: inline-block;
+      padding: 5px 10px 5px 10px;
+      margin-right: 7px;
+      color: #fff;
+      border-radius: 7px;
+      font-weight: bold;
+      background-color: #252525;
+    }
+
+    .experience-item .url a {
+      color: #252525;
+      word-wrap: break-word;
+    }
+
+    .experience-item .url a:hover {
+      text-decoration: none;
+    }
+
+    .skill-wrapper {
+      position: relative;
+    }
+
+    .skill-name {
+      word-wrap: break-word;
+    }
+
+    .progress-level-1 {
+      width: 20%;
+    }
+
+    .progress-level-2 {
+      width: 40%;
+    }
+
+    .progress-level-3 {
+      width: 60%;
+    }
+
+    .progress-level-4 {
+      width: 80%;
+    }
+
+    .progress-level-5 {
+      width: 100%;
+    }
+
+    .hobby-section.sec-al-left .hobbies,
+    .social-section.sec-al-left .hobbies,
+    .hobby-section.sec-al-left .social-section-links,
+    .social-section.sec-al-left .social-section-links {
+      justify-content: flex-start !important;
+    }
+
+    .hobby-section.sec-al-right .hobbies,
+    .social-section.sec-al-right .hobbies,
+    .hobby-section.sec-al-right .social-section-links,
+    .social-section.sec-al-right .social-section-links {
+      justify-content: flex-end !important;
+    }
+
+    .hobby-section.sec-al-center .hobbies,
+    .social-section.sec-al-center .hobbies,
+    .hobby-section.sec-al-center .social-section-links,
+    .social-section.sec-al-center .social-section-links {
+      justify-content: center !important;
+    }
+
+    .hobby-section .hobby-name,
+    .social-section .hobby-name {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-height: 19px;
+    }
+
+    .hobbies,
+    .social-section-links {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .hobbies .social-link,
+    .social-section-links .social-link {
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .hobbies .social-link,
+    .social-section-links .social-link,
+    .hobbies .hobby,
+    .social-section-links .hobby {
+      display: flex;
+      flex-direction: column;
+      width: 16.66666%;
+      padding: 5px;
+      text-align: center;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .hobbies .social-link .icon,
+    .social-section-links .social-link .icon,
+    .hobbies .hobby .icon,
+    .social-section-links .hobby .icon {
+      width: 100%;
+    }
+
+    .hobbies .social-link .icon i,
+    .social-section-links .social-link .icon i,
+    .hobbies .hobby .icon i,
+    .social-section-links .hobby .icon i {
+      font-size: 40px;
+    }
+
+    .hobbies .social-link .description,
+    .social-section-links .social-link .description,
+    .hobbies .hobby .description,
+    .social-section-links .hobby .description {
+      word-wrap: break-word;
+    }
+
+    .graph {
+      display: inline-block;
+      width: 16.6666666667%;
+      padding: 3px;
+      vertical-align: top;
+    }
+
+    .graph .graph-name {
+      text-align: center;
+      display: block;
+      width: 100%;
+      word-wrap: break-word;
+    }
+
+    .graph-item {
+      position: relative;
+      padding-bottom: 100%;
+      min-height: 0;
+      height: 0;
+    }
+
+    .graph-item .value {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      font-size: 16px;
+      width: 100%;
+      height: auto;
+    }
+
+    .graph-item svg {
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      position: absolute;
+    }
+
+    .graph-item .circle {
+      stroke-dasharray: 440;
+      stroke-dashoffset: 90;
+      stroke-width: 10px;
+      stroke: #333;
+      position: absolute;
+      z-index: 1;
+    }
+
+  
+
+
+  </style>
+</head>
+
+<body>
+  <section>
+    <main>
+      <div>
+        <div class="col-xs-12 col-md-12 col-lg-8 col-lg-offset-2 customize-preview not-pro">
+          <div style="transform: scale(1); transform-origin: 50% 0px; max-height: 3486px;">
+            <div class="page-wrapper template europe a4 rob-rob fs-1-4 lh-1-3 eu-blu" style="width: 90%;margin-left: 5%;">
+
+
+              <div class="outer-page multi-page">
+                <div class="page first-page" data-part="1" data-count="3" style="background: white;">
+
+                  <div class="general-section">
+                    <div class="general-headline-wrapper">
+                      <h6 class="headline ">
+                        <span class="text">Personal info</span>
+                      </h6>
+                      <h2 class="name"> Tai Tan Bui </h2>
+                    </div>
+                    <div style="display: flex;">
+                      <div style="width: 35%; padding-left: 10%;">
+                        <span class="avatar ">
+                          <div class="thumbnail">
+                            <img src="https://s3-eu-west-1.amazonaws.com/avatars-kickresume-com/user-avatars/643435/1acba5b1965b6c7f56a9ca8bcf812caa.jpg"
+                              alt="avatar">
+                          </div>
+                        </span></div>
+                      <div class="general-info-wrapper">
+                        <span class="general-info ">
+                          <span><span class="key ion-ios-location"></span><span class="value">Street 13, Bishan 154
+                              Block, Singapore</span></span>
+                          <span><span class="key ion-ios-telephone"></span><span class="value">+65 98616087</span></span>
+                          <span><span class="key ion-ios-email"></span><a class="value" href="mailto:taibt13.it@gmail.com"
+                              target="_blank">taibt13.it@gmail.com</a></span>
+                          <span><span class="key ion-ios-flag"></span><span class="value">Singapore</span></span>
+                          <span><span class="key ion-earth"></span><span class="value">VietNam</span></span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="column-wrapper rich-text-section ">
+                    <h6 class="headline "><span class="icon"><svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                          class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg><i class="ion-person"></i></span><span class="text">Profile</span></h6>
+                    <div class="text-area rich-text-area">
+                      <div class="wrapper" >
+                        <ul >
+                          <li class="description" >Over 9 years of experience in Analysis, Design, Development, Testing, and Production support domains of Banking, Financial and Healthcare domain using PHP/Java/JavaScript technologies.</li>
+                          <li class="description" >Knowledge about Data Structures and Algorithms.</li>
+                          <li class="description" >Excellent experience working with web technologies front end like Angular JS , ReactJS, VUJS, HTML5, CSS3.</li>
+                          <li class="description" >AJAX, JSON, JavaScript, Node JS, PHP, JQuery, Bootstrap, CSS3, SASS, UI/UX, Materialize CSS.</li>
+                          <li class="description" >A good hand on experience in large system use Microservices Architecture.</li>
+                          <li class="description" >Deed knowledge SOLID, KISS, Design Patterns.</li>
+                          <li class="description" >Hands on experience in Data Structures: Array List, Link List as part of coding.</li>
+                          <li class="description" >Experience in server side technologies like Spring Java, PHP Lavarel, Node JS Express JS.</li>
+                          <li class="description" >Expertise in implementing (Developing, Deploying and Consuming) Web Services (SOA) using RESTFUL API.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="kickresume-section-wrapper experience-section  column-wrapper ">
+                    <h6 class="headline "><span class="icon"><svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                          class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg><i class="ion-briefcase"></i></span><span class="text">Work experience</span></h6>
+                    <div class="experience-item">
+                      <div class="column left-column-render">
+                        <div class="date">
+                          <div>01/2018 – present</div>
+                        </div>
+                      </div>
+                      <div class="column right-column-render">
+                        <div class="experience-info">
+                          <div class="position">Senior Front End Engineer</div>
+                          <div class="company-name"><span>UOB Bank</span>, <span>Singapore</span>, <span>Singapore</span></div>
+                        </div>
+                        <div class="experience-description">
+                          <div class="wrapper" >
+                            <ul>
+                              <li class="description">Review all designs by UI/UX designers and clarify some feature before start new sprint.</li>
+                              <li class="description">Develop new features of product.</li>
+                              <li class="description">Collaborate with back-end developers and UI designers to improve usability.</li>
+                              <li class="description">Maintain and implement any necessary additions or enhancements of the projects.</li>
+                              <li class="description">Get feedback from digital banking (product owner).</li>
+                              <li class="description">Set up and deploy source code on SIT, UAT environment.</li>
+                              <li class="description">To support another project if has critical issues (role with technical).</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience-item">
+                      <div class="column left-column-render">
+                        <div class="date">
+                          <div>07/2017 – 04/2018</div>
+                        </div>
+                      </div>
+                      <div class="column right-column-render">
+                        <div class="experience-info">
+                          <div class="position">Senior Front End Engineer (Leader)</div>
+                          <div class="company-name">Aleph - RHB Bank, Kuala Lumpur, Malaysia</div>
+                        </div>
+                        <div class="experience-description">
+                          <div class="wrapper">
+                            <ul> 
+                            <li>Review all designs by UI/UX designers and clarify some feature before start new sprint</li>
+                             <li>Develop new features of product</li>
+                              <li>Collaborate with back-end developers and UI designers to improve usability</li>
+                               <li>Maintain and implement any necessary additions or enhancements of project</li>
+                            </ul>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+              <div class="outer-page multi-page">
+                <div class="page " data-part="2" data-count="3" style="background: white;">
+                  <div class="kickresume-section-wrapper experience-section  column-wrapper ">
+                    <h6 class="headline "><span class="icon"><svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                          class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg><i class="ion-briefcase"></i></span><span class="text">Work experience</span></h6>
+                    <div class="experience-item">
+                      <div class="column left-column-render"></div>
+                      <div class="column right-column-render">
+                        <div class="experience-description">
+                          <div class="wrapper" >
+                            <ul>
+                              <li>Get feedback from digital banking (product owner)</li>
+                              <li>Set up and deploy source code on SIT, UAT environment</li>
+                              <li>To support another project if has critical issues (role with technical)</li>
+                             </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience-item">
+                      <div class="column left-column-render">
+                        <div class="date">
+                          <div>01/2017 – 07/2017</div>
+                        </div>
+                      </div>
+                      <div class="column right-column-render">
+                        <div class="experience-info">
+                          <div class="position">IT Mangaer</div>
+                          <div class="company-name">Heath Care Insurance VN, Ho Chi Minh, Viet Nam</div>
+                        </div>
+                        <div class="experience-description">
+                          <div class="wrapper">
+                            <ul >
+                              <li class="description" >Designed and Implemented end to end software.</li>
+                              <li class="description" >Handled team Performance appraisal sessions, analyzed training requirements and skill gap analysis for a high-performance team.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kickresume-section-wrapper experience-section  column-wrapper ">
+                    <h6 class="headline "><span class="icon"><svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                          class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg><i class="ion-university"></i></span><span class="text">Education</span></h6>
+                    <div class="experience-item">
+                      <div class="column left-column-render">
+                        <div class="date">
+                          <div>01/2005 – 04/2010</div>
+                        </div>
+                      </div>
+                      <div class="column right-column-render">
+                        <div class="experience-info">
+                          <div class="position">Computer Science</div>
+                          <div class="company-name">Bachelor of Engineering at University of Science, Ho Chi Minh, VietNam</div>
+                        </div>
+                        <div class="experience-description">
+                          <div class="wrapper" >
+                            <div class="description" ></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kickresume-section-wrapper skill-section  column-wrapper ">
+                    <h6 class="headline "><span class="icon"><svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                          class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg><i class="ion-erlenmeyer-flask"></i></span><span class="text">Skills</span></h6>
+                    <div class="skill-tuple"><span class="left-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">JavaScript</div><span class="skills"><span class="skill progress-level-5"><span
+                                class="skill-name">ReatJS</span><span class="skill-description ">
+                                <div>
+                                  <i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i>
+                                  <i class="ion-record"></i><i class="ion-record"></i>
+                                </div>
+                              </span></span><span class="skill progress-level-4">
+                              <span class="skill-name">VUEJS</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span><span class="skill progress-level-4"><span class="skill-name">AngularJS</span><span
+                                class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span><span class="right-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">Linux Systems admin</div><span class="skills"><span class="skill progress-level-2"><span
+                                class="skill-name">Network</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-android-radio-button-off"></i><i
+                                    class="ion-android-radio-button-off"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span></div>
+                    <div class="skill-tuple"><span class="left-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">CSS</div><span class="skills"><span class="skill progress-level-5"><span
+                                class="skill-name">SASS</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-record"></i></div>
+                              </span></span><span class="skill progress-level-5"><span class="skill-name">CSS3</span><span
+                                class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-record"></i></div>
+                              </span></span><span class="skill progress-level-5"><span class="skill-name">Bootstrap</span><span
+                                class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-record"></i></div>
+                              </span></span><span class="skill progress-level-5"><span class="skill-name">Responsive UI</span><span
+                                class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-record"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span><span class="right-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">Automation Test</div><span class="skills"><span class="skill progress-level-0"><span
+                                class="skill-name"> Selenium Java</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-record"></i><i class="ion-android-radio-button-off"></i><i
+                                    class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span></div>
+                    <div class="skill-tuple"><span class="left-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">Node JS</div><span class="skills"><span class="skill progress-level-3"><span
+                                class="skill-name">Express JS</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-android-radio-button-off"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span><span class="right-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">PHP</div><span class="skills"><span class="skill progress-level-0"><span
+                                class="skill-name">Laravel php</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-android-radio-button-off"></i><i class="ion-android-radio-button-off"></i><i
+                                    class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span></div>
+                    <div class="skill-tuple"><span class="left-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">Java</div><span class="skills"><span class="skill progress-level-3"><span
+                                class="skill-name">Spring MVC</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-android-radio-button-off"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span><span class="right-skill">
+                        <div class="skill-wrapper">
+                          <div class="skill-category-name">Git Hub</div><span class="skills"><span class="skill progress-level-3"><span
+                                class="skill-name">Command Line</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-android-radio-button-off"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span><span class="skill progress-level-3"><span class="skill-name">Source Tree
+                                IDE</span><span class="skill-description ">
+                                <div><i class="ion-record"></i><i class="ion-record"></i><i class="ion-record"></i><i
+                                    class="ion-android-radio-button-off"></i><i class="ion-android-radio-button-off"></i></div>
+                              </span></span></span>
+                        </div>
+                      </span></div>
+                  </div>
+                  <div class="kickresume-section-wrapper hobby-section sec-al-left column-wrapper ">
+                    <h6 class="headline "><span class="icon"><svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                          class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg><i class="ion-planet"></i></span><span class="text">Hobbies</span></h6>
+                    <div class="hobbies">
+                      <div class="hobby"><span class="icon"><i class="ion-ipod"></i></span><span class="hobby-name">Feeling
+                          the music</span></div>
+                      <div class="hobby"><span class="icon"><i class="ion-ios-football"></i></span><span class="hobby-name">Every
+                          kind of sport</span></div>
+                      <div class="hobby"><span class="icon"><i class="ion-planet"></i></span><span class="hobby-name">Sci-Fi
+                          Book</span></div>
+                    </div>
+                  </div>
+                  <div class="kickresume-section-wrapper graph-section  column-wrapper ">
+                    <h6 class="headline "><span class="icon">
+                        <svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" class="dotted round">
+                          <circle cx="50%" cy="50%" r="50"></circle>
+                        </svg>
+                        <i class="ion-pie-graph"></i></span>
+                      <span class="text">Emotional Intelligence</span></h6>
+                    <div class="graphs">
+                      <div class="graph">
+                        <div class="graph-item"><span class="value">84 %</span>
+                          <svg viewBox="-20 -20 200 200" xmlns="http://www.w3.org/2000/svg" class="svg-background">
+                            <circle id="circle" class="circle-gray" r="69.85699" cy="81" cx="81" stroke="#dedede" fill="none"></circle>
+                          </svg>
+                          <svg viewBox="-20 -20 200 200" xmlns="http://www.w3.org/2000/svg" class="svg-foreground">
+                            <circle id="circle" class="circle" r="69.85699" cy="81" cx="81" stroke="#6fdb6f" fill="none"
+                              style="stroke-dashoffset: 70;"></circle>
+                          </svg>
+                        </div>
+                        <div class="graph-name">Pressure</div>
+                      </div>
+                      <div class="graph">
+                        <div class="graph-item"><span class="value">90 %</span>
+                          <svg viewBox="-20 -20 200 200" xmlns="http://www.w3.org/2000/svg" class="svg-background">
+                            <circle id="circle" class="circle-gray" r="69.85699" cy="81" cx="81" stroke="#dedede" fill="none"></circle>
+                          </svg>
+                          <svg viewBox="-20 -20 200 200" xmlns="http://www.w3.org/2000/svg" class="svg-foreground">
+                            <circle id="circle" class="circle" r="69.85699" cy="81" cx="81" stroke="#6fdb6f" fill="none"
+                              style="stroke-dashoffset: 44;"></circle>
+                          </svg>
+                        </div>
+                        <div class="graph-name">Attitude</div>
+                      </div>
+                      <div class="graph">
+                        <div class="graph-item"><span class="value">84 %</span>
+                          <svg viewBox="-20 -20 200 200" xmlns="http://www.w3.org/2000/svg" class="svg-background">
+                            <circle id="circle" class="circle-gray" r="69.85699" cy="81" cx="81" stroke="#dedede" fill="none"></circle>
+                          </svg>
+                          <svg viewBox="-20 -20 200 200" xmlns="http://www.w3.org/2000/svg" class="svg-foreground">
+                            <circle id="circle" class="circle" r="69.85699" cy="81" cx="81" stroke="#6fdb6f" fill="none"
+                              style="stroke-dashoffset: 70;"></circle>
+                          </svg>
+                        </div>
+                        <div class="graph-name">Willing</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </section>
+
+</body>
+
+</html>

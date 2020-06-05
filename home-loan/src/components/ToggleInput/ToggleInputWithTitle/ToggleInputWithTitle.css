@@ -1,0 +1,40 @@
+.toggle-input-with-title--container {
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 16px 17px 20px 17px;
+    display:block;
+    border:none;
+    outline:none;
+    background-color: rgba(255,255,255,0.85);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.toggle-input-with-title-wrapper {
+  display: flex;
+}
+.toggle-input-with-title--text-container {
+  padding-right: 10px;
+  flex: 3;
+}
+
+.toggle-input-with-title--text-container {
+}
+
+.toggle-input-with-title--title {
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #43545f;
+    margin-bottom: 3px;
+}
+
+.toggle-input-with-title--description {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #43545f;
+    line-height: 1.3;
+}

@@ -1,0 +1,925 @@
+[ {
+  "loanPackageCode" : "HLMIESB14016",
+  "loanPackageDescription" : "BUC No Lock 3M SIBOR (1.25%, 1.25%, 1.25%, 1.25%, 1.25%, 1.25%) No Partial/Full LTV<= 80% RF 0.40",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "003",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.25,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 5,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLMIESB14016A",
+  "loanPackageDescription" : "BUC No Lock 3M SIBOR (1.25%, 1.25%, 1.25%, 1.25%, 1.25%, 1.25%) No Partial/Full LTV<= 80% RF 0.30",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "005",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.25,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 5,
+    "standardRate" : 1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "(UAT)HDBFL13006",
+  "loanPackageDescription" : "Promo Float, CMI No lock in: LTV=<80% (1.18%,1.48%,1.68%;2.65%)-Completed RF=0.40 (Max mat age 70 yrs)",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "002",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : -1.85,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : -3.32,
+    "tenure" : 12,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : -3.02,
+    "tenure" : 12,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : -2.82,
+    "tenure" : 12,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HDBHF14000(R11)",
+  "loanPackageDescription" : "Completed NO LOCK 2 Y Fixed 3M SIBOR (1.35%, 1.35%, 1.35%, 1.5%) LTV<=80% RF 0.70 R11",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "004",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.5,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.35,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.35,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : -1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 1.3,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HDBHF14000(R5)",
+  "loanPackageDescription" : "Completed NO LOCK 2Y Fixed 3M SOR (1.35%, 1.35%, 0.75%, 1.5%) LTV<=80% RF 0.70 - R15",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "005",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.5,
+    "intBaseRateCode" : "761",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0312505,
+      "jrDesc" : "3MSOR(HomePlus)"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.35,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.35,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : -1.25,
+    "tenure" : 12,
+    "intBaseRateCode" : "761",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0312505,
+      "jrDesc" : "3MSOR(HomePlus)"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 0.75,
+    "tenure" : 12,
+    "intBaseRateCode" : "761",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0312505,
+      "jrDesc" : "3MSOR(HomePlus)"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "0HDBFL13002",
+  "loanPackageDescription" : "Float, No lock in: LTV=<80% (Tier Prepyt, Legal Sub Claw back)-Completed RF=0.65 (R1; F105)",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "003",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : -1.85,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : -3.02,
+    "tenure" : 12,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : -2.75,
+    "tenure" : 12,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : -2.22,
+    "tenure" : 12,
+    "intBaseRateCode" : "778",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.06,
+      "jrDesc" : "HDBMortgageRt010508"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFXSIBOR",
+  "loanPackageDescription" : "Completed 1Y LOCK 2Y FIXED + 3M SIBOR (1.65%, 1.65%, 3M SIBOR + 0.79%) LTV=< 80% RF 0.25",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "004",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 0.79,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.65,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.65,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 0.79,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 0.79,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  }, {
+    "index" : 5,
+    "standardRate" : 0.79,
+    "tenure" : 12,
+    "intBaseRateCode" : "792",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0557525,
+      "jrDesc" : "3M SIBOR RATE"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX1888",
+  "loanPackageDescription" : "Dummy template for IPA - R2",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "006",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 3.5,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HDBFX1888",
+  "loanPackageDescription" : "1 Years Fixed Rate UOB HDB BR Mortgage (0%,5.75%,6%,7%, 8%) R2; F105",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "006",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 3.5,
+    "intBaseRateCode" : "713",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.07,
+      "jrDesc" : "HDBMortgageRt050107"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "713",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.07,
+      "jrDesc" : "HDBMortgageRt050107"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HDBFX18888",
+  "loanPackageDescription" : "Dummy Fixed 2 Years, 2 Years Lock In:LTV=<80% (3.5%,3.5%,MR+2.65%) RF 0",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "001",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 2.65,
+    "intBaseRateCode" : "713",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.07,
+      "jrDesc" : "HDBMortgageRt050107"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 2.65,
+    "tenure" : 12,
+    "intBaseRateCode" : "713",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.07,
+      "jrDesc" : "HDBMortgageRt050107"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX18888",
+  "loanPackageDescription" : "Dummy 2 Yr Fixed, 2 Yr Lock LTV=<80% (3.5%, 3.5%, MR+2.65%) RF 0",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "001",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 2.65,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 3.5,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 2.65,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 2.65,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX18889",
+  "loanPackageDescription" : "5 Yr Fixed Rate Pkg (0%, 5.75%, 6%, 7%, 8%)",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "005",
+  "businessTerms" : [ {
+    "index" : 1,
+    "standardRate" : 0,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 5.75,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 6,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 4,
+    "standardRate" : 7,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 5,
+    "standardRate" : 8,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX1887",
+  "loanPackageDescription" : "Completed No Lock Homestar 10% Float Pkg (1.48%, 1.75%, 2.28%, 2.65%) LTV<=80% (RF 0.65)",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "005",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : -1.85,
+    "intBaseRateCode" : "775",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.045,
+      "jrDesc" : "MortgageRt010508"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : -3.02,
+    "tenure" : 12,
+    "intBaseRateCode" : "775",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.045,
+      "jrDesc" : "MortgageRt010508"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : -2.75,
+    "tenure" : 12,
+    "intBaseRateCode" : "775",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.045,
+      "jrDesc" : "MortgageRt010508"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : -2.22,
+    "tenure" : 12,
+    "intBaseRateCode" : "775",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.045,
+      "jrDesc" : "MortgageRt010508"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX1886",
+  "loanPackageDescription" : "Completed 3 Yr Fixed, 3 Yr Lock LTV=<80% (1.41%, 1.41%, 1.41%, 2.65%) RF 0.55",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "003",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : -1.85,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.41,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.41,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.41,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX18119",
+  "loanPackageDescription" : "(ref) Completed 2 Yr Fixed, 2 Yr LockLTV=<80% (2.28%, 2.28%, MR+1.43%) RF 0.58",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "002",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.43,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 2.28,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 2.28,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.43,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 1.43,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLFX18119A",
+  "loanPackageDescription" : "(ref) Completed 2 Yr Fixed, 2 Yr LockLTV=<80% (2.28%, 2.28%, MR+1.43%) RF 0.3",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "005",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.43,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 2.28,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 2.28,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.43,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 4,
+    "standardRate" : 1.43,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLMR18021",
+  "loanPackageDescription" : "Completed 2Y LOCK SBR Pkg (1.88%, 1.88%) LTV=< 80% (RF 0.58)",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "004",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.03,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.03,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.03,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.03,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HLMR18021A",
+  "loanPackageDescription" : "Completed 2Y LOCK SBR Pkg (1.88%, 1.88%) LTV=< 80% (RF 0.58)",
+  "loanPackageTypeCode" : 3,
+  "loanPackageIpaIndicator" : "004",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.03,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 1.03,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 2,
+    "standardRate" : 1.03,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.03,
+    "tenure" : 12,
+    "intBaseRateCode" : "780",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.0575,
+      "jrDesc" : "MortgageRt010608"
+    } ]
+  } ]
+}, {
+  "loanPackageCode" : "HDBFX18116",
+  "loanPackageDescription" : "Fixed 2 Years, 2 Years Lock In:LTV=<80% (2.28%,2.28%,MR+1.43%) RF 0.58",
+  "loanPackageTypeCode" : 14,
+  "loanPackageIpaIndicator" : "006",
+  "businessTerms" : [ {
+    "index" : 0,
+    "standardRate" : 1.43,
+    "intBaseRateCode" : "713",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.07,
+      "jrDesc" : "HDBMortgageRt050107"
+    } ]
+  }, {
+    "index" : 1,
+    "standardRate" : 2.28,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 2,
+    "standardRate" : 2.28,
+    "tenure" : 12,
+    "intBaseRateCode" : "000",
+    "rateDetails" : [ ]
+  }, {
+    "index" : 3,
+    "standardRate" : 1.43,
+    "tenure" : 12,
+    "intBaseRateCode" : "713",
+    "rateDetails" : [ {
+      "jrBank" : "01",
+      "jrCurCd" : "SGD",
+      "jrCurRt" : 0.07,
+      "jrDesc" : "HDBMortgageRt050107"
+    } ]
+  } ]
+} ]

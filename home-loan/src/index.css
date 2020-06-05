@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./assets/fonts/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('./assets/fonts/Roboto-Bold.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 34px;
+  color: #06377b;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-ms-clear {
+  display: none;
+}
+
+@-webkit-keyframes App-icon-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App-icon-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}

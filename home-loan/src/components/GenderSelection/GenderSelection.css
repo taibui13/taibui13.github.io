@@ -1,0 +1,93 @@
+.single-selection-input {
+  background-color: white;
+  opacity: 0.4;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.single-selection-input--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.single-selection-input--readonly {
+  cursor: not-allowed;
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.single-selection-input--focused {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px 15px 10px 15px;
+  border-radius: 2px;
+}
+
+.single-selection-input-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-only-single-selection-input--verified-icon {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.single-selection-input-title {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1f6eda;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.single-selection-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-selection-input-button {
+  height: 40px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5px;
+  border: solid 1px #e0e0e0;
+}
+
+.single-selection-input-button--selected {
+  height: 40px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #e0e0e0;
+  background-color: rgba(44, 125, 221, 0.15);
+  border-radius: 1.5px;
+}
+
+.single-selection-input-button-icon {
+  margin-right: 10px;
+}
+
+.single-selection-input-button-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+.GenderSelectionLabel--error {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  transform: translate(-14%, -5px) scale(0.72);
+}

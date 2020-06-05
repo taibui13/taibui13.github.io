@@ -1,0 +1,453 @@
+/* Common Use CSS */
+.uob-form-loan, .uob-form-loan--withBox{
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+  background-position: 100%;
+}
+
+.uob-form-loan-container {
+  width: 100%;
+}
+
+.uob-form-separator {
+  background-color: #fff;
+  width: 30px;
+  height: 5px;
+}
+
+.uob-input-separator {
+  margin-top: 15px;
+}
+
+.uob-space-separator {
+  width: 2%;
+}
+
+.uob-disable-blur {
+  pointer-events: none;
+  opacity: 0.75;
+  display: none;
+}
+
+.uob-headline {
+  color: #012667;
+  font-size: 18px;
+}
+
+.uob-content {
+  max-width: 650px;
+  width: 100%;
+  padding: 0px 15px 15px 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.uob-header-wrap {
+  width: 100%;
+  height: 65px;
+}
+
+.uob-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.uob-logo {
+  max-width: 300px
+}
+
+.uob-dealer-logo {
+  max-width: 190px
+}
+
+.uob-subtitle {
+  font-size: 14px;
+  padding-left: 8px;
+}
+
+.uob-pages-subtitle{
+  padding-bottom: 15px;
+}
+
+.uob-toggle-separator{
+  margin: 30px 0;
+}
+
+.uob-line-separator {
+  height: 2px;
+  background-color: #fff;
+  opacity: 0.5;
+  margin: 30px 0;
+}
+
+.uob-button-separator {
+  margin: 30px 0;
+}
+
+.uob-input-line-separator {
+  height: 1px;
+  background: #9b9b9b;
+  margin: 0 15px;
+}
+
+.uob-input-separator-half{
+  width: 50%;
+}
+
+.uob-input-separator-col{
+  display: flex;
+  margin-top: 15px;
+}
+
+.uob-dash{
+  padding: 20px 5px;
+}
+
+.uob-terms{
+  font-size: 13px;
+  color: #012667;
+}
+
+.uob-input-separator-twocols {
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+.uob-input-separator-half {
+    flex: 1 1 0%;
+}
+
+.space {
+   width: 2.5%;
+}
+
+.uob-other-info--focused, .uob-other-info {
+    padding-left: 14px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #43545f;
+    background-color: hsla(0,0%,100%,.85);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.uob-other-info {
+    opacity: 0.4;
+}
+
+
+/* white board */
+.uob-input-white-board {
+  background: rgba(255,255,255,0.85);
+  border-radius: 2px;
+}
+
+.uob-input-white-board-line-separator {
+  height: 1px;
+  background: #e2e2e2;
+  margin: 0 15px;
+}
+
+.uob-input-whiteline-separator {
+  height: 1px;
+  background: #fff;
+  margin: 20px 0px;
+}
+
+/* helpMessage */
+.helpMessageContainer{
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 40px 10px 20px;
+  z-index: 100;
+}
+
+.helpMessage--expanded {
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 32px 10px 20px;
+  z-index: 999;
+  color: #1f6eda;
+}
+
+.helpSubtitle{
+  display: none;
+}
+
+.helpSubtitle--expanded{
+  font-size: 10px;
+  position: fixed;
+  bottom: 67px;
+  right: 125px;
+  font-weight: bold;
+}
+
+.helpNumber{
+  display: none;
+}
+
+.helpNumber--expanded{
+  font-size: 11px;
+  position: fixed;
+  bottom: 40px;
+  right: 125px;
+}
+
+.helpMessage-mobile{
+  margin-left: 5px;
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.helpMessage-text{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Verify Page */
+/* #verify-container H1{
+  color: white;
+} */
+
+.verify-container{
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  overflow-x: hidden;
+  background-position: 50%;
+  height: 400px;
+  background-color: white;
+}
+
+#verify-container h1 {
+  color: #fff;
+}
+
+.verify-primary-button > div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.verfiying-container {
+  height: calc(100vh - 65px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.icon-verifying--spinner {
+  animation: App-icon-spin infinite 1.5s linear;
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+/*PendingPage*/
+.pendingPage-wrapper{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.pendingPage-button-space {
+  width: 2.5%;
+}
+
+.pendingPage-button{
+  flex: 1;
+}
+
+/*BasicDetailsPage*/
+.basicInfoOtherNames {
+    padding-left: 14px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #090909;
+    background-color: hsla(0,0%,100%,.85);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+/* WorkDetailsPage */
+.self-declare-header {
+  font-size: 13px;
+  color: #1f6eda;
+  font-weight: bold;
+  padding: 10px;
+  background-color: hsla(0,0%,100%,.85);
+}
+
+/* confirmDetailsPage */
+.line-separator{
+  border-top: 1px solid #e0e0e0;
+}
+
+.security-content {
+  text-align: center;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0px 0px 1px 0px #474444;
+  padding: 10px 20px;
+  background-color: #fcfcfc;
+}
+.security-content .tip-title {
+  height: 64px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.security-content .tip span {
+  position: static;
+  font-size: 30px;
+  font-weight: bold;
+  color: #102f68;
+}
+
+.security-content .info .info-tip {
+  background-color: #eaebf4;
+  border-radius: 3px;
+  border: 1px solid #d3cece;
+  padding: 5px 15px 5px 15px;
+  text-align: left;
+  font-size: 19px;
+}
+
+.security-content .items {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.security-content .items span {
+  color: #c70a0a;;
+  font-weight: bold;
+}
+
+.security-content .items  span:first-child {
+  padding-right: 15px;
+}
+
+.security-content .item {
+  padding-bottom: 15px;
+}
+
+/* Media - mobile view */
+@media only screen and (max-width: 320px) {
+  .uob-logo{
+    width: 250px;
+  }
+
+  .uob-subtitle{
+    padding-left: 0;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:750px){
+  .uob-form-loan {
+    height: 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .uob-vertical-line-separator {
+    width: 0;
+    margin: 15px;
+  }
+
+  .uob-input-separator-twocols {
+      flex-direction: column;
+      margin-top: 3px;
+      padding-top: 10px;
+  }
+
+  .uob-input-separator-twocols .uob-input-separator-half:last-child {
+      margin-top: 11px
+  }
+
+  .uob-input-separator-half{
+    width: 100%;
+  }
+  /* helpMessage mobileView */
+  .--expanded{
+    overflow: hidden;;
+  }
+
+  .helpMessageContainer--expanded{
+    background-color: rgba(45,45,45,0.6);
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .helpMessageContainer{
+    margin: 0 8px 0 0;
+  }
+
+  .helpMessage--expanded{
+    position: fixed;
+    margin-right: 25px;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .helpSubtitle--expanded{
+    font-size: 10px;
+    position: fixed;
+    bottom: 58px;
+    right: 90px;
+    font-weight: bold;
+  }
+
+  .helpNumber--expanded{
+    font-size: 11px;
+    position: fixed;
+    bottom: 30px;
+    right: 90px;
+  }
+
+  .helpMessage-mobile{
+    margin-left: 5px;
+    pointer-events: auto;
+    text-decoration: underline;
+    color: darkBlue;
+  }
+
+  .helpMessage-text{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+  .uob-input-separator-half{
+    flex: none;
+  }
+}
+
+@media only screen and (max-width: 669px){
+  .primary-button{
+    width: 100%
+  }
+}

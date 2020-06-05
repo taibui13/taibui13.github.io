@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Dummy Singpass MyInfo redirection page SIT Test</title>
+</head>
+<body>
+<h1>Dummy Singpass  MyInfo redirection page SIT Test !!!!</h1>
+<div>
+  <div><a onClick="redirectWithMyInfo()">Form <b>with</b> MyInfo Data</a></div>
+  <div><a onClick="redirectWithoutMyInfo()">Form <b>without</b> MyInfo Data</a></div>
+  <div><a onClick="cancelMyInfo()"><b>Cancel</b> MyInfo Data</a></div>
+  <br/><br/>
+  <form>
+	Enter NRIC: <input type="text" id="nric"><br>
+	<a onclick="redirectWithMyInfoAndNRIC()"> Form <b>with</b> MyInfo Data</a>
+  </form>
+</div>
+<script>
+			function getURLParameter(name) {
+  				return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+			};
+
+			function redirectWithMyInfo () {
+				console.log("test redirect urlI "+getURLParameter("redirect_uri"));
+				var url = getURLParameter("redirect_uri") + "?state=" + getURLParameter("state") + "&code=50c3fe6b-01f1-4966-bf24-5878e451b536" + "&scope=" + getURLParameter("attributes") + "iss=http%3A%2F%2Fstg-auth.app.gov.sg%3A80%2Fconsent%2Foauth2&client_id=myinfo";
+				console.log("url: " + url);
+
+				window.location.href = url;
+			};
+
+			function redirectWithoutMyInfo () {
+				var url = getURLParameter("redirect_uri") + "?state=" + getURLParameter("state") + "&code=";
+				window.location.href = url ;
+			};
+
+			function redirectWithMyInfoAndNRIC () {
+				var nric = document.getElementById("nric").value;
+				console.log("retrieve by NRIC:"+nric);
+
+				console.log("test redirect urlI "+getURLParameter("redirect_uri"));
+
+				var url = getURLParameter("redirect_uri") + "?state=" + nric + "&code=50c3fe6b-01f1-4966-bf24-5878e451b536" + "&scope=" + getURLParameter("attributes") + "iss=http%3A%2F%2Fstg-auth.app.gov.sg%3A80%2Fconsent%2Foauth2&client_id=myinfo";
+
+				console.log("url: " + url);
+
+				window.location.href = url;
+			};
+     	function cancelMyInfo () {
+ 				 var url = getURLParameter("redirect_uri") + "?error_description=Resource%20Owner%20did%20not%20authorize%20the%20request"+ "?state=" + getURLParameter("state") + "&error=access_denied";
+  			window.location.href = url ;
+			};
+</script>
+</body>
+</html>

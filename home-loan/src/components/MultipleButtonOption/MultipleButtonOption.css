@@ -1,0 +1,77 @@
+.multiple-option-button-container {
+  display: flex;
+  opacity: 0.9;
+  border-radius: 2px;
+  background-color: white;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.multiple-option-button-row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.multiple-option-button-label {
+  color: #1f6eda;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.multiple-option-button-item {
+  /* -ms-flex: 1 1; */
+  flex: 1 1;
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* -ms-flex-align: center; */
+  align-items: center;
+  /* -ms-flex-pack: center; */
+  justify-content: center;
+  height: 40px;
+  color: #43545f;
+  font-size: 18px;
+  border: 1px solid #e0e0e0;
+  min-width: 100px;
+  /*max-width: 147px;*/
+  max-height: 125px;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 5px;
+  flex: 1;
+  -webkit-flex: 1 100px;
+  border-radius: 2px;
+}
+
+.multiple-option-button-item--selected {
+  background-color: #d4eaff;
+  border: 1px solid #d4eaff;
+}
+
+.multiple-buttonOptionLabel-container--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.multiple-buttonOptionLabel--error {
+  color: red;
+}
+
+.multiple-buttonOptionLabel-two-column {
+  -webkit-flex: 1 166px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:750px){
+  .multiple-option-button-item {
+    min-width: 0;
+    -webkit-flex: 1 100px;
+  }
+}

@@ -1,0 +1,69 @@
+.option-button-container {
+  display: flex;
+  opacity: 0.9;
+  border-radius: 2px;
+  background-color: white;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.option-button-row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.option-button-label {
+  color: #1f6eda;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.option-button-item {
+  /* -ms-flex: 1 1; */
+  flex: 1 1;
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* -ms-flex-align: center; */
+  align-items: center;
+  /* -ms-flex-pack: center; */
+  justify-content: center;
+  height: 40px;
+  color: #43545f;
+  font-size: 18px;
+  border: 1px solid #e0e0e0;
+}
+
+.option-button-item:first-child {
+  border-radius: 2px 0 0 2px;
+}
+
+.option-button-item:last-child {
+  border-radius: 0 2px 2px 0;
+}
+.option-button-item--selected {
+  background-color: #d4eaff;
+  border: 1px solid #d4eaff;
+}
+.buttonOptionLabel-container--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+.buttonOptionLabel--error {
+  color: red;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 321px){
+  /* .option-button-row {
+    flex-wrap: nowrap;
+  } */
+}

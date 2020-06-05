@@ -1,0 +1,17 @@
+/* .real-income-breakdown-desktop {
+  display: block;
+}
+.real-income-breakdown-mobile {
+  display: none;
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 1024px) {
+  .real-income-breakdown-desktop {
+    display: none;
+  }
+  .real-income-breakdown-mobile {
+    display: block;
+  }
+} */

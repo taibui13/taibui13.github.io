@@ -1,0 +1,230 @@
+{
+  "applicationId" : "cacffca9-1bd8-4066-a935-eabc4bfa9ef3",
+  "applicant" : {
+    "type" : "MAIN",
+    "myInfoRetrievalDate" : null,
+    "addresses" : [ {
+      "type" : "R",
+      "unitNo" : null,
+      "street" : "HAVELOCK ROAD",
+      "block" : "18",
+      "postalCode" : "059764",
+      "floor" : null,
+      "building" : null,
+      "city" : null,
+      "country" : "SG",
+      "line1" : null,
+      "line2" : null,
+      "line3" : null,
+      "line4" : null,
+      "propertyType" : "BG"
+    } ],
+    "verifiedData" : "S",
+    "basicInfo" : {
+      "residentialStatus" : "C",
+      "emailAddress" : "low.engchye@uobgroup.com",
+      "mobileNumber" : "+6597399245",
+      "idDetails" : {
+        "legalId" : "S2000002C",
+        "legalIdType" : "IC",
+        "legalIdIssueDate" : null,
+        "legalIdExpiryDate" : null,
+        "legalIdIssueCountry" : "SG"
+      },
+      "names" : {
+        "principalName" : "James Hunt",
+        "hanYuPinYinName" : null,
+        "hanYuPinYinAliasName" : null,
+        "marriedName" : null,
+        "alias" : null
+      }
+    },
+    "personalInfo" : {
+      "dateOfBirth" : "17/05/1996",
+      "gender" : "M",
+      "maritalStatus" : "S",
+      "educationLevel" : null,
+      "nationality" : "SG",
+      "countryOfBirth" : "SG",
+      "countryOfResidence" : "SG",
+      "race" : "SG"
+    },
+    "employmentInfo" : {
+      "employers" : [ {
+        "type" : "C",
+        "name" : "DEF HOT",
+        "natureOfEmployment" : null,
+        "jobTitle" : null,
+        "occupation" : null,
+        "industry" : null,
+        "length" : null
+      } ],
+      "cpfContributions" : [ {
+        "date" : "2017-12-01",
+        "amount" : "2220.00",
+        "month" : "2017-12",
+        "employer" : "DEF HOT"
+      }, {
+        "date" : "2017-11-01",
+        "amount" : "3500.00",
+        "month" : "2017-11",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-10-01",
+        "amount" : "3500.00",
+        "month" : "2017-10",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-09-01",
+        "amount" : "3500.00",
+        "month" : "2017-09",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-08-01",
+        "amount" : "3500.00",
+        "month" : "2017-08",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-07-01",
+        "amount" : "3500.00",
+        "month" : "2017-07",
+        "employer" : "DEF HOT"
+      }, {
+        "date" : "2017-06-01",
+        "amount" : "2220.00",
+        "month" : "2017-06",
+        "employer" : "DEF HOT"
+      }, {
+        "date" : "2017-05-01",
+        "amount" : "3500.00",
+        "month" : "2017-05",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-04-01",
+        "amount" : "3500.00",
+        "month" : "2017-04",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-03-01",
+        "amount" : "3500.00",
+        "month" : "2017-03",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-02-01",
+        "amount" : "3500.00",
+        "month" : "2017-02",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2017-01-01",
+        "amount" : "3500.00",
+        "month" : "2017-01",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2016-12-01",
+        "amount" : "3500.00",
+        "month" : "2016-12",
+        "employer" : "DEF HOT"
+      }, {
+        "date" : "2016-11-01",
+        "amount" : "3500.00",
+        "month" : "2016-11",
+        "employer" : "ABC ICE"
+      }, {
+        "date" : "2016-10-01",
+        "amount" : "3500.00",
+        "month" : "2016-10",
+        "employer" : "ABC ICE"
+      } ],
+      "employmentPassExpiry" : null
+    },
+    "incomeDetails" : {
+      "incomeVerified" : [ {
+        "incomeType" : "YearlyAssessableIncome",
+        "value" : "158200.00",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyEmploymentIncome",
+        "value" : null,
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyTradeIncome",
+        "value" : null,
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyRentIncome",
+        "value" : "10000",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyInterestIncome",
+        "value" : null,
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyCategory",
+        "value" : "AMENDED",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyTaxClearance",
+        "value" : "NO",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyAssessableIncome",
+        "value" : "145000.00",
+        "year" : "2016"
+      }, {
+        "incomeType" : "YearlyEmploymentIncome",
+        "value" : null,
+        "year" : "2016"
+      }, {
+        "incomeType" : "YearlyTradeIncome",
+        "value" : null,
+        "year" : "2016"
+      }, {
+        "incomeType" : "YearlyRentIncome",
+        "value" : null,
+        "year" : "2016"
+      }, {
+        "incomeType" : "YearlyInterestIncome",
+        "value" : null,
+        "year" : "2016"
+      }, {
+        "incomeType" : "YearlyCategory",
+        "value" : "ORIGINAL",
+        "year" : "2016"
+      }, {
+        "incomeType" : "YearlyTaxClearance",
+        "value" : "NO",
+        "year" : "2016"
+      } ],
+      "incomeSelfDeclare" : null
+    },
+    "declarations" : null,
+    "consents" : null,
+    "additionalDetails" : {
+      "sourceOfFundForRepayment" : [ "1" ],
+      "sourceOfFundForDownPayment" : [ "1" ],
+      "sourceOfWealth" : [ "1" ],
+      "workingInSg" : "N",
+      "incomeFromMoreThanOnejob" : "N",
+      "relationshipWithApplicant" : null,
+      "uploadedDocument" : null,
+      "uploadedDocumentType" : null
+    }
+  },
+  "jointApplicant" : null,
+  "loanDetails" : {
+    "purchasePrice" : 200000,
+    "loanAmount" : 150000,
+    "requestType" : "N",
+    "packageID" : "HDBFX18888",
+    "packageDescription" : null,
+    "firstDisbursementYear" : null
+  },
+  "propertyDetails" : {
+    "completionStatus" : "0",
+    "usage" : "0",
+    "isDirectPurchaseFromDeveloper" : "N",
+    "developmentType" : "HDB",
+    "builtInArea" : null,
+    "topDate" : null
+  }
+}

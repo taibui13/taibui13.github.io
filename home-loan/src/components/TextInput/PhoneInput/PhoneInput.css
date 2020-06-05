@@ -1,0 +1,178 @@
+.PhoneInputContainer {
+  position: relative;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.PhoneInputContainer--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.PhoneInputContainer--error input {
+  background: none;
+}
+
+.PhoneInputMessageContent {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-top: 1px solid #e0e0e0;
+  height: auto;
+  padding: 15px;
+  font-size: 13px;
+  margin-top: -1px;
+}
+
+.phoneInputFlag {
+  top: 31px;
+  left: 15px;
+  height: 15px;
+  z-index: 2;
+  position: relative;
+  display: block;
+  margin-bottom: -15px;
+}
+
+.PhoneInputContainer--readOnly {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.phoneInputFlag--invisible {
+  top: 31px;
+  left: 15px;
+  height: 15px;
+  z-index: 2;
+  position: relative;
+  visibility: collapse;
+  display: block;
+  margin-bottom: -15px;
+}
+
+.phoneInput {
+  font-size: 18px;
+  border-radius: 2px;
+  padding: 10px 15px 0px 45px;
+  display: block;
+  width: 100%;
+  margin-top: -1px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background: white;
+  cursor: pointer;
+  opacity: 0.4;
+  /*background-color: rgba(255, 255, 255, 0.4);*/
+  box-sizing: border-box;
+}
+
+.phoneInput:hover {
+  opacity: 0.7;
+}
+
+.phoneInput--focused {
+  /*opacity: 0.85;*/
+  transition: 0.3s;
+  cursor: text;
+  font-size: 18px;
+  border-radius: 2px;
+  padding: 20px 0px 0px 78.5px;
+  display: block;
+  width: 100%;
+  margin-top: -1px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #43545f;
+  /*background: white;*/
+  background-color: rgba(255, 255, 255, 0.85);
+  box-sizing: border-box;
+}
+
+.phoneInputLabel {
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  left: 15px;
+  height: 1px;
+  top: 20px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}
+
+.phoneInputLabel--focused {
+  transform: translate(-14%, -15px) scale(0.72);
+  color: #1f6eda;
+  font-size: 18px;
+  font-weight: bold;
+  pointer-events: none;
+  left: 15px;
+  height: 1px;
+  top: 28px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}
+
+.phoneInputFlag--number{
+  top: 29.6px;
+  left: 44px;
+  height: 15px;
+  z-index: 2;
+  position: relative;
+  display: block;
+  margin-bottom: -15px;
+  color: #43545f;
+  width: 30px;
+  font-family: arial;
+}
+
+.phoneInputTick {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  z-index: 2;
+  visibility: visible;
+}
+
+.phoneInputTick--verified {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  z-index: 2;
+  visibility: visible;
+  width: 50px;
+}
+
+.phoneInputTick--invisible {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  z-index: 2;
+  visibility: hidden;
+}
+
+.phoneInputLabel--error {
+  font-size: 18px;
+  font-weight: bold;
+  pointer-events: none;
+  left: 15px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  height: 1px;
+  transition: 0.3s;
+  text-align: left;
+  top: 28px;
+  transform: translate(-14%, -15px) scale(0.72);
+  color: red;
+}

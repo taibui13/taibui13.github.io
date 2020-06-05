@@ -1,0 +1,226 @@
+.file-upload {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.file-upload--container {
+  font-size: 18px;
+  border-radius: 2px;
+  padding: 10px 15px 10px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.file-upload .file-upload-image {
+  display: flex;
+}
+
+.file-upload--container--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.file-upload--text-container {
+  padding-right: 10px;
+}
+
+.file-upload--text-container {
+  /* width: 83%; */
+  overflow: hidden;
+}
+
+.file-upload-step-two-buttons--container {
+  display: flex;
+  align-content: space-around;
+}
+
+.file-upload--title {
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #43545f;
+}
+
+.file-upload--title--focused {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  transform: translate(-20%) scale(0.6);
+  color: #1f6eda;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  left: 15px;
+  top: 20px;
+  padding-bottom: 8px;
+  z-index: 2;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}
+
+.file-upload--description {
+  font-size: 13px;
+  line-height: 1.3;
+  color: #43545f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-upload-button {
+  background-color: grey;
+  width: 93px;
+  height: 41px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.1px;
+  line-height: 1.17;
+  position: relative;
+}
+
+.file-upload-button--upload-complete {
+  background-color: #1f6eda;
+  width: 60px;
+  height: 50px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.1px;
+  line-height: 1.17;
+  margin-left: 5px;
+}
+
+.file-upload-button--selected {
+  background-color: #1f6eda;
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.1px;
+  line-height: 1.17;
+  position: relative;
+}
+
+.file-upload-button--text {
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  line-height: 41px;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+
+.file-upload-input--edit-button {
+  font-size: 18px;
+  opacity: 0.0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  bottom: 45px;
+  position: relative;
+  border-radius: 2px;
+}
+
+.file-upload-input {
+  font-size: 18px;
+  opacity: 0.0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.file-upload-edit-icon {
+  padding: 22px 0 0 20px;
+  cursor: pointer;
+}
+
+.file-upload-delete-icon {
+  cursor: pointer;
+  padding: 22px 0 0 23px;
+}
+
+.file-upload-progress {
+  appearance: none;
+  width: 100%;
+  height: 41px;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+  background-color: #a0a0a0;
+}
+
+.file-upload-progress::-webkit-progress-value {
+  background-color: #1f6eda;
+  transition: 0.5s linear;
+}
+
+.file-upload--error {
+  color: red;
+}
+
+input[type='file'], input[type=file]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.file-upload--container .file-upload--icon {
+  position: relative;
+  width: 54px;
+}
+
+.file-upload--container .file-upload--icon .pdf {
+  width: 65px;
+  height: 55px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: -14px;
+}
+
+.file-upload--container .file-upload--icon .image {
+  width: 45px;
+  height: 55px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  margin-right: 10px;
+}
+
+.file-upload--container .file-upload--link {
+  color: #0f709b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px) {
+  .file-upload--container {
+    flex-direction: column;
+  }
+  .file-upload-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}

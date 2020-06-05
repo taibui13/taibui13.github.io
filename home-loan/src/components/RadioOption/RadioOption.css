@@ -1,0 +1,152 @@
+.radio-option-container {
+  background-color: #fff;
+}
+
+.radio-option-one-item{
+    width: 50%;
+}
+
+.radio-option--titles-container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  /* background-color: #e5e5e5; */
+  padding: 10px 0;
+}
+
+.radio-option--title-flex {
+  font-family: 'Roboto-Bold';
+  display: flex;
+  flex: 1;
+  font-size: 11px;
+  line-height: 13px;
+  width: 70px;
+  color: rgb(67,84,95);
+}
+
+.radio-option--title-flex:nth-child(2){
+  text-align: right;
+}
+
+.radio-option-item {
+  padding: 15px;
+  flex: 1;
+  border-right: 1px solid #e9e9e9;
+  color: #43545f;
+  min-height: 220px;
+}
+
+.radio-option-item--selected {
+  background-color: #d4eaff;
+}
+
+.radio-button-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.radio-option-middle {
+  flex-direction: column;
+  display: flex;
+  /* align-items: center; */
+  /* padding-top: 10px; */
+}
+
+.radio-option-middle-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(155,155,155, 0.5);
+  padding-bottom: 15px;
+}
+
+.radio-button-title {
+  font-family: 'Roboto-Bold';
+  font-size: 11px;
+  text-align: right;
+  width: 200px;
+  /* height: 50px; */
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+}
+
+.radio-button-title-description{
+  font-family: 'Roboto-Bold';
+  font-size: 11px;
+  text-align: right;
+  width: 200px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+}
+
+.radio-button-label{
+  font-size: 14px;
+}
+
+.radio-button-subtitle {
+  font-size: 18px;
+  font-family: 'Roboto-Bold';
+  padding-top: 15px;
+}
+
+.radio-option--rows-container-flex{
+
+}
+
+.radio-option--row-item{
+  flex: 1;
+}
+
+.radio-option--row-item:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.radio-option--title-flex:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.radio-option--row-flex{
+  display: flex;
+  font-size: 15px;
+}
+.radio-option--row-item:nth-child(1){
+  flex:0.5;
+}
+
+.radio-button-home-icon{
+  height: 46px;
+  width: 46px;
+}
+
+.radio-option-middle-title{
+  /* width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
+  text-align: right;
+}
+
+.slider-error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  -webkit-box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.package-error-text {
+  color: red;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+  .radio-option-one-item{
+      width: 100%;
+  }
+}

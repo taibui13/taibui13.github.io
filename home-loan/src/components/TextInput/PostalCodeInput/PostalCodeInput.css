@@ -1,0 +1,130 @@
+.postal-code-input--container {
+  display: flex;
+  position: relative;
+  /* border: 1px solid transparent; */
+}
+
+.postal-code-input-container--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.postal-code-input-container--error input {
+  background: none;
+}
+
+.postal-code-input--input {
+  font-size: 18px;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #43545f;
+  background: white;
+  cursor: pointer;
+  opacity: 0.4;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.postal-code-input--input:hover {
+  opacity: 0.7;
+}
+
+.postal-code-input--input--focused {
+  /*opacity: 0.85;*/
+  transition: 0.3s;
+  cursor: text;
+  font-size: 18px;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #43545f;
+  /*background: white;*/
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-top: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.postal-code-input--content {
+  flex: 1;
+}
+
+.postal-code-input--label {
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  height: 1px;
+  top: 20px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+  opacity: 0.4;
+  padding-left: 15px;
+}
+
+.postal-code-input--label--focused {
+  transform: translate(-14%, -15px) scale(0.72);
+  color: #1f6eda;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  height: 1px;
+  top: 20px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}
+
+/*.textInputTickContainer {
+  background-color: white;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  transition:0.3s;
+  border:none;
+  outline:none;
+}*/
+
+.postal-code-input--tick--visible {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  z-index: 2;
+  visibility: visible;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.postal-code-input--tick--invisible {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  z-index: 2;
+  visibility: hidden;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.postal-code--spinner {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+  z-index: 2;
+  animation: App-logo-spin infinite 1.5s linear;
+}

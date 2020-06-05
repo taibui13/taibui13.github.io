@@ -1,0 +1,10 @@
+.uob-otp-container {
+  display: flex;
+  align-items: center;
+}
+
+.inline-error-message {
+  font-size: 12px;
+  padding-top: 5px;
+  color: #FF5453;
+}

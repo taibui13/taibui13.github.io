@@ -1,0 +1,126 @@
+.read-only-text-input--container {
+    display: flex;
+    position: relative;
+}
+
+.read-only-text-input--input {
+    font-size: 18px;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #43545f;
+    /*background: white;*/
+    cursor: not-allowed;
+    /*opacity:0.4;*/
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+}
+
+input:disabled {
+    -webkit-text-fill-color: #43545f;
+    -webkit-opacity: 1;
+}
+input[disabled] {
+    -webkit-text-fill-color: #43545f;
+    opacity: 1;
+}
+
+.read-only-text-input--input--focused {
+    /*opacity: 0.85;*/
+    transition: 0.3s;
+    font-size: 18px;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    border: none;
+    outline: none;
+    color: #43545f;
+    /*background: white;*/
+    background-color: rgba(255, 255, 255, 0.85);
+    padding-top: 27px;
+    padding-left: 15px;
+    padding-right: 65px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.read-only-text-input--content {
+    flex: 1;
+}
+
+.read-only-text-input--label {
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+    height: 1px;
+    top: 20px;
+    display: block;
+    z-index: 2;
+    position: relative;
+    transition: 0.3s;
+    text-align: left;
+    width: 150%;
+    opacity: 0.4;
+    padding-left: 15px;
+}
+
+.read-only-text-input--label--focused {
+    transform: translate(-14%, -15px) scale(0.72);
+    color: #1f6eda;
+    font-size: 18px;
+    font-weight: bold;
+    pointer-events: none;
+    left: 15px;
+    height: 1px;
+    top: 28px;
+    display: block;
+    z-index: 2;
+    position: relative;
+    transition: 0.3s;
+    text-align: left;
+    width: 150%;
+}
+
+.read-only-text-input--tick--visible {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    z-index: 2;
+    visibility: visible;
+    border: none;
+    outline: none;
+    width: 49.5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.textInputLabel--error {
+    transform: translate(-14%, -15px) scale(0.72);
+    color: #ec1d1d;
+    font-size: 18px;
+    font-weight: bold;
+    pointer-events: none;
+    left: 15px;
+    height: 1px;
+    top: 28px;
+    display: block;
+    z-index: 2;
+    position: relative;
+    transition: 0.3s;
+    text-align: left;
+    width: 130%;
+}
+
+.read-only-phone-input-flag {
+    margin-top: 4px;
+    margin-right: 6px;
+    padding-top: 0px;
+    z-index: 2;
+    position: relative;
+    top: 1px;
+    height: 15px;
+}

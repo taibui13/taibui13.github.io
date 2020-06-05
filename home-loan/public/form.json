@@ -1,0 +1,9 @@
+{
+	"security": {
+		"tip": "Security Tips from UOB",
+		"info": "There has been a recent spate of phishing scams targeting government and banks' customers. It is important to remain viligant and be suspicious of all unsolicited emails you receive.",
+		"line_one": "<span>1.</span><span>Be alert. </span>Verify that your are on an official UOB website by clicking on the \"padlock\" icon in the address bar  and checking that the certificate is issued to forms.uob.com.sg.",
+		"line_two": "<span>2.</span><span>Be extra careful of unsolicited email.</span> Make sure that the UOB email comes from the home dealer representative attending to your sales query. Do not click on any links from unknown and suspicious email.",
+		"line_three": "<span>3.</span><span>Protect your device.</span> Always use a mobile device or computer that you trust. Update your device to the latest version so that it carries new security and bug fixes."
+	}
+}

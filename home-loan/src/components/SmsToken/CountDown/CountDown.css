@@ -1,0 +1,21 @@
+.counddown-label-wrap {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.counddown-label {
+  height: 45px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f6eda;
+  color: #fff;
+  border-radius: 0 2px 2px 0;
+}
+
+
+@media (max-width: 320px) {
+  .counddown-label {
+    width: 60px;
+  }
+}

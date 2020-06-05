@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sort</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sort" fill="#FFFFFF">
+            <g id="Group-14">
+                <path d="M0,0.990777969 C0,0.443586406 0.443864822,0 1,0 L1,0 C1.55228475,0 2,0.45097518 2,0.990777969 L2,6 L0,6 L0,0.990777969 Z" id="Rectangle-2"></path>
+                <path d="M0,11 L2,11 L2,12 C2,12.5522847 1.55613518,13 1,13 L1,13 C0.44771525,13 0,12.5561352 0,12 L0,11 Z" id="Rectangle-2"></path>
+                <circle id="Oval" cx="1.5" cy="8.5" r="1.5"></circle>
+                <path d="M5,8 L7,8 L7,12.0001925 C7,12.5523709 6.55613518,13 6,13 L6,13 C5.44771525,13 5,12.5562834 5,12.0001925 L5,8 Z" id="Rectangle-2"></path>
+                <path d="M5,0.998956561 C5,0.447248087 5.44386482,0 6,0 L6,0 C6.55228475,0 7,0.442660332 7,0.998956561 L7,3 L5,3 L5,0.998956561 Z" id="Rectangle-2"></path>
+                <path d="M10,10 L12,10 L12,12.0010434 C12,12.5527519 11.5561352,13 11,13 L11,13 C10.4477153,13 10,12.5573397 10,12.0010434 L10,10 Z" id="Rectangle-2"></path>
+                <path d="M10,0.999807492 C10,0.447629061 10.4438648,0 11,0 L11,0 C11.5522847,0 12,0.443716645 12,0.999807492 L12,5 L10,5 L10,0.999807492 Z" id="Rectangle-2"></path>
+                <circle id="Oval" cx="6.5" cy="5.5" r="1.5"></circle>
+                <circle id="Oval" cx="11.5" cy="7.5" r="1.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

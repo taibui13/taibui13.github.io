@@ -1,0 +1,56 @@
+.modal-back-container {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: initial;
+    border-radius: 0px 0px 3px 3px;
+}
+
+
+.modal-back-container .modal-content {
+    width: 100%;
+    margin-bottom: 0px;
+    color: #dbdbdb;
+    animation: fadein 0.6s linear;
+}
+
+.modal-back-container .modal-content-container a {
+    display: none;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px) {
+    .modal-containter-popup {
+        width: 100%;
+        height: auto;
+    }
+    .modal-back-container {
+        width: 100%;
+    }
+    
+}

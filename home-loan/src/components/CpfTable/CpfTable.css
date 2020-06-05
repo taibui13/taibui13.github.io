@@ -1,0 +1,17 @@
+.real-cpfTable-desktop {
+  display: block;
+}
+.real-cpfTable-mobile {
+  display: none;
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 1024px) {
+  .real-cpfTable-desktop {
+    display: none;
+  }
+  .real-cpfTable-mobile {
+    display: block;
+  }
+}

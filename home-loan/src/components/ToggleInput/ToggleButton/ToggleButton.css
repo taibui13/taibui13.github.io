@@ -1,0 +1,70 @@
+.switch-bg {
+    border-radius: 2px;
+    background-color: #a0a0a0;
+    transition: .3s;
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    cursor: pointer;
+    height: 24px;
+}
+.switch-bg--toggle {
+    border-radius: 2px;
+    transition: .3s;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 46px;
+    height: 24px;
+    background-color: #1f6eda;
+}
+.switch-bg input {display:none;}
+
+.switch {
+    border-radius: 2px;
+    content: "";
+    height: 17.5px;
+    width: 17.5px;
+    background-color: white;
+    position: absolute;
+    cursor: pointer;
+    top: 3px;
+    left: 4px;
+    right: 0;
+    bottom: 0;
+    transition: .3s;
+    box-shadow: 0 0.5px 2px 0 rgba(0, 0, 0, 0.5);
+}
+.switch--toggle {
+    border-radius: 2px;
+    content: "";
+    height: 17.5px;
+    width: 17.5px;
+    background-color: white;
+    position: absolute;
+    cursor: pointer;
+    top: 3px;
+    left: 3px;
+    right: 0;
+    bottom: 0;
+    transition: .3s;
+    box-shadow: 0 0.5px 2px 0 rgba(0, 0, 0, 0.5);
+    transform: translateX(22px);
+}
+.switch-bg--toggle input {display:none;}
+
+.toggle-button--icon-tick {
+    margin-top: 2px;
+    padding: 5px;
+    height: 20px;
+    margin-left: 1px;
+    box-sizing: border-box;
+}
+
+.toggle-button--icon-cross {
+  padding-bottom: 5px;
+  padding-left: 3px;
+  height: 15px;
+  width: auto;
+  box-sizing: border-box;
+}

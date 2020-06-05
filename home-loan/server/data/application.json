@@ -1,0 +1,214 @@
+{
+  "applicationId" : null,
+  "applicant" : {
+    "type" : "MAIN",
+    "myInfoRetrievalDate" : null,
+    "addresses" : [ {
+      "type" : "R",
+      "unitNo" : "128",
+      "street" : "BEDOK NORTH AVENUE 4",
+      "block" : "102",
+      "postalCode" : "460102",
+      "floor" : "9",
+      "building" : "PEARL GARDEN",
+      "city" : null,
+      "country" : "SG",
+      "line1" : null,
+      "line2" : null,
+      "line3" : null,
+      "line4" : null,
+      "propertyType" : "H3"
+    } ],
+    "verifiedData" : "Y",
+    "otpVerified" : "Y",
+    "basicInfo" : {
+      "residentialStatus" : "C",
+      "emailAddress" : "venk41@sg.uob",
+      "mobileNumber" : "+6598765433",
+      "idDetails" : {
+        "legalId" : "S6381016I",
+        "legalIdType" : "IC",
+        "legalIdIssueDate" : null,
+        "legalIdExpiryDate" : null,
+        "legalIdIssueCountry" : "SG"
+      },
+      "names" : {
+        "principalName" : "TEST SQR THREE",
+        "hanYuPinYinName" : "HANYUPINYIN QQQ",
+        "hanYuPinYinAliasName" : "HANYUPINYINALIAS EER RRQ",
+        "marriedName" : "MARRIED NAME RRRT TTT",
+        "alias" : "ALIAS WWWW"
+      }
+    },
+    "personalInfo" : {
+      "dateOfBirth" : "06/06/1998",
+      "gender" : "M",
+      "maritalStatus" : "M",
+      "educationLevel" : "O",
+      "nationality" : "IN",
+      "countryOfBirth" : "SG",
+      "countryOfResidence" : "SG",
+      "race" : "CN",
+      "hasDualNationality" : false,
+      "additionalLegalId" : null,
+      "additionalLegalIdType" : null,
+      "additionalLegalIdCountry" : null,
+      "additionalLegalIdIssueCountry" : null,
+      "additionalLegalIdExpiryDate" : null
+    },
+    "employmentInfo" : {
+      "employers" : [ {
+        "type" : "C",
+        "name" : "CRYSTAL HORSE INVEST PTE LTD",
+        "natureOfEmployment" : null,
+        "jobTitle" : null,
+        "occupation" : null,
+        "industry" : null,
+        "length" : null
+      } ],
+      "cpfContributions" : [ {
+        "date" : "2018-04-28",
+        "amount" : "5700.00",
+        "month" : "2018-4",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-03-28",
+        "amount" : "1425.00",
+        "month" : "2018-3",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-02-28",
+        "amount" : "1425.00",
+        "month" : "2018-2",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-12-28",
+        "amount" : "3150.22",
+        "month" : "2018-12",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-11-28",
+        "amount" : "1575.33",
+        "month" : "2018-11",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-10-28",
+        "amount" : "1575.00",
+        "month" : "2018-10",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-09-28",
+        "amount" : "1575.00",
+        "month" : "2018-09",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-08-28",
+        "amount" : "1575.00",
+        "month" : "2018-08",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-07-28",
+        "amount" : "1575.00",
+        "month" : "2018-07",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-06-28",
+        "amount" : "1575.00",
+        "month" : "2018-06",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-05-28",
+        "amount" : "1575.00",
+        "month" : "2018-05",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2018-01-28",
+        "amount" : "1425.00",
+        "month" : "2018-01-01",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2017-12-28",
+        "amount" : "2850.00",
+        "month" : "2017-12-01",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2017-11-28",
+        "amount" : "1425.00",
+        "month" : "2017-11-01",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      }, {
+        "date" : "2017-10-28",
+        "amount" : "1425.00",
+        "month" : "2017-10-01",
+        "employer" : "CRYSTAL HORSE INVEST PTE LTD"
+      } ],
+      "employmentPassExpiry" : null
+    },
+    "incomeDetails" : {
+      "incomeVerified" : [ {
+        "incomeType" : "YearlyAssessableIncome",
+        "value" : "64400.00",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyEmploymentIncome",
+        "value" : "64400.00",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyTradeIncome",
+        "value" : "0.00",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyRentIncome",
+        "value" : "0.00",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyInterestIncome",
+        "value" : "0.00",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyCategory",
+        "value" : "ORIGINAL",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyTaxClearance",
+        "value" : "YES",
+        "year" : "2018"
+      }, {
+        "incomeType" : "YearlyAssessableIncome",
+        "value" : "53700.00",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyEmploymentIncome",
+        "value" : "36112.80",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyTradeIncome",
+        "value" : "0.00",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyRentIncome",
+        "value" : "0.00",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyInterestIncome",
+        "value" : "0.00",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyCategory",
+        "value" : "ORIGINAL",
+        "year" : "2017"
+      }, {
+        "incomeType" : "YearlyTaxClearance",
+        "value" : "YES",
+        "year" : "2017"
+      } ],
+      "incomeSelfDeclare" : null
+    },
+    "declarations" : null,
+    "consents" : null,
+    "additionalDetails" : null
+  },
+  "jointApplicant" : null,
+  "loanDetails" : null,
+  "propertyDetails" : null
+}

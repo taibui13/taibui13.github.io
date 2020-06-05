@@ -1,0 +1,120 @@
+.ready-only-dropdown {
+  width: 100%;
+  outline:none;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.ready-only-dropdown-container {
+  display: flex;
+  opacity: 0.8;
+  align-items: center;
+  border-radius: 2px;
+  background-color: white;
+  width: 100%;
+  height: 60px;
+}
+
+.ready-only-dropdown-container--focused {
+  display: flex;
+  /*opacity: 0.8;*/
+  align-items: center;
+  border-radius: 2px;
+  /*background-color: white;*/
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.read-only-dropdown--inputArrow {
+    padding-right: 15px;
+    width: 67px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.dropdown--content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.dropdown--content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+/*.dropdown-container:hover {
+  opacity: 0.7;
+}*/
+
+.dropdown--inputLabel {
+  padding-left: 15px;
+  font-size: 18px;
+  transition: 0.3s;
+  z-index: 2;
+  position: absolute;
+}
+
+.dropdown--inputLabel--focused {
+  /*transform: translate(-20%, -15px) scale(0.6);
+  color:#1f6eda;
+  font-size:18px;
+  width : 150%;
+  font-weight:normal;
+  pointer-events:none;
+  left:15px;
+  height: 1px;
+  top:22px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition:0.3s;
+  text-align: left;*/
+}
+
+.dropdown--selectValue {
+  display: none;
+}
+
+.dropdown--value-text {
+  /*padding: 23px 0 0 14px;
+  font-size: 18px;
+  height: 100%;*/
+}
+
+.dropdown--input-container {
+  display: none;
+  flex-direction: column;
+  height:60px;
+}
+
+.dropdown-selection {
+  height: 0px;
+  overflow: hidden;
+  animation: 0.3s
+}
+
+.dropdown-selection--focused .dropdown-selection-item {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-top: solid 0.5px #e0e0e0;
+}
+
+.dropdown-selection--focused .dropdown-selection-item:hover {
+  background-color: rgba(44, 124, 221, 0.15);
+  color: #43545f;
+}
+
+.dropdown-selection--focused .dropdown-selection-item--select {
+  background-color: blue;
+  color: white;
+}
+
+.dropdownLabel--error {
+  color: red;
+  font-weight: bold;
+}

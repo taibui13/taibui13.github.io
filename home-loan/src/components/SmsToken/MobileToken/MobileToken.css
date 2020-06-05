@@ -1,0 +1,12 @@
+.uob-input-mobile-get-token .primary-button {
+  height: 60px;
+  width: 150px;
+  margin: 0;
+  border-radius: 0 2px 2px 0;
+}
+
+@media (max-width: 320px) {
+  .uob-input-mobile-get-token .primary-button {
+    width: 110px;
+  }
+}

@@ -1,0 +1,15 @@
+.uob-text-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.uob-text-button-label {
+  color: #1f6eda;
+  font-size: 16px;
+}
+
+.uob-text-button-icon {
+  width: 12px;
+  height: 13px;
+  padding-left: 5px;
+}

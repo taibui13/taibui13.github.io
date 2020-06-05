@@ -1,0 +1,145 @@
+.PrependTextInputContainer {
+  position: relative;
+  /* border: 1px solid transparent; */
+}
+
+.PrependTextInputContainer--error {
+  background-color: rgb(255, 242, 242);
+  border: 1px solid red;
+  box-shadow: 0 0 9px rgba(255, 0, 0, .5);
+}
+
+.PrependTextInputContainer--error input {
+  background: none;
+}
+
+.prependTextInput {
+  font-size: 18px;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  margin-top: -1px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #43545f;
+  background: white;
+  cursor: pointer;
+  opacity: 0.4;
+  /*background-color: rgba(255, 255, 255, 0.4);*/
+  padding-left: 70px;
+  box-sizing: border-box;
+}
+
+.prependTextInput:hover {
+  opacity: 0.7;
+}
+
+.prependTextInput--focused {
+  /*opacity: 0.85;*/
+  transition: 0.3s;
+  cursor: text;
+  font-size: 18px;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  margin-top: -1px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #43545f;
+  /*background: white;*/
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-left: 70px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.prependTextInputLabel {
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  left: 15px;
+  height: 1px;
+  top: 24px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}
+
+.prependTextInputLabel--focused {
+  transform: translate(-14%, -15px) scale(0.72);
+  color: #1f6eda;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  left: 15px;
+  height: 1px;
+  top: 23px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}
+
+.prependTextInputText {
+  top: 29px;
+  left: 15px;
+  z-index: 1;
+  position: relative;
+  color: #43545f;
+  visibility: visible;
+  display: block;
+  margin-bottom: -15px;
+  width: 60px;
+}
+
+.prependTextInputText--invisible {
+  top: 29px;
+  left: 15px;
+  z-index: 1;
+  position: relative;
+  color: grey;
+  visibility: hidden;
+  display: block;
+  margin-bottom: -15px;
+}
+
+.prependTextInputTick {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  z-index: 2;
+  visibility: visible;
+}
+
+.prependTextInputTick--invisible {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  z-index: 2;
+  visibility: hidden;
+}
+
+.prependTextInput--error {
+  transform: translate(-14%, -15px) scale(0.72);
+  color: red;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  left: 15px;
+  height: 1px;
+  top: 23px;
+  display: block;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+  text-align: left;
+  width: 150%;
+}

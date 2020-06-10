@@ -39,8 +39,8 @@ app.post("/api/v1/property/loan/self-assist/access/verify/:id", function (req, r
 });
 
 app.get("/api/v1/property/loan/self-assist/specifications", function (req, res) {
-    var mainApplicant = require("../../applicant/public/mainapplicantform.json");
-    var jointapplicantform = require("../../jointApplicant/public/jointapplicantform.json");
+    // var mainApplicant = require("../../applicant/public/mainapplicantform.json");
+    // var jointapplicantform = require("../../jointApplicant/public/jointapplicantform.json");
     return res.status(200).end(JSON.stringify({
         "jointApplicant" : {
           "verify" : {

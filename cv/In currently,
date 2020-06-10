@@ -1,0 +1,83 @@
+In currently,
+
+First set up step
+Intergrate with webpack to run on localhost
+- I display some core library will intergrate in side app: 
+  + Core: react, react dom, react router, redux.
+  + Babel JS to convert ES6 + to ES 5 (standdard)
+  + sass-loader, css-loader will handle CSS
+  + eslint : analyze code and automation code 
+- npm package manager get install all library
+
+
+- Developing application
+- Design UI
+  + Apply SCSS, pure css to increase performance
+  + Inherit property css from core css
+  + Apply dependency rejection architecture
+  + Responsive on mobile 
+-  Design React component to reuse it
+ - Appplican follow MVC model to develop app
+  - View:  use React , React dom to render UI
+  - Controller : user redux to dispath data follow
+  - Model : create store to hold persistance data.
+  - Apply redux thunk midleware to trace log 
+- Navigate page : 
+ +  User react router
+ +  Store history page
+
+- Application Architecture : 
+ + ES6 javascript
+ + Funtional programming
+ + Follow micro service
+- Security data
+ + encrypt sensitive data
+ + Don't store sensitive data in web storage
+
+-  React Patterns
+ + Higher-order component
+ + State hoisting
+ - JS Utilities:
+  + lodash.js
+  + moment.js
+
+ - Testing
+  + Jest
+  + Selenium automation test
+  
+Connect server
+
+ +  Folow RestFull architecture
+ +  Apply Axios to excute call api
+
+
+Server side
+ +  Create mock service by express js 
+ + Node moon to excute automation to update code
+
+
+ Build and deploy
+ + Use webpack to implement source code
+ + Minimize all css into main.css
+ + Minimize all javascript into main.js
+
+
+ Project : 
+
+ - Register credit card
+ - Card Loan
+ - Home Loan
+ - Property valuation
+
+ Team size : 8 menmber
+
+ Front end : 3 menmber
+
+ Role: lead front end
+ 
+ + Receive mock design and estimate the time to finish task
+ + Create task on jira and assign 
+ + Review and merge code
+ + Set up architecture project
+ + Maintenance production
+ +

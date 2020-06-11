@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-arrow-solid-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m---dropdown-field---valid" transform="translate(-245.000000, -37.000000)" fill="#7D8592">
+            <g id="icon-arrow-solid-down">
+                <polygon transform="translate(251.590990, 37.590990) rotate(45.000000) translate(-251.590990, -37.590990) " points="255.607049 33 256.181981 42.1819805 247 41.607049"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

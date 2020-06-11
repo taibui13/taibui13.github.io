@@ -1,0 +1,197 @@
+{
+	"delayTimer": "100",
+	"maintenance": false,
+	"maintenaceURL": "https://forms.uob.com.sg/property/maintenance.html",
+	"bypassCode": "",
+	"verify": {
+		"verifying": "Verifying..."
+	},
+	"dashboard": {
+		"subtitle": "",
+		"labels": {
+			"verifying": "Verifying...",
+			"hi": "Hi,",
+			"cea_id_label": "CEA License No. ",
+			"start_new_loan": "Refer a New Loan",
+			"signout": "Sign Out",
+			"colTitles": [
+				"Date",
+				"Application",
+				"Status",
+				"Task"
+			],
+			"sortTitles": [
+				"Date",
+				"Status"
+			],
+			"application_status": "Your Document Vault",
+			"stored_period": "History of previous application, completed or incomplete, will be kept in your vault for 7 days. You can search keyword(s) e.g. customer name, etc to retrieve a previous Lead."
+		},
+		"inputValues": {
+			"dashboardStatus": {
+				"PENDING_MAIN_CUSTOMER": "Pending Main Customer",
+				"PENDING_JOINT_CUSTOMER": "Pending Joint Customer",
+				"COMPLETED": "Completed"
+			},
+			"dashboardTask": [{
+					"value": "PENDING_MAIN_CUSTOMER",
+					"text": "Send Reminder",
+					"withAction": true
+				},
+				{
+					"value": "PENDING_JOINT_CUSTOMER",
+					"text": "Send Reminder",
+					"withAction": true
+				}
+			]
+		},
+		"placeholder": {
+			"searchInput": "Search Keyword(s)"
+		},
+		"signOutURL": "https://www.uob.com.sg/personal/index.page"
+	},
+	"customer": {
+		"title": "Customer Details",
+		"subtitle": "Provide contact details of your customer so that we can send him/her an online application that can be completed between 2 to 3 minutes.",
+		"labels": {
+			"full_name": "Full Name of Customer",
+			"mobile_number": "Mobile Number of Customer",
+			"email_address": "Email of Customer",
+			"nric": "NRIC of Customer",
+			"last4Nric": "Last 4 Characters Of NRIC",
+			"last4DigitNumber": "Last 4 Digit Of Mobile Number",
+			"pdpa_clause": "By submitting this referral: <p>1. I acknowledge that the submission of this referral and its receipt by UOB does not mean that UOB has approved this referral or its underlying loan application. UOB reserves the right to reject any referral and the underlying loan application without assigning any reason whatsoever.</p><p>2. Submission of this referral does not entitle me to any commission or other payment from UOB or the loan applicant, regardless of whether or not the underlying loan application is approved, in the absence of a separate agreement with UOB in relation to referral payments</p><p>3. I confirm that all information submitted by me in connection with this referral is true, accurate and complete and I will inform UOB in writing of any amendments to such information.</p><p>4. I hereby consent to the disclosure and use of information provided in this referral or in connection herewith, (i) by UOB for the purposes of the underlying loan application and any referral arrangements, and (ii) to and between any branch, agency, representative office or related corporation of UOB and their respective officers, servants or agents, whether in Singapore or elsewhere, whom UOB consider necessary in order to process this referral.</p><p>5. I represent and warrant to UOB that I have the consent of the person(s) whose personal data I have submitted to disclose their personal data for UOB's collection, use and disclosure for the purposes of the underlying loan application, including communication via any of the contact details provided.</p>",
+			"submit_button": "Submit",
+			"back_button": "Discard",
+			"banker": "Preferred Banker"
+		},
+		"bankerList": [{
+			"value": "0",
+			"description": "No Preferred Banker"
+		}],
+		"pdpa_error": ""
+	},
+	"thankYouPage": {
+		"thankyou_title": "Your Next Step",
+		"thankyou_subtitle": "",
+		"back_button": "Back to Dashboard",
+		"next_button": "Start Application",
+		"application_id": "Application ID",
+		"application_description": "UOB has initiated this Home Loan application. We have sent an email with a hyperlink to the customer for him/her to start applying. There has been a recent spate of phishing scams targeting government and banks' customers. It is important to remain vigilant and be suspicious of all unsolicited or unexpected emails he/she receives. Do advise your customer to make sure that he/she sees the correct Agent and Agency on the email before proceeding. Also, as an additional precaution, remind him/her to check the URL of any site that he/she is being directed to and make sure it's an official UOB website - https://forms.uob.com.sg. Your customer can start the application by signing in to SingPass to retrieve his/her personal information with MyInfo. There is no need to provide the bank with a physical copy of NRIC or any income documents."
+	},
+	"inputValues": {},
+	"globalErrors": {
+		"apiException": "The service is currently unavailable. You can try again later.",
+		"invalidOTP": "OTP is invalid or has expired. You can request for a new SMS OTP to try again.",
+		"badRequest": "The service is currently unavailable. You can try again later.",
+		"sameResidentialAndMailingAddress": "Mailing address should not be identical to residential address.",
+		"sameApplicantAndJointApplicant": "NRIC and Mobile Number for the applicant and joint applicant should not be identical.",
+		"addressServiceDown": "Searching by postal code is currently unavailable. You can fill up the address manually.",
+		"sendReminderSuccessful": "We have sent an email reminder to the customer."
+	},
+	"errorMessageBox": {
+		"linkExpired": {
+			"title": "Sorry. We cannot find what you are looking for.",
+			"subtitle": "The link has either expired or you do not have permission to access this page. You can try again.",
+			"description": ""
+		},
+		"serviceDown": {
+			"title": "Thank you for your interest.",
+			"subtitle": "The service is currently unavailable. You can try again later.",
+			"description": ""
+		},
+		"badRequest": {
+			"title": "Thank you for your interest.",
+			"subtitle": "The token that you was used is invalid or has expired. You can try again.",
+			"description": ""
+		},
+		"unauthorized": {
+			"title": "Thank you for your interest.",
+			"subtitle": "The token that you was used is invalid or you do not have permission to access this page. You can try again.",
+			"description": ""
+		},
+         "missinginfo": {
+			"title": "Thank you for your interest.",
+			"subtitle": "There are missing info, do check with your respective IT department.",
+			"description": ""
+		},
+		"signOut": {
+			"title": "Thank for using this service.",
+			"subtitle": "Close and reaccess the dashboard",
+			"description": "",
+			"errorImg": ""
+		}
+	},
+	"errorMsgs": {
+		"invalidPhone": "is invalid.",
+		"invalidMobile": "is invalid.",
+		"invalidName": "is invalid.",
+		"invalidEmail": "is invalid.",
+		"invalidNRIC": "is invalid.",
+		"isRequired": "is required.",
+		"isInvalid": "is invalid",
+		"fieldEmpty": "is required."
+	},
+	"helpMessage": {
+		"title": "Need help?",
+		"subtitle": "Feel free to contact our team for support",
+		"text": "<div class='helpMessage-text'><div>Singapore</div><div><a  class='helpMessage-mobile' href='tel:1800 222 2121'>1800 222 2121</a></div></div><div class='helpMessage-text'><div>Overseas</div><div ><a class='helpMessage-mobile' href='tel:+65 6222 2121'>+65 6222 2121 </a></div></div>",
+		"isDisplayed": "true"
+	},
+	"dataElement": {
+		"product_name": "UOB Home Loan",
+		"product_id": "HLPHL",
+		"user_type": "NTB",
+		"product_category": "Secured Loans",
+		"virtualPageNameStart": "/property/loan/agent/referral/form",
+		"virtualPageNameSubmit": "/property/loan/agent/referral/form/thank-you",
+		"virtualPageNameDashboard": "/property/loan/agent/referral/dashboard",
+		"virtualPageNameSatellite": "virtual_page_view",
+		"discardClick": "HLPHL:agent referral:discard",
+		"backToDashboardClick": "HLPHL:agent referral:back to dashboard",
+		"genericSatellite": "generic link click",
+		"event_name_start": "other_form_start",
+		"event_name_submit": "other_form_submit"
+	},
+	"agencyAssets": [{
+			"source": "SoReal",
+			"agency": [{
+				"name": "ERA",
+				"sourceBg": "",
+				"sourceLogo": "",
+				"agencyBg": "",
+				"agencyLogo": ""
+			}]
+		},
+		{
+			"source": "Huttons",
+			"agency": [{
+				"name": "HUTTONS ASIA PTE LTD",
+				"sourceBg": "",
+				"sourceLogo": "",
+				"agencyBg": "",
+				"agencyLogo": "https://u-forms.uob.com.sg/property/loan/agent/referral/images/logos/UOBxHuttons.png"
+			}]
+		},
+		{
+			"source": "PropNex",
+			"agency": [{
+				"name": "PropNex Singapore",
+				"sourceBg": "",
+				"sourceLogo": "",
+				"agencyBg": "",
+				"agencyLogo": ""
+			}]
+		},
+		{
+			"source": "OrangeTee",
+			"agency": [{
+				"name": "OrangeTee & Tie Pte Ltd",
+				"sourceBg": "",
+				"sourceLogo": "",
+				"agencyBg": "https://u-forms.uob.com.sg/property/loan/agent/referral/images/background/OrangeTee.jpg",
+				"agencyLogo": "https://u-forms.uob.com.sg/property/loan/agent/referral/images/logos/UOBxOrangetee.png"
+			}]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "main.css": "static/css/main.css",
+  "main.js": "static/js/main.js",
+  "static\\media\\Roboto-Bold.ttf": "static/media/Roboto-Bold.ttf",
+  "static\\media\\Roboto-Light.ttf": "static/media/Roboto-Light.ttf",
+  "static\\media\\Roboto-Regular.ttf": "static/media/Roboto-Regular.ttf",
+  "static\\media\\Tick.svg": "static/media/Tick.svg",
+  "static\\media\\alarm-bell.svg": "static/media/alarm-bell.svg",
+  "static\\media\\cross-grey.svg": "static/media/cross-grey.svg",
+  "static\\media\\cross-white.svg": "static/media/cross-white.svg",
+  "static\\media\\cross.svg": "static/media/cross.svg",
+  "static\\media\\dashboard-sort.svg": "static/media/dashboard-sort.svg",
+  "static\\media\\error-message-icon.svg": "static/media/error-message-icon.svg",
+  "static\\media\\errorImg.svg": "static/media/errorImg.svg",
+  "static\\media\\icon-arrow-solid-down.svg": "static/media/icon-arrow-solid-down.svg",
+  "static\\media\\loading_icon.svg": "static/media/loading_icon.svg",
+  "static\\media\\loading_icon_dark.svg": "static/media/loading_icon_dark.svg",
+  "static\\media\\logout-icon.svg": "static/media/logout-icon.svg",
+  "static\\media\\non-editable-icon4.svg": "static/media/non-editable-icon4.svg",
+  "static\\media\\search_icon.svg": "static/media/search_icon.svg"
+}

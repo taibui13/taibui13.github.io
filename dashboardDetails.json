@@ -1,0 +1,48 @@
+{
+  "propertyAgent" : {
+    "agentCeaId" : "R041855C",
+    "agentName" : "ZURAIDAH BINTE ABDULLAH (LISA)",
+    "agentReferralSource" : "SoReal",
+    "agentAgency" : "ERA",
+    "agentEmail" : "tmpk87@sg.uob",
+    "agentMobileNumber" : "99999999"
+  },
+  "homeLoanApplications" : [ {
+    "completed" : false,
+    "applicationId" : "77ef3043-75c9-49f1-a2a0-d27b65dbcacf",
+    "referenceNumber" : "20190320118183780",
+    "state" : "PENDING_MAIN_CUSTOMER",
+    "applicants" : [ {
+      "type" : "MAIN",
+      "customerName" : "Kai",
+      "customerEmail" : "tmpk87@sg.uob"
+    } ],
+    "createdTime" : "20/03/2019"
+  }, {
+    "completed" : true,
+    "applicationId" : "07e22ec5-0e63-48a7-915d-e72f3960e5bd",
+    "referenceNumber" : "20190319440461535",
+    "state" : "COMPLETED",
+    "applicants" : [ {
+      "type" : "MAIN",
+      "customerName" : "THIS NAME CONTAINS ALPHABETS FOR TESTING ONLY MORE THAN 60 CHARS",
+      "customerEmail" : "tmpk87@sg.uob"
+    }, {
+      "type" : "JOINT",
+      "customerName" : "THIS NAME CONTAINS ALPHABETS FOR TESTING ONLY MORE THAN 60 CHARS",
+      "customerEmail" : "tmpk87@sg.uob"
+    } ],
+    "createdTime" : "19/03/2019"
+  },{
+    "completed" : false,
+    "applicationId" : "77ef3043-75c9-49f1-a2a0-d27b65dbcacf",
+    "referenceNumber" : "20190320118183790",
+    "state" : "PENDING_MAIN_CUSTOMER",
+    "applicants" : [ {
+      "type" : "MAIN",
+      "customerName" : "Kai",
+      "customerEmail" : "tmpk87@sg.uob"
+    } ],
+    "createdTime" : "20/03/2019"
+  }]
+}

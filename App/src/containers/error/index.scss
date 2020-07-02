@@ -1,0 +1,52 @@
+.error {
+    margin-top: -18px;
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid #dad8d8;
+    padding-bottom: 10px;
+  .header {
+      text-align: center;
+      color: rgb(255, 255, 255);
+      height: 36vh;
+      cursor: pointer;
+      background-repeat: round !important;
+  }
+  
+  .body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 85px;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    height: 20vh;
+    .error-message {
+        position: relative;
+        left: 0%;
+        bottom: 113px;
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: 0px 2px 5px 1px silver;
+    }
+    .error-title {
+        font-size: 32px;
+        padding: 10px;
+        color: rgb(85, 159, 222);
+    }
+    .error-text {
+        font-size: 18px;
+        padding: 10px;
+    }
+  }
+
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .error {
+    width: 100%;
+    border: 0px solid;
+  }
+
+}

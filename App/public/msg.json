@@ -1,0 +1,21 @@
+{
+  "error":{
+    "400": {
+      "title": "Error",
+      "text": "Service is not available at this moment. You can try again later."
+    },
+    "404": {
+      "title": "Error",
+      "text": "Service is not available at this moment. You can try again later."
+    },
+    "500": {
+      "title": "Error",
+      "text": "Service is not available at this moment. You can try again later."
+    },
+    "403": {
+      "title": "Error",
+      "text": "Service is not available at this moment. You can try again later."
+    },
+    "dataNotFound": "Data Not Found"
+  }
+}

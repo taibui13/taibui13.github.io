@@ -1,0 +1,125 @@
+@import  '../../../styles/_color.scss';
+.security {
+  background-repeat: no-repeat;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+  background-position: 0%;
+  background-color: $color-white;
+  height: 100vh;
+  &-title {
+    top: 26px;
+    position: fixed;
+    display: flex;
+    padding-left: 20px;
+    .logo {
+      padding-top: 0px;
+      position: relative;
+      top: 0px;
+    }
+    img {
+      height: auto;
+    width: 150px;
+    }
+    span {
+      color: #002469;
+      padding-left: 2px;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Helvetica;
+    }
+    label {
+      display: none;
+    }
+  }
+  
+  &-content {
+      margin: 0 auto;
+      width: 70%;
+      margin-top: 25px;
+  }
+  &-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &-body {
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 2px 5px 3px $color-grey1;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid $color-mediumgrey;
+    
+  }
+
+  &-header {
+    .logo-right {
+      position: fixed;
+      right: 42px;
+      top: 26px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .security {
+    &-content  {
+      margin: 0 auto;
+      width: 95%;
+      margin-top: 2px;
+      .logo-right {
+        display: none;
+      }
+    }
+
+    &-header  {
+      margin: 0 auto;
+      width: 95%;
+      margin-top: 15px;
+      .logo-right {
+        display: none;
+      }
+    }
+
+    &-title {
+      margin-top: 0px;
+      display: flex;
+      padding-left: 0px;
+      position: initial;
+      .logo {
+        padding-top: 5px;
+      }
+      img {
+        height: 25px;
+        width: 80px;
+        position: relative;
+        top: -10px;
+      }
+      span {
+        color: $color-blue1;
+        padding-left: 2px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Helvetica;
+      }
+      label {
+        font-size: 20px;
+        color: $color-blue;
+        display: initial;
+        padding-left: 5px;
+      }
+      
+    }
+
+    &-body {
+      margin-top: 20px;
+    }
+  }
+  .form-body {
+    margin-top: 5px;
+  }
+
+}

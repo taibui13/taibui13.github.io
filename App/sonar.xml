@@ -1,0 +1,14 @@
+<project name="WSM" default="sonar" basedir="." xmlns:sonar="antlib:org.sonar.ant">
+	<description>
+		WSM
+	</description>
+	<target name="sonar">
+		<property name="sonar.language" value="js"/>
+		<property name="sonar.host.url" value="http://172.29.227.90:9001/sonar"/>
+		<!-- property name="sonar.login" value="ccdc2b7f3a423c84d865170c196dc597a441453c"/ -->
+		<property name="sonar.projectVersion" value="1.0"/>
+		<property name="sonar.projectBaseDir" value="."/>
+		<property name="sonar.java.binaries" value="dist"/>
+		<sonar:sonar/>
+	</target>
+</project>

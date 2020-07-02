@@ -1,0 +1,47 @@
+@import "color";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Light';
+    src: url('../assets/fonts/Roboto-Light.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../assets/fonts/Roboto-Bold.ttf');
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .form-body {
+    margin-top: 50px;
+  }
+  h1 {
+    font-size: 34px;
+    color: $color-darkblue;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  ::-ms-clear {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    
+    .form-body {
+      margin-top: 5px;
+    }
+  
+  }
+  

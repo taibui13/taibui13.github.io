@@ -1,0 +1,26 @@
+.error-message-wrapper {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: 100;
+  background-color: rgba(240, 240, 240, 0.9);
+  display: block;
+
+  .error-message-text {
+    z-index: 101;
+    position: fixed;
+    top: 50%;
+    background-color: white;
+    padding: 17px 17px;
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .error-message-wrapper {
+    left: 0;
+  }
+}

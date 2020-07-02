@@ -1,0 +1,48 @@
+.generic-error-message--wrapper-flex {
+    position: fixed;
+    height: auto;
+    background: #de5356;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+    top: 0;
+    align-items: center;
+    left: 0;
+}
+
+.generic-error-message--wrapper-flex--hidden {
+    position: fixed;
+    height: auto;
+    background: #de5356;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    transition: 0.3s;
+    opacity: 0;
+    transform: translate(0, -20px);
+    visibility: collapse;
+}
+
+.generic-error-message--message-text {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+}
+
+.generic-error-message--icon-wrapper {
+    padding: 10px 15px;
+    align-items: center;
+    display: flex;
+}
+
+.generic-error-message--icon-cross {
+    opacity: 0.50;
+    cursor: pointer;
+}
+
+.generic-error-message--icon-signal {
+    height: 20px;
+    width: 20px;
+}

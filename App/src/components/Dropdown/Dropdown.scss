@@ -1,0 +1,115 @@
+@import  '../../styles/_color.scss';
+@import  '../../styles/_variable.scss';
+
+.dropdown {
+    width: 100%;
+    font-size: 16px;
+    color: $color-darkgrey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    outline: none;
+    z-index: 100;
+    min-height: 50vh;
+    &__name {
+        top: 0px;
+        left: 0;
+        font-size: 12px;
+        position: absolute;
+        color: $color-grey;
+    }
+
+    &__box {
+        color: $color-darkgrey;
+        border-bottom: 0px solid $color-lightgrey;
+        border-top: 0;
+        border-left: 0;
+        padding: 0.2rem 0;
+        cursor: pointer;
+        width: 100%;
+        font-family: $font-OSR;
+
+        &--value {
+            display: inline-block;
+            width: 85%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: -5px;
+            padding-left: 5px;
+        }
+
+        &--default-value {
+            color: $color-grey;
+            display: inline-block;
+            width: 85%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: -5px;
+            padding-left: 5px;
+        }
+
+        &--icon {
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid $color-grey;
+            top: 0.7rem;
+            position: relative;
+        }
+        
+
+        &--error {
+            bottom: -10px;
+            font-size: 14px;
+            color: $color-orange;
+            position: relative;
+            left: 0;
+            img{
+                padding-right: 2.5px;
+            }
+        }
+    }
+    &__box-error{
+        background-color: rgba(245, 166, 35, 0.06);
+    }
+
+    &__item {
+        border-radius: 2px;
+        background-color: $color-white;
+        box-shadow: 0 8px 1px 0 rgba(0, 0, 0, 0.24), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        max-height: 200px;
+        &--option {
+            cursor: pointer;
+            font-size: 14px;
+            padding: 10px 23px;
+            color: $color-grey;
+
+            &:hover {
+                color: $color-darkgrey;
+                background-color: rgba(0, 0, 0, 0.12);
+            }
+        }
+    }
+
+    .hidden-drop-down {
+      opacity: 1;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dropdown {
+        &__box {
+            &--icon {
+                top: 0.7rem;
+                right: 0.5em;
+            }
+        }
+    }
+}

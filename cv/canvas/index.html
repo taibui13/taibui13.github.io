@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link rel = "stylesheet" type = "text/css"href = "style.css" />
+  <script type="application/javascript">
+    var abc= "100";
+    function draw() {
+    //   var canvas = document.getElementById('canvas');
+    //   if (canvas.getContext) {
+    //     var ctx = canvas.getContext('2d');
+
+    //     // ctx.fillStyle = 'rgb(200, 0, 0)';
+    //     // ctx.fillRect(10, 10, 50, 50);
+
+    //     ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+    //     ctx.fillRect(30, 30, 50, 50);
+    //   }
+        var canvasWidth = 300;
+        var canvasHeigth = 200;
+        var x = document.createElement("CANVAS");
+        x.height = canvasHeigth;
+        x.width = canvasWidth;
+        var ctx = x.getContext("2d");
+        ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+       // ctx.fillRect(0, 0, 50, 50);
+        ctx.fillRect(0, 0, canvasWidth, canvasHeigth -3);
+        //document.body.appendChild(x);
+        document.getElementById('root').appendChild(x);
+    }
+    var C = draw;
+    var keyCode = "";
+    function handleOnChange(e) {
+       alert("sdsd");
+    }
+    function handleKeyDown(e) {
+       alert("sdsd");
+       keyCode = e.keyCode;
+    }
+  </script>
+ </head>
+  <body>
+    <div>
+        <div class='passcode-list'> 
+            <div> 
+           
+                  <input id='key-command' 
+                         type='text' 
+                         class='text-uppercase'
+                         onchange='handleOnChange(event)'
+                         onkeydown='handleKeyDown(event)'
+                   />
+              
+            </div>  
+          </div> 
+    </div>
+  </body>
+</html>

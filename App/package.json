@@ -63,7 +63,7 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "css-loader": "^0.28.7",
     "enzyme": "^3.11.0",
     "eslint-config-rallycoding": "^3.2.0",
